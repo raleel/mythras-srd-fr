@@ -1,842 +1,822 @@
 # Combat
 
-Combat is an important feature of roleplaying games. Violent confrontation has ever been a way of settling problems, from vengeance-driven fights between nemeses, to the clash of armies in times of war. Nevertheless, combat need not be a savage battle to the death. Some combat encounters can be swashbuckling duels which end without injury, or perhaps light-hearted bar room brawls. _Mythras Imperative_ uses several terms to explain the core elements of combat. These are explained in the following sections, but in overview, these are:
-- **Combat Style:** The skill of wielding a group of weapons learned as part of a culture or profession.- **Combat Rounds:** Bookkeeping time segments of five seconds each.- **Combat Actions:** Possible acts a character can perform during a Round by the expenditure of an Action Point.- **Weapon Size:** How difficult it is to parry a particular weapon.- **Engagement:** When combatants can hit or be hit by a direct opponent, depending on circumstances.- **Special Effects:** Combat manoeuvres which can be performed if one combatant gains the upper hand.
+Attaque de brigands, bagarre de bar, duel à l’amiable, vendetta entre deux familles… Le combat existe sous de nombreuses formes et ne se résume pas à une lutte à mort. Pour expliquer les éléments fondamentaux du combat, MYTHRAS FONDAMENTAUX emploie des termes et des concepts spécifiques qui seront approfondis au fil du chapitre. En voici une vue d’ensemble :
 
----
-## Combat Styles
+#### Actions de combat
 
-Combat Style represents a 'package' of multiple weapons related by their nature, which avoids the necessity of learning each individual weapon separately.
+Actions qu’un personnage peut effectuer au cours d’un round en dépensant un point d’action.
 
-The most important aspect of Combat Skill is that the character learns how to use each weapon in the skill, both singly and in combination so that they might be interchanged, as necessary. Combat training does not focus merely on using a specific weapon or weapons under best conditions, but also covers what to do when placed at a severe disadvantage. Such cross-training is a primary part of preparing a combatant for the unpredictable events of the battlefield, where weapon breakage or becoming disarmed is always a potential possibility.
+#### Taille des armes
 
-Thus, a Hyberborean barbarian may be expected to know how to use a spear, hand axe, javelin, and shield, whereas a Sumerian warrior may be trained in shortsword, mace, shield, and bow instead. Deciding how many weapons should be included into a single style is ultimately a choice determined by the Games Master and the setting of the game.
+La taille influe sur la difficulté à parer une arme.
 
-Characters who attempt to use a weapon not covered by their style should suffer a skill penalty of one or more difficulty grades.
+#### Effets spéciaux
 
-Combat styles possess another function beyond simply learning a group of weapon skills. Since each style is taught by a particular culture or career, they are inherently optimised for the environment or military tactics that group normally fights with; for instance, a horse nomad learns to fight from the saddle, or an infantryman trains to fight in close order formation. Therefore, as an additional bonus, some Combat Styles may be assigned one or more traits which grants it an advantage under certain circumstances. Traits are only intended to be used with the weapons and situations of that particular style. Obviously, there are countless traits, many of which are specific to a particular period or campaign world.
+Les ruses ou les techniques particulières qu’un combattant peut effectuer s’il prend le dessus lors d’une passe d’armes.
 
-##### Combat Style Traits Table
+#### Engagement
 
-| Trait | Description |
-| :-- | :-- |
-| Beast-back Lancer | Performing a mounted charge with this combat style does not incur the one step difficulty penalty to hit. |
-| Blind Fighting | Allows user to ignore any penalties imposed due to poor lighting or temporary blinding |
-| Daredevil | May use the Evade skill to dodge blows in hand-to-hand combat without ending up prone |
-| Defensive Minded | Increases the Size of your weapon when parrying by one step, provided no offensive action is taken that round |
-| Formation Fighting | Permits an unflanked group of three or more warriors to draw into close formation, placing more open or disordered opponents at a disadvantage and reducing each foe's Action Points by one if they engage |
-| Knockout Blow | When attacking with surprise treat any Stun Location as lasting minutes instead of turns |
-| Mounted Combat | Allows character to ignore the skill cap placed upon combat rolls by the Ride skill |
-| Ranged Marksman | When using a ranged weapon, shift a random Hit Location roll to an adjoining body location |
-| Skirmishing | The style permits launching ranged attacks whilst walking or running |
-| Throw Weapons | Any melee weapon in the style can also be thrown at no penalty to skill, but when used in this way a weapon's damage roll is halved. |
-| Unarmed Prowess | Permits the user to treat his Unarmed blocks and parries as 'Medium' sized, enabling him to better defend himself from armed opponents. |
+Situation où au moins un des combattants peut être atteint par son adversaire direct lors d’un combat rapproché. Un personnage est considéré comme étant engagé s’il est à portée d’une arme naturelle ou de mêlée de son adversaire et désengagé si ce n’est pas le cas.
 
----
-## Running Combat
+#### Rounds de combat
 
-To emphasise its visceral nature, combat is tracked on a blow-by-blow basis. To ease bookkeeping, fights are broken down into Combat Rounds of five seconds each. During this period combatants may make hand-to-hand attacks or defend against them, maneuver into and out of combat, fire or throw a Ranged Weapon, and so on. Similar to real life, most combat engagements – once joined – are concluded in a matter of seconds rather than minutes. In game terms this means several Combat Rounds, unless participants withdraw to perhaps reset Initiative, reassess their tactical situation, or simply to grab a momentary rest before re-engaging. Only fights between well matched foes or sequences of opponents tend to last longer.
+Découpage du temps en segments de cinq secondes.
 
----
-## Firearms
+#### Styles de combat
 
-If using firearms in a _Mythras Imperative_ game, there are a few things to consider given the lethality of a firefight. First, it is near impossible to avoid laser beams or bullets which travel faster than human reflexes. Using the combat rules as presented, this means that unless one tries to dive clear of the area using Evade, any hit will immediately expose the victim to one or more Special Effects. It also changes the Action Point economy. If you can't use points to reactively defend yourself then most characters will end up using all their actions to blast away, gambling on the incompetence of their foes. To handle this paradigm shift, both Game Masters and Players may need to change the way they view – and approach – gun combat. Some things to note are:
+La compétence servant à manier un groupe d’armes, apprise dans le cadre d’une culture ou d’une profession.
 
-- Gun combat is dangerous!
-- On the whole people prioritize not being shot over shooting others
-- The most common method of protection is to take cover.
-- Suppressing fire is the best way of preventing foes shooting back.
-- Firearms are surprisingly inaccurate unless time is taken to brace and/or aim.
-- When you are shot, bad stuff happens.
+## Styles de combat
 
-Defending oneself against gunfire largely becomes a matter of body armor, using cover, and trying to prevent the opponent from being able to fire back. Consequently, most gun battles tend to become very tactical – lots of suppressing fire, flanking movement, and flushing foes from deep cover – during which characters may pass entire combat rounds being pinned down and unable to respond until the opposition stops firing... which some players may find extremely tedious.
+Un style de combat représente un ensemble d’armes lié à une culture, à une profession ou même à une école de combat, ce qui évite d’avoir à apprendre chaque arme séparément.
 
-It is perfectly possible that an entire gunfight will result in no injuries; just one side giving up due to running out of ammunition or fleeing the battle entirely. After all, few people want to risk being riddled with a burst from a weapon on full automatic.
+Un personnage apprend à utiliser toutes les armes de son style de combat, individuellement et en combinaison, afin qu’elles puissent être utilisées indifféremment selon ses besoins. L’entrainement ne se concentre pas uniquement sur une arme ou des armes spécifiques dans des conditions optimales, mais couvre également ce qu’il faut faire en situation désavantageuse. Cela permet de mieux préparer le combattant aux aléas du champ de bataille, par exemple s’il est désarmé ou si son arme est brisée.
 
-Throughout these combat rules, certain action types, Special Effects and situations apply to combat with firearms only, and these are marked accordingly.
+Ainsi, un barbare hyperboréen est capable d’utiliser une lance, une hache, un javelot et un bouclier, tandis qu’un guerrier sumérien sera plutôt formé à l’épée courte, à la masse, au bouclier et à l’arc. Le nombre d’armes incluses dans un style spécifique est laissé au choix du maitre de jeu et peut varier en fonction du cadre de campagne utilisé.
 
----
-## Combat Rounds and Initiative
+Un personnage qui tente d’utiliser une arme n’appartenant pas à son style de combat devra effectuer ses jets de style de combat à un niveau de difficulté supérieur.
 
-Combat Rounds use several important terms:
+Tout style de combat est optimisé pour l’environnement ou la tactique militaire de la culture ou de la profession qui enseigne ce style. Par exemple, un cavalier nomade apprendra à se battre à cheval, alors qu’un fantassin s’entrainera à combattre en formation serrée. Par conséquent, un style de combat peut obtenir en bonus un ou plusieurs traits qui lui confèrent un avantage dans certaines circonstances. Un trait est uniquement destiné à être utilisé avec les armes et les situations du style concerné. La diversité de ces traits est virtuellement illimitée, mais la plupart d’entre eux sont spécifiques à une période ou à un cadre de jeu.
 
-- **Initiative:** The order of who acts when during a Turn of a Combat Round. The Games Master counts down through Initiative values from the highest to the lowest, so that each participant has a chance to take their Turn when their number is reached.
-- **Turns:** During each 5 second Combat Round, each participant has an opportunity to take one or more Turns, dependent on the number of Action Points they possess, and how they use them. Upon their Turn, participants perform one Combat Action, which comprises of a declaration, possible movement, any necessary dice rolls (including Reactions), and the resolution of the Action. If any participant has Action Points remaining, the players may each take another Turn in Initiative order. Once no Action Points remain, or any remaining are being held back for Reactions, play proceeds to the next Combat Round.
+Exemples de traits de style de Combat
 
-Each term is described, in more detail, below.
+| Trait                  | Description                                                                                                                                                                                                                                                                  |
+|------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Casse-cou              | L’utilisation de la compétence Esquive pour esquiver des coups en combat de mêlée ne conduit pas le personnage à se retrouver à terre.                                                                                                                                       |
+| Combat à l’Aveugle     | Permet au personnage d’ignorer toute pénalité due à un mauvais éclairage ou à un aveuglement temporaire.                                                                                                                                                                     |
+| Combat Monté           | Les compétences de combat d’un combattant monté ne sont plus limitées par sa compétence Équitation.                                                                                                                                                                          |
+| Coup d’Assommoir       | Lors d’une attaque par surprise, les conséquences de l’effet spécial Étourdir se comptent en minutes et non en tours.                                                                                                                                                        |
+| Défensif               | Augmente d’un niveau la taille d’une arme utilisée pour parer, à condition qu’aucune action offensive ne soit entreprise pendant le round.                                                                                                                                   |
+| Combat en formation    | Permet à un groupe de trois guerriers ou plus d’entrer en formation serrée, ce qui place les adversaires plus écartés ou désordonnés dans une situation désavantageuse : chaque ennemi qui engage le combat contre le groupe perd un point d’action pour la durée du combat. |
+| Lanceur d’Armes        | Toute arme de mêlée faisant partie de ce style peut également être lancée sans pénalité. Cependant, lorsqu’elle est utilisée de cette manière, ses dégâts sont réduits de moitié.                                                                                            |
+| Lancier Monté          | Réaliser une charge montée avec ce style de combat n’augmente pas le niveau de difficulté de l’attaque.                                                                                                                                                                      |
+| Tirailleur             | Le style permet de lancer des attaques à distance tout en marchant ou en courant.                                                                                                                                                                                            |
+| Tireur d’Élite         | Le tireur peut remplacer la localisation déterminée aléatoirement par une localisation adjacente.                                                                                                                                                                            |
+| Prouesses à Mains Nues | Permet au personnage de considérer ses parades sans arme comme étant de taille Moyenne, ce qui facilite sa défense contre des adversaires armés.                                                                                                                             |
 
-#### Initiative
+## Gérer un combat
 
-Initiative determines participants' order of actions in a Combat Round. It is rolled at the start of a fight and determines when each character acts. Unless something occurs to change the situation, such as certain Combat Actions or Special Effects, Initiative remains in play until it is forced to be re-rolled.
+Les combats sont gérés au coup par coup. Pour en faciliter la gestion, ils sont divisés en rounds de cinq secondes. À chaque round, les combattants peuvent par exemple attaquer, se défendre, manœuvrer de façon à engager ou à fuir un combat, utiliser une arme à distance, etc. Comme dans la vraie vie, un affrontement est une affaire de secondes plutôt que de minutes ; la plupart du temps, quelques rounds de combat (trois ou moins) suffisent, à moins que les participants ne se replient, par exemple pour réévaluer la situation tactique ou reprendre leur souffle. Seuls les combats entre adversaires de même niveau ou contre des vagues d’ennemis ont tendance à durer plus longtemps.
 
-Initiative is calculated by each participant rolling 1d10 and adding their Initiative Modifier. Whoever gained the highest result acts first, followed by the second highest and so on. When two or more participants tie scores, the one with the higher DEX will act first. If this still results in a tie, have each roll a die with high roll going before the other.
+## Armes à feu
 
-#### Actions in Combat
+Les armes à feu changent la dynamique des combats de MYTHRAS FONDAMENTAUX. En effet, il est presque impossible d’esquiver des rayons laser ou des balles bien plus rapides que les réflexes humains. Par conséquent, un personnage est à la merci d’un ou plusieurs effets spéciaux s’il est touché par un tel tir, à moins de plonger à couvert en esquivant. Cela modifie aussi l’utilisation des points d’action : S’il n’est plus possible de dépenser ces points pour se défendre, alors la plupart des personnages finiront par utiliser l’ensemble de leurs actions pour tirer, en croisant les doigts pour ne pas être touchés.
 
-Once Initiative has been determined, the participants have the potential to perform several Combat Actions during each Combat Round. All characters get 2 Action Points per Round, but when they can act is limited to whether the Action is proactive or Reactive. 
+Nous conseillons aux maitres de jeu et aux joueurs de garder à l’esprit les observations suivantes :
 
-Proactive Actions can only be attempted on the character's own Turn; that is to say, during his Initiative. Proactive Actions are those in which the character is the instigator, such as making an attack with a weapon.
+-   Les armes à feu sont dangereuses !
+-   En général, il est plus important d’éviter d’être touché par un tir que de toucher un adversaire ;
+-   La méthode de protection la plus courante consiste à se mettre à couvert ;
+-   Les tirs de suppression sont la meilleure façon d’empêcher les adversaires de riposter ;
+-   Les armes à feu sont étonnamment imprécises si le tireur ne prend pas le temps d’épauler ou de viser ;
+-   Une victime touchée par un tir peut s’attendre au pire…
 
-Reactive Actions are those taken by a character to counter or resist an act made against them. Only one reaction attempt is permitted for each threat, an example would be trying to parry an attack.
+Pour survivre à une fusillade, il est essentiel de porter des équipements de protection, de se mettre à couvert et d’empêcher l’adversaire de tirer. Les combats avec armes à feu ont tendance à être très tactiques : nombreux tirs de suppression, mouvements de débordement, tentatives de débusquer l’ennemi de sa position. Les personnages peuvent alors passer des rounds entiers coincés et incapables de répliquer avant que l’ennemi ne cesse de tirer, ce que certains joueurs pourraient trouver très fastidieux.
 
-Unused Action Points do not carry over from one Round to the next.
+Il est parfaitement possible que personne ne soit blessé lors d’une fusillade, un camp abandonnant prématurément le champ de bataille pour éviter d’être encerclé ou à cause d’un manque de munitions. Après tout, peu de gens prendront le risque d’être criblés de balles…
 
----
-## Combat Actions
+Dans le reste du chapitre, nous signalerons les actions, situations et effets spéciaux qui sont spécifiques aux armes à feu.
 
-Combat Actions are those acts which can be performed during battle. Drawing a weapon, casting a spell, or diving clear from an attack are all examples of Combat Actions. Most are concerned with elements of combat itself, but some relate to activities outside the realm of spells and weapons.
+## Rounds de combat et initiative
 
-As previously mentioned, how often a character can act per Round is limited by their available Action Points. These are spent over the course of each Combat Round to perform various Combat Actions. Once a combatant's Action Points are expended, they may no longer act for the remainder of that Round and must wait until their points reset at the beginning of the next.
+Les rounds de combat utilisent deux termes importants :
 
-Unless otherwise specified any Combat Action (save for "Free" Actions) costs one Action Point. Thus, combatants need to carefully consider how and when they use their Action Points. They may act as aggressively or defensively as they wish, dynamically reacting to the evolving circumstance of the combat.
+-   Initiative : L’ordre des actions des combattants lors d’un tour d’un round de combat. Le compte à rebours des valeurs de l’initiative, de la plus élevée à la plus faible, de sorte que chaque participant ait une chance de prendre son tour lorsque sa valeur d’initiative est atteinte.
+-   Tour : Au cours d’un round de combat de 5 secondes, chaque participant peut agir pendant un ou plusieurs tours, suivant le nombre de points d’action dont il dispose et la manière dont il s’en sert. Lors de leurs tours respectifs, les participants exécutent une action de combat, qui comprend une déclaration, un déplacement éventuel, les jets de dés nécessaires (y compris les réactions) et la résolution de l’action. Si des participants possèdent encore des points d’action, ils peuvent agir à nouveau à tour de rôle dans l’ordre d’initiative. Une fois tous les points d’action dépensés, ou si les derniers points d’action ont été conservés pour des réactions, un nouveau round de combat commence.
 
-### Proactive Actions
+Chaque terme est décrit plus en détail ci-dessous.
 
-The following are activities a character can attempt on his Turn by spending an Action Point. Note that some Actions such as spell casting or reloading may take several Turns to complete; each Turn costing its own Action Point.
+### Initiative
 
-#### Attack
+L’initiative établit l’ordre des actions des participants lors d’un round de combat. Elle est déterminée au début d’un combat. À moins que quelque chose ne change la situation, comme certains effets spéciaux ou actions, l’initiative reste la même jusqu’à ce qu’elle doive être recalculée.
 
-The character can attempt to strike with a hand-to-hand weapon or use a Ranged Weapon.
+L’initiative de chaque participant est calculée en ajoutant le résultat d’un lancer de 1d10 à son bonus d’initiative. Le participant dont le total est le plus élevé agit en premier, suivi par le deuxième et ainsi de suite. En cas d’égalité, le participant possédant la DEX la plus élevée agit en premier. Si les valeurs de DEX sont identiques, celui qui obtient le résultat le plus élevé à un jet de 1d10 agira le premier.
 
-#### Brace
+### Actions au cours du combat
 
-The character braces by taking a firm stance and leaning into the direction of a forthcoming attack. For the purposes of resisting Knockback or Leaping Attacks, the character's SIZ is treated as 50% bigger. Against the Bash Special Effect, SIZ is doubled.
+Une fois que l’initiative a été déterminée, les participants ont la possibilité d’effectuer des actions de combat à chaque round. Tous les personnages ont droit à 2 points d’action par round, mais le moment où ils peuvent agir est limité selon que le type d’action : action proactive ou réaction.
 
-#### Cast Magic/Use Power
+Les actions proactives, comme attaquer avec une arme, ne peuvent être réalisées que lors du tour du personnage, c’est-à-dire lorsqu’il a l’initiative.
 
-The character can attempt to cast a spell, invoke certain powers, and so on. Complex magics may require several Actions to complete the casting. Once concluded, the magic can be released at any moment up until the caster's next Turn – at which point it can be held for later effect, but this requires the Hold Magic/Power Action (see below) to maintain it in preparation for later release.
+Les réactions permettent au personnage de contrer un acte effectué contre eux ou d’y résister. Un personnage n’a droit qu’à une seule réaction par menace : par exemple, il ne peut pas tenter de parer deux fois la même attaque.
 
-#### Change Range
+Les points d’action inutilisés ne se cumulent pas d’un round à l’autre.
 
-The character can attempt to close in on or retreat from an opponent, as long as they are not engaged in hand-to-hand combat with the opponent or being pinned down by enemy fire in ranged combat situation.
+## Description des actions de combat
 
-#### Charge
+Les actions de combat sont celles qui peuvent être effectuées au cours d’une bataille. Sortir une arme, lancer un sort, plonger à couvert sont des exemples d’actions de combat. Toutefois, certaines actions de combat ne sont pas liées à la magie ou au maniement d’armes.
 
-The Charge Action allows a character to move into engagement range at running or sprinting speed, using the momentum of the charge to make a more forceful melee attack. These rules are covered in more detail in the [Charging](0005_Combat.md?id=charging) section below.
+Comme mentionné précédemment, le nombre d’actions de combat est limité par les points d’action disponibles. Ceux-ci sont dépensés au cours de chaque round pour effectuer des actions de combat. Une fois tous les points d’action dépensés, le combattant ne peut plus agir pour le reste du round et devra attendre que ses points soient restaurés au début du round suivant.
 
-#### Delay
+Sauf indication contraire, toute action de combat coute un point d’action, excepté les actions dites « libres », qui sont gratuites. Les combattants doivent donc choisir judicieusement comment et quand utiliser ces points. Ils peuvent agir de manière aussi agressive ou prudente qu’ils le souhaitent.
 
-The character conserves one or more Actions to perform Reactive Actions later, such as Interrupt or Parry. The Action Point costs of delaying is covered by whatever acts are finally performed. If the delayed Actions are not taken before the character's next Turn, then the character is considered to have Dithered (see below), and the Action Point is lost.
+### Actions proactives
 
-#### Dither
+Les activités qu’un personnage pourra tenter pendant son tour en dépensant un point d’action sont indiquées ci-dessous. Notez que certaines activités, comme l’incantation de sorts ou le rechargement d’armes, peuvent nécessiter plusieurs tours, chaque tour coutant un point d’action.
 
-The default option unless another Action is chosen, the character simply wastes his turn doing nothing useful.
+#### Attaquer
 
-#### Hold Magic/Power
+Le personnage peut attaquer avec une arme de mêlée ou une arme à distance.
 
-Once casting is complete, the character may hold a spell or Power in temporary check, awaiting the best moment to release it. The magic may be held back for as long as the character continues to take this Action on subsequent Turns, but this allows free use of the Counter Spell reaction by an enemy if pertinent to the spell. The actual skill roll to cast the held spell is not made until it is cast.
+#### Changer la Distance
 
-#### Mount
+Le personnage se rapproche ou s’éloigne d’un adversaire. Il peut ainsi changer sa distance d’engagement pour tirer le meilleur parti de l’allonge de son arme ou pour se désengager.
 
-The character can mount or dismount a riding beast or vehicle. Particularly large mounts may require several Turns to complete.
+#### Changer de Mode de Tir (armes à feu uniquement)
 
-#### Move
+L’utilisateur d’une arme polyvalente ou automatique peut changer le sélecteur de tir de son arme pour profiter d’autres modes de tir. Ainsi, l’utilisateur d’un fusil d’assaut peut passer du mode semi-automatique (coup par coup) au mode rafale, choisir un autre type de munitions ou utiliser un système complémentaire comme un lance-grenade intégré. Alors que les armes modernes exigent un point d’action au tour du personnage pour changer de mode, il suffira d’une action libre dans le cas d’armes très sophistiquées, comme celles commandées par des implants électroniques ou reliées à l’esprit du tireur.
 
-Provided one is not engaged with an opponent, the character can move any distance the Games Master deems suitable for the situation.
+#### Charger
 
-#### Outmaneuver
+L’action Charger consiste à se rapprocher d’un adversaire à une vitesse de course ou de sprint afin d’engager un combat rapproché, en profitant de l’élan de la charge pour rendre l’attaque plus puissante. La charge est décrite à la page 78.
 
-The character can engage multiple opponents in a group Opposed Roll of Evade skills. Those who Fail to beat his roll cannot attack him in that Combat Round. See the section on [Outmaneuvering](0005_Combat.md?id=outmaneuvering) below.
+#### Coup d’Œil Furtif (armes à feu)
 
-#### Ready Weapon
+Le personnage abrité derrière un couvert peut jeter un coup d’œil rapide pour juger de la situation tactique. Il a ainsi droit à un jet unique de Perception avant de se remettre à l’abri. Si le jet de Perception est une maladresse, le personnage reste visible suffisamment longtemps pour que l’ennemi puisse lui tirer dessus.
 
-The character may retrieve, draw, sheath, withdraw, or reload a weapon or other object. Retrieving a nearby dropped object requires 2 Actions: one to move and reach down for the object and a second to return to a readied stance. Some missile weapons require several Actions to reload.
+#### Hésiter
 
-#### Reload (Firearms)
+Le personnage perd son tour sans accomplir quoi que ce soit d’utile. Ceci est l’option par défaut si aucune autre action n’est choisie.
 
-As per Ready Weapon. Reloading times can vary wildly according to the type of weapon. Single shot black powder muskets will be far slower to reload than changing an ammunition magazine or power source.
+#### Lutter
 
-#### Regain Footing
+Si le personnage est victime de certains types d’attaques ou d’effets spéciaux, il peut tenter de se sortir de cette situation, par exemple en se libérant d’une prise.
 
-If unengaged with an opponent, the character can automatically regain his footing from being tripped or knocked down. If Engaged, the character must win an Opposed Roll of Brawn or Athletics with the opponent before standing. This contest does not cost any Action Points to resolve.
+#### Manœuvrer
 
-#### Sneak Peek (Firearms)
+Le personnage lance un jet d’opposition de groupe basé sur la compétence Esquive contre plusieurs opposants. Les adversaires qui ne parviennent pas à battre son jet ne pourront pas l’attaquer pendant ce round de combat. Voir la section Manœuvrer à la page 79.
 
-Sneak Peek allows somebody currently sheltering behind cover to take a quick look-see to judge what the tactical situation is. The action is ostensibly safe, permitting the observer a single Perception roll before ducking back into cover. If the Perception test is a fumble however, they foolishly overextend their head or remain in sight long enough for an enemy to take a pot shot.
+#### Monter
 
-#### Steady Weapon (Firearms)
+Le personnage peut monter sur une créature ou en descendre, ce qui peut prendre plusieurs tours dans le cas de montures particulièrement grandes.
 
-Allows the character to establish a firm firing posture and support an automatic weapon so that it remains stable. It requires that the character be at least partially exposed and not completely protected by cover. The primary benefit is that it reduces the recoil penalty of Burst or Full-Automatic fire by one step. This effect is like Brace in that its benefits continue until the character moves.
+#### Préparer une Arme
 
-#### Struggle
+Le personnage peut encocher une flèche ou dégainer, rengainer, recharger une arme. Récupérer une arme qui a été relâchée à proximité nécessite 2 actions : une pour se déplacer et ramasser l’arme, et la seconde pour revenir à une position de garde. Recharger certaines armes à projectiles nécessite plusieurs actions.
 
-If the character is the victim of certain types of attack or Special Effects, they may attempt to extract themselves from the situation. For example, breaking free from an enemy's grip.
+#### Recharger (armes à feu)
 
-#### Switch Fire Mode (Firearms)
+Comme pour l’action Préparer une Arme, le temps de rechargement peut varier énormément selon le type d’arme. Il est beaucoup plus long de recharger un mousquet que de remplacer un chargeur de munitions ou une cellule énergétique.
 
-Switch Fire allows the user of an automatic or dual-purpose firearm to change the selector on their weapon to take advantage of other fire modes. Thus, an assault rifle could be switched from semi-automatic to burst, choose different types of ammunition, or a supplementary system such as an integral grenade launcher brought online. Whilst modern weapons require an Action Point on the character's Turn to switch modes, sufficiently advanced high-tech firearms may permit it as a Free Action, triggered by electronic implants or psychically reading the user's mind.
+#### Renforcer sa Position
 
-#### Take Cover
+Le personnage se prépare à recevoir un impact, en prenant une position ferme et en se penchant en direction de l’assaut. Dans le but de résister au recul (voir page 79) ou aux bonds offensifs(page 77), la TAI du personnage est traitée comme étant 50 % plus grande. Contre l’effet spécial Repousser, la TAI est doublée.
 
-Take Cover is a proactive action which allows a shooter to duck behind whatever cover is available in their immediate vicinity, thereby gaining some degree of protection against incoming fire. Unlike Evade it does not leave the user prone but does rely on some form of cover being available, for example ducking back around a corner in a corridor or crouching down behind a table in a bar. Depending on circumstances, the available cover may or may not be sufficient to completely protect the character. The type of cover will also determine its protective qualities; a thick steel door for instance may prove impenetrable to bullets, whereas a thin wooden wall might only provide 4 Armor Points. For general guidelines concerning the protective qualities of certain materials, see the table in the [Inanimate Objects](0004_Game_System.md?id=inanimate-objects) section.
+#### Retarder
 
-### Reactive Actions
+Le personnage conserve son action afin d’effectuer plus tard une réaction, comme une interruption ou une parade. Le point d’action consacré à cette fin sera dépensé lorsque l’action retardée sera finalement réalisée. Si l’action retardée n’est pas effectuée avant le prochain tour du personnage, on considèrera qu’il aura hésité et le point d’action sera perdu.
 
-This list specifies Reactions that can be used at any time during the Combat Round as a response to an imminent threat. As in the previous list, a reaction costs an Action Point to perform.
+#### Retenir la Magie ou le Pouvoir
 
-#### Counter Spell
+Une fois que le sort ou le pouvoir est prêt à être utilisé, un personnage peut retarder son emploi jusqu’au moment propice. Le sort ou le pouvoir peut être retenu aussi longtemps que le personnage continue à utiliser cette action aux tours suivants. Cela permet au personnage de choisir d’utiliser gratuitement la réaction Contresort si le sort ou le pouvoir retenu est approprié. Le jet de compétence servant à lancer le sort ou le pouvoir retenu n’est accompli qu’au moment du lancer.
 
-The character can attempt to dismiss or counter an incoming spell. This assumes the countering magic has a Casting Time of one Turn, otherwise it must be prepared in advance and temporarily withheld using the Hold Magic Action. Successfully intercepting magic in this manner is assumed to negate the entire spell, even those with multiple targets or areas of effect.
+#### Stabiliser l’Arme (armes à feu)
 
-#### Evade
+Le personnage adopte une position de tir qui stabilise son arme. Il faut pour cela que le personnage soit au minimum partiellement exposé, et donc pas entièrement protégé par un couvert. Le principal avantage de l’action consiste à réduire d’un cran la pénalité de recul d’une rafale courte ou longue. Cet effet est similaire à Renforcer sa Position, car le tireur continue d’en bénéficier jusqu’à ce qu’il se déplace.
 
-The character can use their Evade skill in an attempt to dive clear of threats such as incoming missiles or a charging attack. This leaves the character prone unless mitigated by an Ability or special circumstance. Thus, the character's next turn is usually spent taking the Regain Footing Action to stand again.
+#### Se Déplacer
 
-#### Interrupt
+S’il n’est pas déjà engagé avec un adversaire, un personnage peut se déplacer de n’importe quelle distance que le maitre de jeu jugera appropriée à la situation.
 
-Delaying characters only. This Reactive Action halts an opponent's Turn at any point to take a delayed Turn Action. Assuming no change in the tactical situation, the opponent continues the Turn after the character's is completed. If unable to still achieve the original declaration, the opponent's Action Point is wasted. An interrupt can also be used to perform an attack-of-opportunity against anyone passing close by the delaying character and within weapon's reach.
+#### Se Mettre à Couvert
 
-#### Parry
+Le tireur s’abrite derrière toute couverture disponible dans son voisinage immédiat pour se protéger des tirs adverses. Par exemple, il se positionne derrière un angle dans un couloir ou s’accroupit derrière une table dans un bar. Contrairement à Esquive, cet effet ne laisse pas à l’utilisateur à terre. De plus, l’action nécessite la présence d’un abri proche.
 
-The character can attempt to defend against an incoming attack using a combination of parrying, leaning, ducking, and sidestepping footwork to minimize the blow.
+Le personnage est plus ou moins protégé selon le type de couverture. Par exemple, une porte en acier épais peut s’avérer impénétrable aux balles, alors qu’un mur en bois mince ne fournira que 4 points d’armure. Pour plus de détails à ce sujet, consultez le tableau Armure et points de vie des objets inanimés, à la page 51.
 
-### Free Actions
+#### Se Relever
 
-Free Actions (listed below) can be performed at any time during the Combat Round and cost no Action Points to perform.
+S’il n’est pas engagé avec un adversaire, un personnage peut automatiquement se remettre debout après être tombé ou avoir été renversé. S’il est engagé, le personnage doit réussir un test d’opposition de Force Brute ou d’Athlétisme contre son adversaire avant de pouvoir se relever.
 
-#### Assess Situation
+#### Utiliser la Magie ou un Pouvoir
 
-If unengaged, a character can make a Perception roll at no Action Point cost. A Success reveals any relevant changes in the tactical situation (such as spotting a foe beginning a charge). Assessing while Running results in a Hard Perception roll, Sprinting is Formidable.
+Le personnage peut tenter de lancer un sort ou d’utiliser un pouvoir. Les magies complexes peuvent nécessiter plusieurs rounds pour terminer l’incantation. Une fois achevé, la magie ou le pouvoir peut être libéré à tout moment, et ce jusqu’au prochain tour du personnage ; à cet instant, il pourra être retardé, mais nécessitera alors l’action Retenir la Magie ou le Pouvoir (voir page 6060) pour retarder le lancer.
 
-#### Drop Item
+### Réactions
 
-Dropping an item is a Free Action.
+Cette liste précise les réactions pouvant être utilisées à tout moment pendant le round de combat, en réponse à une menace imminente. Comme dans la liste précédente, chaque réaction coute un point d’action.
 
-#### Signal
+#### Contresort
 
-If unengaged, gesturing or signaling to one or more participants (if they can perceive the sign) is a Free Action.
+Le personnage peut tenter d’annuler ou de contrer un sort. Cela suppose que cette magie de défense ait un temps d’incantation d’un tour ; sinon elle doit être préparée et maintenue en utilisant l’action Retenir la Magie ou le Pouvoir. Si le sort est contré avec succès, tous ses effets sont annulés, même s’il avait plusieurs cibles ou une zone d’effet.
 
-#### Speak
+#### Esquiver
 
-A character can speak at any time during combat, but what is said should be limited to short phrases which can be uttered in five seconds or less; for example, 'Look out behind you!' or 'Damn you to hell!'
+Le personnage peut utiliser sa compétence Esquive pour tenter de plonger ou de rouler à l’abri des menaces (projectiles, charges, etc.). Sauf cas particulier, cette action laissera le personnage au sol. Ainsi, le prochain tour du personnage sera habituellement consacré à l’action Se Relever.
 
-#### Use Luck Point
+#### Interrompre
 
-Using a Luck Point – to re-roll a particular result for example – is a Free Action.
+Accessible uniquement aux personnages qui utilisent l’action Retarder, cette réaction permet de stopper le tour d’un adversaire à n’importe quel moment pour appliquer l’action préparée. En supposant que la situation tactique n’ait pas changé, l’adversaire continue son tour après que le personnage a terminé son action retardée. Si l’adversaire est alors incapable d’accomplir sa déclaration initiale, son point d’action est perdu. Interrompre peut également être utilisé pour effectuer une attaque d’opportunité contre une créature passant à portée d’arme d’un personnage qui utilise l’action Retarder.
 
-#### Ward Location
+#### Parer
 
-The character guards a particular Hit Location from being hit by dedicating one of his weapons to passively block the area. Any blow which lands on that location has its damage automatically downgraded as per normal for a parrying weapon of its Size. The cover continues until the dedicated weapon is used to attack or actively Parry. Establishing or changing the Hit Location covered must be performed prior to an opponent rolling to attack the character. Due to their design, shields can cover multiple areas.
+À l’aide d’une combinaison de blocages, de parades, d’esquives et de feintes de corps, le personnage peut tenter de se défendre contre une attaque.
 
-For further explanation see [Passive Blocking](0005_Combat.md?id=passive-blocking) below.
+### Actions libres
 
----
-## Movement
+Les actions libres peuvent être effectuées à tout moment pendant le round et ne coutent aucun point d’action.
 
-The following rules govern engagement in combat:
+#### Évaluer la Situation
 
-- Movement is performed by either the Move or Charge Action.
-- The Move Action allows the character to move a distance equal to their Base Movement Rate.
-- Movement can only be performed by unengaged characters (save for special cases such as Outmaneuvering).
-- Except in certain cases (such as charging), all significant movement ceases once a character enters the engagement range of the intended opponent.
-- Unless charging through contact, moving into the opponent's engagement zone places each in engagement with the other.
-- Once Engaged, characters cannot move away from an opponent unless first Withdrawing from close combat.
-- Attempting to move past an unengaged foe who is using the Delay Combat Action, permits (as a specific exception) that opponent to strike at moving characters as they pass by or block a character's progress, prompting close combat on the following Turn or Round.
+Si un personnage ne participe pas au combat, il peut effectuer un jet de Perception sans dépenser de point d’action. Une réussite lui révèlera tout changement pertinent dans la situation tactique : par exemple, il pourra ainsi repérer un ennemi qui commence à charger. Évaluer la situation en courant nécessite de réussir un jet Difficile de Perception. La difficulté est Redoutable si le personnage sprinte.
 
-### Situational Movement Rates
+#### Garde
 
-These movement rates are situational and are not always an option. Many are detailed elsewhere but are included here for convenience. Most of these situational rates may be used in addition to a normal Movement Rate under set restrictions. Such information is detailed in the specific descriptions below.
+Le personnage protège une localisation particulière de son corps en affectant une de ses armes à la couverture statique de la zone. Tout coup atteignant cette localisation voit ses dégâts automatiquement diminués, comme si l’arme avait paré avec succès. La garde est maintenue jusqu’à ce que l’arme soit utilisée pour attaquer ou pour parer activement. Établir une garde ou changer la localisation couverte doit être effectué avant le jet d’attaque adverse. Notez que les boucliers peuvent couvrir plusieurs zones. Pour de plus amples explications, voir Parade passive, page 79.
 
-#### Climb
+#### Lâcher un objet
 
-A character that moves adjacent to or starts the Turn next to a climbable surface or object may climb at a rate equal to the Base Movement Rate. The character cannot have moved faster than a Walk and must have movement remaining, with the distance climbed being reduced by any movement already used. Worn armor hinders climbers based on the total of Armor Points worn.
+Se débarrasser d’un objet est une action libre.
 
-##### Armoured Movement Penalty Table
+#### Parler
 
-| Total AP Worn | Load Category | Movement |
-| :-: | :-: | :-: |
-| 0-7 | None | 0 |
-| 8-15 | Light | -1 |
-| 16-23 | Medium | -2 |
-| 24-31 | Heavy | -3 |
-| 32-39 | Formidable | -4 |
-| 40+ | Herculean	| -5 |
+Un personnage peut parler à tout moment pendant un combat, mais ce qu’il dit doit être limité à de courtes phrases pouvant être prononcées en moins de cinq secondes : par exemple, « il est temps de mourir ! », « derrière toi ! » ou « maudit sois-tu ! ».
 
-<details>
+#### Signaler
 
-<summary>* Community Errata</summary>
+Si un personnage n’est pas engagé contre un adversaire, il peut signaler quelque chose à un ou plusieurs participants (si ceux-ci peuvent le voir ou l’entendre) à l’aide d’une action libre.
 
-#### Climb
+#### Utiliser un Point de Chance
 
+L’utilisation d’un point de chance, par exemple pour relancer les dés, est une action libre.
 
-_The original text was "Worn armor hinders climbers by an amount equal to the Armor Points of the heaviest item worn."_
+## Mouvement
 
-_The rule as written quickly causes issues. Wearing a single piece of 6AP armor would reduce a human to Move 0 meaning a human wearing a steel helmet and nothing else would be too overburdened to climb at all. This seems unreasonably restrictive hence the edited version suggested above. This will be updated following Loz's suggestion in the [TDM forum](https://www.tapatalk.com/groups/designmechanism/climbing-speed-from-mythras-imperative-t4052.html#p42237)..._
+Les règles suivantes s’appliquent en combat :
 
-_**nb:** Compare the Classic Fantasy Imperative rule which ties to Encumbrance:_
-- _"Worn armor hinders climbers, with each location covered by light armor counting as 1 additional 'Thing' carried, and each location covered by heavy armor counting as 2 additional 'Things' carried."_ 
-- _The Classic Fantasy Imperative Encumbrance rule: "Every additional Thing above a character's STR reduces the character's Initiative Bonus by 1. Every 6 Things above STR reduces the character's Movement Rate by 5 feet (2m). Finally, when more Things are carried than the character's STR, skills using STR or DEX as part of their Base are 1 grade more difficult. When more Things are carried than twice the character's STR, these skills are 2 grades more difficult."_
+-   Le déplacement est effectué grâce à l’action Charger ou Se Déplacer, l’action Manoeuvrer étant un cas particulier ;
+-   Le déplacement peut seulement être effectué par les personnages qui ne sont pas engagés en combat (sauf cas particulier, tels que l’action Manœuvrer) ;
+-   Sauf exception (charger par exemple), tout déplacement notable cesse dès que le personnage arrive à distance d’engagement de son adversaire ;
+-   Sauf exception (charger au contact par exemple), lorsqu’un personnage arrive à distance d’engagement, les deux adversaires sont considérés comme étant engagés ;
+-   Une fois engagé au corps à corps, un personnage doit Se Replier pour s’éloigner de son adversaire ;
+-   Lorsqu’un personnage se déplace à proximité d’un adversaire qui n’est pas engagé et qui utilise l’action Retarder, ce dernier peut (uniquement dans ce cas de figure) frapper le personnage ou interrompre son déplacement de manière à engager un combat rapproché au tour ou au round suivant.
 
-</details>
+### Cas particuliers
 
-#### Crawl
+Ces déplacements particuliers s’appliquent à certaines situations et ne sont pas toujours disponibles. Plusieurs d’entre eux sont décrits ailleurs, mais sont repris ici par commodité. La plupart de ces déplacements peuvent être utilisés en complément d’un mouvement normal sous certaines conditions. Ces restrictions sont indiquées dans la description de chaque déplacement ci-dessous.
 
-A character that begins the Turn prone may crawl at a maximum rate of two metres per Turn in place of a normal Move. Creatures that naturally crawl as their normal mode of movement instead use their full Move rate modified by Gaits - Walk, Run, and Sprint - see the [Movement Rate](0002_Characters.md?id=movement-rate) section above.
+#### Escalader
 
-Movement rules are fully covered in the _Mythras_ rulebook.
+Un personnage peut escalader à son mouvement de base s’il se trouve, au cours de son déplacement ou au début du tour, dans une case adjacente à une paroi ou à un objet pouvant être escaladé. Le personnage ne doit pas se déplacer préalablement à une vitesse supérieure à celle de la marche. De plus, il doit encore être en mesure de se déplacer au début de l’escalade. Les mouvements déjà réalisés sont déduits de la distance escaladée. La vitesse d’ascension ou de descente est modifiée par l’armure portée et la nature de la paroi escaladée.
 
-#### Jump
+#### Ramper
 
-A character that moves adjacent to or starts the Turn next to a jumpable obstacle may attempt to leap over it. The character may be moving at any rate up to the point of the leap. 
+Un personnage qui commence le tour à terre peut ramper à une vitesse maximale de 2 m par tour, à la place de son déplacement normal. Les créatures qui se déplacent naturellement en rampant utilisent les règles habituelles de marche, course et sprint.
 
-A successful Athletics roll allows one to jump up to twice one's own height horizontally or up to half one's own height vertically (if the character has at least a five metre run-up available). If jumping from a standing position, then these distances are halved.
+#### Sauter
 
-Reduce the jump distance in metres by one-fifth the total 'Things' carried. Worn armor hinders jumpers, with each location covered by light armor counting as 1 'Thing' in the beforementioned calculation, and heavy armor counts as 2 'Things.'
+Un personnage qui se trouve à proximité d’un obstacle, que ce soit au cours de son déplacement ou au début du tour, peut tenter de sauter par-dessus celui-ci. Le personnage peut se déplacer à n’importe quelle vitesse avant de sauter. Un jet d’Athlétisme réussi lui permet de sauter horizontalement sur une distance égale au double de sa hauteur ou verticalement de la moitié de sa hauteur. Si le personnage saute sans élan, ces distances sont réduites de moitié.
 
-<details>
+#### Nager
 
-<summary>* Community Errata</summary>
+Un personnage qui se trouve, au cours de son déplacement ou au début du tour, à proximité une étendue d’eau peut nager à une vitesse égale à son mouvement de base, en retranchant tout mouvement déjà réalisé. Consultez la compétence Nage à la page 30 pour plus d’informations.
 
-#### Jump
+## Fonctionnement du combat
 
+Dans MYTHRAS FONDAMENTAUX, chaque attaque ou parade représente un seul acte : une frappe, un sort, un tir… De plus, toute action offensive peut être contrée par une réaction. Ainsi, même si un personnage réussit à frapper un adversaire, celui-ci a l’occasion de faire un jet de parade afin de dévier le coup avant que celui-ci ne l’atteigne. Qu’un personnage essaie d’éviter un projectile ou de se libérer de la poigne de fer d’une pieuvre géante, la logique reste la même.
 
-_The original text made no mention of Armor or Encumbrance. Loz's Climbing penalties are too restrictive to use for Jump as is but Classic Fantasy Imperative again ties armor penalties to Encumbrance:_
-- _"Reduce the jump distance in feet by half the total 'Things' carried. Worn armor hinders jumpers, with each location covered by light armor counting as 1 'Thing' in the beforementioned calculation, and heavy armor counts as 2 'Things.'"_ 
+### Attaques et parades
 
-</details>
+Le combat rapproché comporte les étapes suivantes :
 
-#### Swim
+1.  À son tour, l’attaquant dépense un point d’action, effectue un jet de style de combat et note le résultat.
+2.  S’il le désire, le défenseur dépense un point d’action, effectue aussi un jet de style de combat pour sa défense et note le résultat.
+3.  Les niveaux de réussite sont comparés selon le principe du jet différentiel (voir page [X](mythras_VF_corebook_revised_20231214.html#_idTextAnchor035)X).
+4.  Le combattant avec le meilleur jet peut obtenir un ou plusieurs effets spéciaux de combat (voir ci-dessous).
+5.  Si l’attaquant a obtenu une réussite ou une réussite critique, il peut lancer les dégâts de l’arme plus son modificateur de dégâts (s’il s’applique). Le cas échéant, la localisation du coup est déterminée.
+6.  Si le défenseur a réalisé une réussite ou une réussite critique, il réduit les dégâts reçus en fonction de la taille des armes utilisées.
+7.  Les points d’armure de la protection naturelle ou portée réduisent les éventuels dégâts restants.
 
-A character that moves adjacent to or starts the Turn next to a body of water may swim at a rate equal to the Base Movement Rate, minus any movement already used. See the Swim description in the [Skills](0003_Skills.md?id=swim-strcon) section for more information.
+Notez que l’obtention d’effets spéciaux n’est pas liée aux dégâts éventuellement infligés. Il est donc tout à fait possible pour un défenseur d’obtenir un effet spécial grâce à un meilleur niveau de réussite et d’être blessé malgré tout.
 
-Under normal conditions a character's maximum swimming speed per Round is equal to their Movement Rate, -1 for each 'Thing' carried more than the character's STR. Worn armor hinders swimmers, with each location covered by light armor counting as 1 additional 'Thing' carried, and each location covered by heavy armor counting as 2 additional 'Things' carried. If total ENC reduces swim distance to 0 or less, the character automatically begins drowning (see [Asphyxiation](0004_Game_System.md?id=asphyxiation)).
+### Taille des armes
 
-<details>
+Chaque arme de MYTHRAS FONDAMENTAUX possède plusieurs caractéristiques allant des dégâts qu’elle inflige au nombre de mains nécessaire pour la manier. La taille d’une arme est une combinaison de sa masse, de sa stabilité et de son effet de levier. Elle représente la capacité d’une arme à infliger et à parer les dégâts. Les catégories de taille sont Petite, Moyenne, Grande, Très Grande et Énorme. Les attaques naturelles des créatures utilisent des catégories similaires en fonction de leurs caractéristiques physiques.
 
-<summary>* Community Errata</summary>
+### Réduction des dégâts
 
-#### Swim
+Si le défenseur réussit à parer, il peut réduire les dégâts de l’attaque en fonction de la taille relative des armes utilisées.
 
-_The published version of _Mythras Imperative_ has no explicit rules for Swim movement at different gaits or speeds. Classic Fantasy Imperative again ties armor penalties to Encumbrance:_
+-   Parer avec une arme ou un bouclier d’une catégorie de taille égale ou supérieure à l’attaque dévie tous les dégâts de celle-ci.
+-   Parer avec une arme ou un bouclier d’une taille inférieure d’une catégorie dévie la moitié des dégâts de l’attaque.
+-   Parer avec une arme ou un bouclier d’une taille inférieure de deux catégories ou plus ne réduit aucun dégât.
 
-- _Under normal conditions a character's maximum swimming speed per Round is equal to their Movement Rate, -1 for each 'Thing' carried more than the character's STR. Worn armor hinders swimmers, with each location covered by light armor counting as 1 additional 'Thing' carried, and each location covered by heavy armor counting as 2 additional 'Things' carried. If total ENC reduces swim distance to 0 or less, the character automatically begins drowning (see Asphyxiation)._
+*Par exemple, parer une grande hache (taille Très Grande) avec un pavois (taille Très Grande aussi) permet de bloquer tous les dégâts. Parer cette hache avec une lance à deux mains (Grande) réduirait seulement les dégâts de moitié, alors qu’une épée courte (Moyenne) ne bloquerait rien du tout.*
 
-</details>
+### Armure
 
----
-## How Combat Works
+Après la parade du défenseur, les dégâts restants sont réduits par les points d’armure de la protection naturelle (telle que des écailles ou une carapace) ou de l’armure portée par le défenseur. Ces deux protections sont cumulatives.
 
-Fighting in _Mythras Imperative_ is resolved with each attack or parry representing a single stab, swing, spell cast, or shot of a weapon. Any offensive Action permits the chance to be resisted by a reaction. Thus, even if a character manages to strike an opponent, the foe is permitted their own roll to see if they can parry the blow before it lands. The same philosophy is used whether the attacks are missile weapons against targets diving for cover or trying to break free from the iron grasp of a giant octopus.
+En raison de son poids et de la gêne qu’elle occasionne, une armure portée impose une pénalité au jet d’initiative. Cette pénalité est déterminée par la pièce d’armure dont les points d’armure sont les plus élevés.
 
-### Attacks and Parries
+## Parer une attaque manquée
 
-Close combat is handled in the following step-by-step manner:
+Si l’attaquant rate son jet d’attaque initial, le défenseur garde la possibilité de dépenser un point d’action pour parer. Parer une attaque ratée peut sembler futile, mais le défenseur a ainsi l’occasion de gagner un ou plusieurs effets spéciaux pour affaiblir ou mettre hors de combat l’adversaire.
 
-1. On his turn the attacker spends an Action Point, rolls against his Combat Skill, and notes the result.
-2. If desired, the defender spends an Action Point to Parry, rolls against his Combat Skill, and notes the result.
-3. The success level of the results is compared as per a Differential Roll.
-4. Any difference grants the successful combatant with the superior roll one or more Special Effects.
-5. If the attacker achieved a Success or Critical, they may roll weapon damage and apply their Damage Modifier (if any). If applicable, a Hit Location is determined for the blow.
-6. If the defender achieved a Success or Critical, reduce any damage inflicted according to the comparative sizes of the weapons involved.
-7. Reduce any remaining damage by the Armor Points of natural or worn protection.
+### Absence de parade
 
-Note that any Special Effects generated by the exchange are independent of whether damage is inflicted. It is quite possible for a defender to gain the higher success level, yet still suffer injury.
+Si le défenseur ne pare pas, car il est à court de points d’action ou choisit de ne pas en dépenser, il sera considéré comme ayant automatiquement obtenu un échec. Cela a pour conséquence d’accorder un ou plusieurs effets spéciaux à l’attaquant ayant réussi son jet.
 
-### Weapon Size
+### Échecs et maladresses
 
-Every weapon in _Mythras Imperative_ possesses several different attributes from the damage it deals to how many hands are required to wield it. Size is a combination of a weapon's mass, leverage, and stability, and is used to determine the weapon's ability to impose and parry damage. Size categories are Small, Medium, Large, Huge, and Enormous. The unarmed attacks of creatures are assigned similar categories according to their physical characteristics.
+Si les deux combattants échouent à leurs tests ou si le défenseur décide de ne pas tirer profit d’une attaque manquée, alors la séquence d’attaque-parade se termine et le prochain participant dans l’ordre d’initiative peut agir.
 
-### Damage Reduction
+## Effets spéciaux
 
-If a defender succeeds in parrying, then they can reduce an attacker's damage, if any, according to the comparative Size of the weapons used.
+Combattre ne se limite pas à blesser ou à tuer l’adversaire. Les arts du combat enseignent de nombreuses méthodes pour vaincre un ennemi : le désarmer, l’acculer pour l’obliger à se rendre, etc. Les effets spéciaux représentent ces techniques et déterminent la façon dont elles se produisent en jeu.
 
-- Parrying an attack with a weapon or shield of equal or greater Size deflects all damage.
-- Parrying with a weapon or shield of one Size less only deflects half damage.
-- Parrying with a weapon or shield two or more Sizes less fails to deflect any damage.
+Chaque fois que des combattants effectuent un jet différentiel impliquant leurs capacités de combat respectives (style de combat ou Esquive, généralement), toute différence de niveaux de réussite peut amener des effets spéciaux. Ainsi, un combattant peut mettre un adversaire en position de faiblesse et profiter de son avantage grâce à une ruse ou à une tactique ingénieuse.
 
-_For example, parrying a great axe (Huge) with a kite shield (also Huge) would block all damage; parrying it with a Longsword (Large) would halve the damage, and parrying it with a shortsword (Medium) would stop no damage at all._
+Le nombre d’effets spéciaux obtenus dépend de la différence entre les niveaux de réussite, comme indiqué sur le tableau de Résultat de jet différentiel (page 39).
 
-### Armor
+Les effets spéciaux obtenus doivent être choisis avant que la localisation et les dégâts éventuels soient déterminés. Dans les cas où l’adversaire, en plus de subir un effet spécial, est grièvement blessé, les jets d’Endurance sont résolus après l’application des effets.
 
-Any damage which penetrates the defender's Parry is further reduced by the Armor Points of any natural protection (such as scales or a shell) or worn armor they possess. If the defender has both, then the two stack together to reduce damage.
+Les effets spéciaux couvrent un large éventail de situations et de techniques. Certains sont conçus spécifiquement pour l’attaque, d’autres pour la défense. Quelques-uns sont utilisables dans toutes les circonstances. Certains effets spéciaux peuvent également être limités à des types d’armes ou à des niveaux de réussite spécifiques (réussite critique par exemple).
 
-Due to its mass and restriction to movement, the highest Armor Point value of armor worn by a character acts as a penalty to their Initiative roll.
+Si le combattant obtient plusieurs effets spéciaux, il peut les combiner librement, du moment qu’il respecte les prérequis de chacun d’eux. Certains effets peuvent même être cumulés. Par exemple, un attaquant obtenant une réussite critique et deux effets spéciaux peut choisir Maximiser les Dégâts deux fois plutôt que de choisir deux effets spéciaux différents.
 
-### Parrying a Missed Attack
+| Effet spécial            | Offensif | Défensif | Arme spécifique                             | Jet spécifique                        | Cumulable |
+|--------------------------|----------|----------|---------------------------------------------|---------------------------------------|-----------|
+| Arme Défaillante         |          | X        | Armes à feu uniquement                      | Maladresse de l’attaquant             |           |
+| Autre Cible              |          | X        |                                             | Maladresse de l’attaquant             |           |
+| Avoir l’Avantage         | X        |          |                                             |                                       |           |
+| Aveugler                 |          | X        |                                             | Critique du défenseur                 |           |
+| Blessure Accidentelle    |          | X        |                                             | Maladresse de l’attaquant             |           |
+| Choisir la Localisation  | X        |          |                                             | Voir description                      |           |
+| Clouer sur Place         | X        |          | Armes à feu uniquement                      |                                       | X         |
+| Coincer l’Arme           | X        | X        |                                             | Critique Seulement                    |           |
+| Contourner la Couverture | X        |          | Armes à feu de haute technologie uniquement |                                       |           |
+| Désarmer                 | X        | X        |                                             |                                       |           |
+| Endommager l’Arme        | X        | X        |                                             |                                       |           |
+| Emmêler                  | X        | X        | Armes qui emmêlent                          |                                       |           |
+| Empaler                  | X        |          | Armes qui empalent                          |                                       |           |
+| Entailler                | X        | X        |                                             |                                       |           |
+| Étourdir                 | X        |          | Armes contondantes                          |                                       |           |
+| Faire Trébucher          | X        | X        |                                             |                                       |           |
+| Feinte                   | X        |          |                                             | Critique de l’attaquant               |           |
+| Forcer l’Échec           | X        | X        |                                             | Maladresse de l’adversaire            |           |
+| Fracasser                | X        |          | Armes à deux mains                          |                                       |           |
+| Maximiser les Dégâts     | X        |          |                                             | Critique de l’attaquant               | X         |
+| Neutraliser l’Adversaire | X        |          | Armes à feu uniquement                      |                                       |           |
+| Parade Complète          |          | X        |                                             | Critique du défenseur                 |           |
+| Plonger à Couvert        | X        |          | Armes à feu uniquement                      |                                       |           |
+| Préparer la Riposte      |          | X        |                                             |                                       | X         |
+| Rechargement Rapide      | X        |          |                                             |                                       | X         |
+| Repousser                | X        |          | Boucliers et armes contondantes             |                                       |           |
+| Saigner                  | X        |          | Armes tranchantes                           | Armes à feu : Critique de l’attaquant |           |
+| Saisir                   | X        |          | Bagarre                                     |                                       |           |
+| Se Libérer               |          | X        |                                             | Critique du défenseur                 |           |
+| Se Redresser             |          | X        |                                             |                                       |           |
+| Se Replier               |          | X        |                                             |                                       |           |
+| Tir Précis               | X        |          | Armes à distance                            |                                       |           |
+| Transpercer              | X        |          | Armes à feu uniquement                      | Critique de l’attaquant               |           |
+| Traverser l’Armure       | X        |          |                                             | Critique de l’attaquant               | X         |
 
-If the attacker misses his initial attack roll, the defender has the option to spend an Action Point to Parry. Although it may seem disingenuous to parry an attack which will miss anyway, a skilled defender can use this to his advantage to gain one or more Special Effects, potentially weakening or incapacitating a foe and preserving their next turn for some other Action.
+### Descriptions des effets spéciaux
 
+#### Arme Défaillante
 
-### Unable or Unwilling to Parry
+L’arme de l’attaquant fonctionne si mal qu’elle devient inutile tant qu’elle n’est pas réparée.
 
-In a situation where a defender is unable to Parry due to having no Action Points remaining, or, confident in his ability to weather the blow, elects not to Parry, they are treated as having automatically rolled a Failure. This has the consequence of granting a successful attacker one or more Special Effects.
+#### Autre Cible
 
+En cas de maladresse de l’attaquant, le défenseur peut manœuvrer ou dévier le coup de telle sorte que celui-ci atteint à la place un personnage adjacent. Il faut pour cela que la nouvelle cible soit à portée de l’arme de l’attaquant ou bien dans la ligne de tir, dans le cas d’une attaque à distance. L’attaque prend la nouvelle cible au dépourvu et touche donc automatiquement, mais la cible ne subit aucun effet spécial.
 
-### Unsuccessful Rolls and Fumbles
+#### Aveugler
 
-If both combatants Fail their rolls, or the defender decides not to take advantage of a missed attack, then the attack – Parry sequence ends, and combat continues on to the participant with the next highest Initiative.
+Sur une réussite critique, le défenseur aveugle brièvement son adversaire en lui jetant du sable, en reflétant la lumière du soleil avec son bouclier ou en utilisant toute autre tactique qui gêne momentanément la vision de l’attaquant. L’attaquant doit effectuer un jet d’opposition d’Esquive (ou de son style de combat s’il utilise un bouclier) contre le jet de parade du défenseur. Si l’attaquant échoue, il subit un modificateur situationnel Difficile ou Redoutable pour les 1d3 tours à venir, suivant la manière dont il a été aveuglé.
 
----
-## Special Effects
+#### Blessure Accidentelle
 
-Fighting is far more than simply injuring or killing an opponent. Combative arts teach many methods of defeating a foe, perhaps rendering them helpless or forcing them into situations where they must capitulate, without necessarily needing to cause them harm. Special Effects represent these techniques and control how they occur in play.
+Le défenseur dévie l’attaque de l’adversaire de telle sorte que celui-ci se blesse. L’attaquant doit effectuer un jet de dégâts de l’arme qu’il utilise contre lui-même, dans une localisation déterminée aléatoirement. S’il n’est pas armé, il se froisse ou se déchire un muscle par exemple ; le jet de dégâts ignore alors toute armure.
 
-Whenever opponents engage in a Differential Roll of their respective fighting skills, any resulting difference in success levels indicates an opportunity for Special Effects to occur. This reflects one combatant maneuvering his opponent into a disadvantageous situation which can be exploited using a cunning trick or tactic.
+#### Choisir la Localisation
 
-The number of Special Effects received depends on the difference between the Levels of Success, as illustrated on the Differential Levels of Success table.
+L’attaquant utilisant une arme de combat rapproché peut choisir librement la localisation où atterrit le coup, à condition que cet endroit soit à portée de l’arme. S’il utilise une arme à distance, Choisir la Localisation nécessite une réussite critique, à moins que la cible ne soit à Courte portée et qu’elle soit immobile ou inconsciente de l’attaque.
 
-If any Special Effects are won during an exchange, they must be selected before Damage and Hit Location, if any, are rolled. In cases where the recipient is badly wounded in addition to receiving a Special Effect, Endurance rolls are resolved after the application of the effect.
+Armes à feu : Par défaut, Choisir la Localisation est limité à une réussite critique, à moins que la cible soit à courte portée et qu’elle soit immobile ou inconsciente de l’attaque. Les lunettes de tir peuvent augmenter cette portée.
 
-Special Effects cover a diverse range of situations and techniques. Some are designed specifically for attacks, while others are intended for defense, and a few are adaptable for either circumstance. Certain Special Effects can also be limited to specific weapon types or specific dice rolls, requiring a Critical or Fumble result on their skill check for instance.
+#### Clouer sur Place
 
-When two or more Special Effects are gained, the combatant may freely mix and match which ones are selected, providing the prerequisite conditions for each one are met. Some effects can be stacked. For example, an attacker who rolls a Critical Success and wins two Special Effects could choose Maximize Damage twice rather than choosing two separate offensive maneuvers.
+Armes à feu uniquement. Semblable à Prendre l’Avantage, cet effet force la cible à faire un jet d’opposition de Volonté contre le jet de l’attaquant. Un échec signifie qu’elle doit s’abriter derrière toute couverture disponible et qu’elle ne peut pas riposter à son prochain tour. Notez que Clouer sur Place fonctionne même si aucun dégât n’est infligé à la cible (peut-être en raison d’une esquive ou de tirs frappant la couverture à la place) : les tirs qui la frôlent suffiront à l’intimider !
 
-### Special Effects Table
+Même si une victime est incapable de riposter pendant qu’elle est clouée sur place, elle peut effectuer d’autres actions à condition de ne pas s’exposer aux tirs : ramper vers un nouvel abri, communiquer avec les autres, recharger une arme et ainsi de suite.
 
-| Special Effect | Offensive | Defensive | Special Weapon Type | Specific Roll | Stackable |
-| :-- | :-: | :-: | :-: | :-: | :-: |
-| [Accidental Injury](0005_Combat.md?id=accidental-injury) | | X | | Attacker Fumbles | |
-| [Arise](0005_Combat.md?id=arise) | | X | | | |
-| [Bash](0005_Combat.md?id=bash) | X | | Shields or Bludgeoning | | |
-| [Bleed](0005_Combat.md?id=bleed) | X | | Cutting Weapons | Firearms: Attacker Criticals | |
-| [Blind Opponent](0005_Combat.md?id=blind-opponent) | | X | | Defender Criticals | |
-| [Bypass Armor](0005_Combat.md?id=bypass-armor) | X | | | Attacker Criticals | X |
-| [Choose Location](0005_Combat.md?id=choose-location) | X | | | See Description | |
-| [Circumvent Cover](0005_Combat.md?id=circumvent-cover) | X | | High Tech Firearms Only | | |
-| [Circumvent Parry](0005_Combat.md?id=circumvent-parry) | X | | | Attacker Criticals | |
-| [Damage Weapon](0005_Combat.md?id=damage-weapon) | X | X | | | |
-| [Disarm Opponent](0005_Combat.md?id=disarm-opponent) | X | X | | | |
-| [Drop Foe](0005_Combat.md?id=drop-foe) | X | | Firearms Only | | |
-| [Duck Back](0005_Combat.md?id=duck-back) | X | | Firearms Only | | |
-| [Enhance Parry](0005_Combat.md?id=enhance-parry) | | X | | Defender Criticals | |
-| [Entangle](0005_Combat.md?id=entangle) | X | X | Entangling Weapons | | |
-| [Force Failure](0005_Combat.md?id=force-failure) | X | X | | Opponent Fumbles | |
-| [Grip](0005_Combat.md?id=grip) | X | | Unarmed | | |
-| [Impale](0005_Combat.md?id=impale) | X | | Impaling Weapons | | |
-| [Marksman](0005_Combat.md?id=marksman) | X | | Ranged Weapons | | |
-| [Maximize Damage](0005_Combat.md?id=maximize-damage) | X | | | Attacker Criticals | X |
-| [Overpenetration](0005_Combat.md?id=overpenetration) | X | | Firearms Only | Attacker Criticals | |
-| [Pin Down](0005_Combat.md?id=pin-down) | X | | Firearms Only | | X |
-| [Prepare Counter](0005_Combat.md?id=prepare-counter) | | X | | | X |
-| [Rapid Reload](0005_Combat.md?id=rapid-reload) | X | | | | X |
-| [Scar Foe](0005_Combat.md?id=scar-foe) | X | X | | | |
-| [Select Target](0005_Combat.md?id=select-target) | | X | | Attacker Fumbles | |
-| [Slip Free](0005_Combat.md?id=slip-free) | | X | | Defender Criticals | |
-| [Stun Location](0005_Combat.md?id=stun-location) | X | | Bludgeoning Weapons | | |
-| [Sunder](0005_Combat.md?id=sunder) | X | | Two Handed Weapons | | |
-| [Trip Opponent](0005_Combat.md?id=trip-opponent) | X | X | | | |
-| [Weapon Malfunction](0005_Combat.md?id=weapon-malfunction) | | X | Firearms Only | Attacker Fumbles | |
-| [Withdraw](0005_Combat.md?id=withdraw) | | X | | | |
+#### Coincer l’Arme
 
+En cas de réussite critique, le personnage coince l’arme ou le bouclier de son adversaire en utilisant son corps ou sa position. À son tour, l’adversaire peut tenter de libérer son arme. Cela lui coute un point d’action et fonctionne comme pour l’effet spécial Saisir. Un échec signifie que l’objet coincé reste inutilisable. Pendant ce temps, un adversaire sans autre arme ne pourra éviter une attaque qu’en esquivant, en utilisant Bagarre ou en rompant le combat.
 
-### Special Effect Descriptions
+#### Contourner la Couverture
 
-#### Accidental Injury
+L’attaquant parvient à atteindre une cible à couvert. Par défaut, cet effet suppose que l’attaquant tire avec une arme de haute technologie, disposant par exemple d’un mécanisme d’autoguidage. Mais il peut aussi représenter un usage judicieux de l’environnement, comme un tir de laser sur un miroir ou le ricochet d’une balle sur un mur ; dans ce cas, il exige une réussite critique de l’attaquant et les dégâts devraient être réduits de manière adaptée.
 
-The defender deflects or twists an opponent's attack in such a way that the attacker fumbles, injuring themself. The attacker must roll damage against himself in a random Hit Location using the weapon used to strike. If unarmed, the attacker tears or breaks something internal, the damage roll ignoring any armor.
+#### Désarmer
 
-#### Arise
+Le personnage tente de désarmer son adversaire, par exemple en frappant son arme, en lui arrachant l’arme des mains ou en lui tordant le poignet. Toutefois, il ne peut désarmer que des créatures ayant jusqu’à deux fois sa FOR. L’adversaire doit effectuer un jet d’opposition de style de combat contre le jet initial du personnage. En cas d’échec, l’arme de l’adversaire est projetée à une distance égale au jet de modificateur de dégâts du personnage en mètres ou bien elle est saisie par le personnage si celui-ci combat sans arme. Si le modificateur de dégâts est nul ou négatif, l’arme tombe aux pieds de l’adversaire désarmé. La difficulté du jet de l’adversaire est affectée par la différence de catégorie de taille entre son arme et celle du personnage. Ainsi, la difficulté du jet augmente d’un niveau pour chaque différence de catégorie en faveur de l’arme du personnage. Inversement, la difficulté du jet diminue d’un niveau pour chaque différence de catégorie en faveur de son arme.
 
-Allows the defender to use a momentary opening to roll back up to their feet.
+#### Emmêler
 
-#### Bash
+Le personnage maniant une arme capable d’emmêler, comme un fouet ou un filet, immobilise la localisation touchée avec les effets suivants :
 
-The attacker deliberately bashes the opponent off balance. How far the defender totters back or sideward depends on the weapon being used. Shields knock an opponent back one metre for every 2 points of damage rolled (prior to any subtractions due to armor, parries, and so forth), whereas bludgeoning weapons knock back one metre for every three points. Bashing works only on creatures up to twice the attacker's SIZ. If the recipient is forced backward into an obstacle, then they must make an Acrobatics skill roll - or Athletics at Hard difficulty - to avoid falling or tripping over. For firearms, since Bash relies more on catching an opponent off balance, rather than throwing them backwards by pure force, it is perfectly reasonable for projectile ammunition to cause a target to stagger if it strikes an extremity. Energy weapons are less likely to inflict such an effect unless the physics of the beam result in some sort of surface explosion.
+-   Bras : L’adversaire ne peut plus utiliser son arme ;
+-   Jambe : Il ne peut plus se déplacer ;
+-   Tête, poitrine ou abdomen : La difficulté des jets de compétence augmente d’un niveau.
 
-<details>
+À son tour suivant, le personnage peut dépenser un point d’action pour effectuer automatiquement l’effet spécial Faire Trébucher. Notez que la réussite de Faire Trébucher dépendra d’un jet d’opposition, comme indiqué dans la description de cet effet. Une victime emmêlée peut tenter de se libérer à son tour, soit en tentant un jet d’opposition de Force Brute, soit en obtenant un effet spécial et en choisissant Désarmer, Endommager l’Arme ou Se Libérer.
 
-<summary>* Community Errata</summary>
+#### Empaler
 
----
+L’attaquant essaie d’enfoncer une arme pouvant empaler dans le corps d’un adversaire. Lancez les dégâts de l’arme deux fois : l’attaquant choisit le résultat qui lui convient. Avec une arme de mêlée, si le coup pénètre l’armure et provoque une blessure, l’attaquant peut soit laisser son arme dans la plaie, soit la retirer à son prochain tour. Laisser l’arme dans la blessure inflige un malus à tous les futurs jets de compétence de l’adversaire. La sévérité de cette pénalité dépend de la taille de la créature et de l’arme qui empale, comme indiqué dans le tableau des Effets d’empalement ci-dessous. Par souci de simplicité, un adversaire empalé par plusieurs armes de taille similaire ne subit pas de pénalités supplémentaires. Retirer une arme empalée pendant une mêlée nécessite l’utilisation de l’action de combat Préparer une Arme. L’attaquant doit réussir un jet de Force Brute sans opposition (ou remporter un jet d’opposition de Force Brute si l’adversaire résiste). En cas de réussite, l’arme est libérée, provoquant la moitié de ses dégâts normaux dans la même localisation, mais sans aucun modificateur de dégâts. Cas particulier : une arme barbelée, comme un harpon, inflige des dégâts normaux. Un échec au jet implique que l’arme reste coincée dans la plaie sans autre effet, bien que le personnage puisse essayer à nouveau de la libérer lors son prochain tour. L’armure ne réduit pas les dégâts lors du retrait. Tant que l’arme reste empalée, le personnage ne peut l’utiliser pour parer.
 
-#### Bash
+Effets d’empalement
 
-_The original rule had ambiguous wording as follows: "...they must make a Hard Athletics or Acrobatics skill roll..."_
+| TAI de la créature | Armes petites                    | Armes moyennes | Armes grandes | Armes très grandes | Armes énormes |
+|--------------------|----------------------------------|----------------|---------------|--------------------|---------------|
+| 1-10               | Redoutable                       | Herculéen      | Incapacité    | Incapacité         | Incapacité    |
+| 11-20              | Difficile                        | Redoutable     | Herculéen     | Incapacité         | Incapacité    |
+| 21-30              | Pas d’effet                      | Difficile      | Redoutable    | Herculéen          | Incapacité    |
+| 31-40              | Pas d’effet                      | Pas d’effet    | Difficile     | Redoutable         | Herculéen     |
+| 41-50              | Pas d’effet                      | Pas d’effet    | Pas d’effet   | Difficile          | Redoutable    |
+| Chaque + 10        | Suivre la progression du tableau |                |               |                    |               |
 
-_That looks like either skill would be rolled at Hard where the convention is to make a Standard check with a Professional skill or a Hard check with the closest equivalent Standard skill._
+Armes à feu : Les munitions de la plupart des armes à feu peuvent empaler. Cependant, le maitre de jeu peut souhaiter restreindre ou interdire cet effet spécial pour les armes énergétiques qui émettent du plasma ou des lasers. Les balles, les fléchettes militaires et les projectiles similaires sont clairement trop petits pour infliger un effet spécial d’empalement.
 
-_The wording has been replaced with "...they must make an Acrobatics skill roll - or Athletics at Hard difficulty..."_
+#### Enchainer
 
----
+Un personnage (ou une créature) sans arme peut immédiatement effectuer une nouvelle attaque à l’aide d’un membre ou d’une partie du corps différente, sans avoir à attendre son prochain tour. Un humain peut par exemple enchainer un coup de poing à l’abdomen avec un coup de genou au visage. L’attaque supplémentaire coute toujours un point d’action.
 
-</details>
+#### Endommager l’Arme
 
-#### Bleed
+Permet au personnage d’endommager l’arme de son adversaire dans le cadre d’une attaque ou d’une parade. S’il attaque, le personnage vise spécifiquement l’arme de parade du défenseur et applique son jet de dégâts à celle-ci plutôt qu’au porteur. L’arme ciblée utilise ses propres points d’armure pour résister aux dégâts. L’arme se brise si ses points de vie sont réduits à zéro.
 
-The attack cuts open a major blood vessel. If the blow overcomes Armor Points and injures the target, the defender must make an Opposed Roll of Endurance against the original attack roll. If the defender Fails, then they begin to bleed profusely. At the start of each Combat Round, the recipient loses one level of Fatigue, until they collapse and possibly die. Bleeding wounds can be staunched by passing a First Aid skill roll, but the recipient can no longer perform any strenuous or violent action without re-opening the wound. See Blood Loss, in the Game System section. For firearms, since most firearms produce very narrow wound paths, it is actually moremore difficult to nick or sever a major blood vessel than it is with a slicing or stabbing weapon. Due to this Bleed should be a Critical Success only – unless the gun is some sort of weird weaponry which fires shuriken, razor fléchettes, flattened force fields or some such exotic ammunition.
+#### Entailler
 
-#### Blind Opponent
+Le personnage entaille son adversaire et lui laisse une marque pour le restant de sa vie, comme une gorge presque tranchée ou un Z artistiquement tracé sur le torse.
 
-On a Critical the defender briefly blinds his opponent by throwing sand, reflecting sunlight off his shield, or some other tactic that briefly interferes with the attacker's vision. The attacker must make an Opposed Roll of his Evade skill (or Weapon skill if using a shield) against the defender's original Parry roll. If the attacker Fails, they suffer a situational modifier of Hard or Formidable for the next 1d3 Turns, depending on the method of blinding.
+#### Étourdir
 
-#### Bypass armor
+L’attaquant peut utiliser une arme contondante pour étourdir temporairement la partie du corps touchée. Si le coup dépasse les points d’armure et blesse la cible, le défenseur doit faire un jet d’opposition d’Endurance contre le jet d’attaque initial. Si le défenseur échoue, alors la localisation est hors d’usage pour un nombre de tours égal aux dégâts infligés. Par exemple, un défenseur frappé au torse titube, le souffle coupé, et peut seulement se défendre pendant qu’il récupère, tandis qu’un coup à la tête l’étourdit momentanément et l’empêche d’agir.
 
-On a Critical the attacker finds a gap in the defender's natural or worn armor. If the defender is wearing armor above natural protection, then the attacker must decide which of the two is bypassed. This effect can be stacked to bypass both. For the purposes of this effect, physical protection gained from magic is considered as being worn armor. Although Bypass Armor can ostensibly be used with any sort of attack, some types of ammunition might either be prevented from accessing this effect (shot gun pellets due to their spread) or built into their base performance, granting it as a bonus special effect in addition to any others won (Teleportation rounds). Much depends on how the Game Master wishes to model the weapon.
+#### Exiger la Reddition
 
-#### Choose Location
+Le personnage tente d’obtenir la reddition d’un adversaire sans défense ou désavantagé, qui serait par exemple désarmé, sérieusement blessé, à plat ventre et incapable de se relever, etc. L’adversaire ciblé ne subit aucun dégât, il est seulement menacé ; en supposant qu’il soit une créature douée de raison et capable de comprendre la demande, il doit effectuer un jet d’opposition de Volonté contre l’attaque ou la parade initiale. S’il échoue, il capitule. Le maitre de jeu peut limiter l’utilisation de reddition uniquement contre les personnages non joueurs.
 
-When using hand-to-hand melee weapons the attacker may freely select the location where the blow lands, as long as that location is normally within reach. If using Ranged weapons, including firearms, Choose Location is a Critical Success only, unless the target is within Close Range and is either stationary or unaware of the attacker. For firearms, telescopic scopes may extend this range.
+#### Exposer l’Adversaire
 
-#### Circumvent Parry
+Le défenseur recule ou fait un pas de côté au moment où l’attaquant porte son coup : ce dernier est entrainé par son élan et ne pourra pas attaquer au tour suivant. Cet effet spécial peut être cumulé.
 
-On a Critical the attacker may completely bypass an otherwise successful Parry.
+#### Faire Trébucher
 
-#### Damage Weapon
+Le personnage tente de faire basculer ou de projeter son adversaire au sol. L’adversaire doit effectuer un jet d’opposition d’Acrobatie, Esquive ou Force Brute contre le jet d’origine du personnage. Si la cible échoue, elle tombe au sol. Les adversaires quadrupèdes (ou les créatures avec encore plus de pattes) peuvent remplacer leur Esquive par Athlétisme et réduire d’un niveau la difficulté du jet.
 
-Permits the character to damage his opponent's weapon as part of an Attack or Parry. If attacking, the character aims specifically at the defender's Parrying weapon and applies his damage roll to it, rather than the wielder. The targeted weapon uses its own Armor Points for resisting the damage. If reduced to zero Hit Points the weapon breaks. For firearms, since striking a handheld weapon at range is even more difficult than targeting a specific body location, this should generally be reserved for Critical Successes only. There are several exceptions however, the first being that a shield should, by its very nature, be much easier to hit. The second concerns exotic weapons which fire a cone shaped beam able to target handheld objects within its area of affect; for instance, an induction gun that heats metal objects.
+#### Feinte
 
-#### Disarm Opponent
+En cas de réussite critique, l’attaquant peut contourner complètement une parade qui aurait normalement réussi.
 
-The character knocks, yanks, or twists the opponent's weapon out of his hand. The opponent must make an Opposed Roll of his Combat Style against the character's original roll. If the recipient of the disarm loses, his weapon is flung a distance equal to the roll of the disarmer's Damage Modifier in metres. If there is no Damage Modifier, then the weapon drops at the disarmed person's feet. The comparative size of the weapons affects the roll. Each step that the disarming character's weapon is larger increases the difficulty of the opponent's roll by one grade. Conversely, each step the disarming character's weapon is smaller makes the difficulty one grade easier. Disarming works only on creatures of up to twice the attacker's STR.
+#### Forcer l’Échec
 
-#### Drop Foe
+Cet effet ne peut être choisi que lorsque l’adversaire obtient une maladresse. Le personnage peut combiner Forcer l’Échec avec tout autre effet spécial nécessitant un jet d’opposition pour fonctionner. L’adversaire rate alors automatiquement son jet de résistance : il est de fait automatiquement désarmé, sonné, etc.
 
-Offensive, Firearms Only. Assuming the target suffers at least a minor wound from the shot, they are forced to make an Opposed Test of their Endurance against the attacker's hit roll. Failure indicates that the target succumbs to shock and pain, becoming incapacitated and unable to continue fighting. Recovery from incapacitation can be performed with a successful First Aid check or using some form of technological or narcotic booster if such exists in the campaign. Otherwise, the temporary incapacitation lasts for a period equal to one hour divided by the Healing Rate of the target.
+#### Fracasser
 
-#### Duck Back
+L’attaquant peut utiliser une arme adaptée, telle qu’une hache, pour endommager l’armure ou la protection naturelle de l’adversaire. Tous les dégâts de l’arme, après la réduction due à la parade ou à la magie, sont appliqués aux points d’armure de la protection. Les dégâts dépassant les points d’armure réduisent cette valeur, rompant les sangles ou les anneaux, froissant les plaques ou déchirant le cuir, les écailles ou la chitine des monstres. Si la protection a été réduite à zéro point d’armure, les dégâts en surplus sont appliqués aux points de vie de la localisation touchée.
 
-Offensive, Firearms Only. This special effect allows the shooter to immediately duck back into cover, without needing to wait for their next Turn to use the Take Cover action. The character must be already standing or crouching adjacent to some form of cover to use Duck Back.
+Armes à feu : Cet effet spécial peut être approprié pour les armes énergétiques conçues pour détruire ou endommager les armures ablatives, ou pour des armes plus exotiques comme les fusils à ondes gravitationnelles.
 
-#### Enhance Parry
+#### Maximiser les Dégâts
 
-On a Critical the defender manages to deflect the entire force of an attack, no matter the Size of his weapon.
+Sur une réussite critique, le personnage peut appliquer le résultat le plus élevé à un des dés de dégâts de son arme. Par exemple, une hachette effectuant normalement 1d6 points de dégâts en fera 6, alors qu’une grande masse avec 2d6 dégâts infligera 1d6 + 6. Cet effet spécial peut être cumulé. Même si Maximiser les Dégâts peut aussi être utilisé avec des armes naturelles, cela n’affecte pas le modificateur de dégâts de l’attaquant, qui doit être lancé normalement.
 
-#### Entangle
+#### Neutraliser l’Adversaire
 
-Allows a character wielding an entangling weapon, such as a whip or net, to immobilize the location struck. An entangled arm cannot use whatever it is holding; a snared leg prevents the target from moving; while an enmeshed head, chest, or abdomen makes all skill rolls one grade harder. On his following turn, the wielder may spend an Action Point to make an automatic Trip Opponent attempt. An entangled victim can attempt to free himself on his turn by either attempting an Opposed Roll using Brawn to yank free, or by winning a Special Effect and selecting Damage Weapon, Disarm Opponent, or Slip Free.
+Offensif, armes à feu uniquement. La cible du tir d’une arme de siège, d’une arme à feu ou équivalent, si elle subit au moins une Blessure Légère, est forcée d’effectuer un test d’opposition entre son Endurance et le jet d’attaque de l’adversaire. En cas d’échec, le choc et la douleur la mettent hors combat pour une durée égale à une heure divisée par sa vitesse de guérison. Elle peut toutefois guérir grâce à un test réussi de Premiers Soins ou à l’utilisation de stimulants narcotiques ou magiques, s’ils existent dans le cadre de jeu.
 
-#### Force Failure
+#### Parade Complète
 
-Used when an opponent Fumbles, the character can combine Force Failure with any other Special Effect which requires an Opposed Roll to work. Force Failure causes the opponent to fail his resistance roll by default – thereby automatically be disarmed, tripped, and so forth.
+Sur une réussite critique, le défenseur arrive à dévier ou éviter toute la force de l’attaque, quelle que soit la taille de son arme.
 
-#### Grip
+#### Plonger à Couvert
 
-Provided the opponent is within the attacker's Unarmed Combat reach, they may use an empty hand (or similar limb capable of gripping) to hold onto the opponent, preventing them from being able to disengage from combat. The opponent may attempt to break free on his turn, requiring an Opposed Roll of either Brawn or Unarmed against whichever of the two skills the gripper prefers.
+Offensif, armes à feu uniquement. L’attaquant en train de tirer peut en même temps plonger pour se mettre à l’abri, sans avoir à attendre son prochain tour pour effectuer l’action Se Mettre à Couvert. Pour utiliser cet effet, le personnage doit se tenir debout ou accroupi à proximité immédiate d’un abri potentiel.
 
-#### Impale
+#### Prendre l’Avantage
 
-Roll weapon damage twice, with the attacker choosing which of the two results to use for the attack. Assuming the weapon is a melee weapon, if armor is penetrated and a wound is caused, the attacker has the option of leaving the weapon in the wound or yanking it free on their next turn. Leaving the weapon in the wound inflicts a Difficulty Grade on the victim's future skill attempts. The severity of the penalty depends on the size of both the creature and the weapon impaling it, as listed on the Impale Effects Table below. For simplicity's sake, further impalements with the same sized weapon inflict no additional penalties. To withdraw an impaled weapon during melee requires use of the Ready Weapon Combat Action. The wielder must pass an unopposed Brawn roll (or win an Opposed Brawn roll if the opponent resists). Success pulls the weapon free, causing further injury to the same location equal to half the normal damage roll for that weapon, but without any Damage Modifier. Failure implies that the weapon remains stuck in the wound with no further effect, although the wielder may try again on their next turn. Specifically barbed weapons (such as harpoons) inflict normal damage. Armor does not reduce withdrawal damage. While it remains impaled, the attacker cannot use his impaling weapon for Parrying.
+L’attaquant fait pression sur son adversaire pour l’obliger à rester sur la défensive : ce dernier ne pourra donc pas attaquer le tour suivant. L’attaquant aura ainsi tout loisir de lancer une séquence ininterrompue d’attaques que l’adversaire tentera désespérément de parer. Cependant, cet effet spécial n’est efficace que contre des adversaires soucieux de se défendre : par exemple, évitez de l’utiliser contre un zombie… Un ennemi constamment sous pression tentera surement de se désengager du combat, d’appeler à l’aide ou d’utiliser l’effet spécial Préparer la Riposte.
 
-#### Impale Effects Table
+#### Préparer la Riposte
 
-| Creature SIZ | Small Weapons | Medium Weapons | Large Weapons | Huge Weapons | Enormous Weapons |
-| :-: | :-: | :-: | :-: | :-: | :-: |
-| 1-10 | Formidable | Herculean | Incapacitated | Incapacitated | Incapacitated |
-| 11-20 | Hard | Formidable | Herculean | Incapacitated | Incapacitated |
-| 21-30 | No Effect | Hard | Formidable | Herculean | Incapacitated |
-| 31-40 | No Effect | No Effect | Hard | Formidable | Herculean |
-| 41-50 | No Effect | No Effect | No Effect | Hard | Formidable |
-| Each +10 | Follow table progression |
+Le défenseur étudie le comportement de son adversaire et se prépare à contrer un effet spécial spécifique, qui devrait être noté en secret. Si son adversaire tente de lui infliger l’effet spécial choisi durant le combat, cet effet spécial est annulé et le défenseur peut utiliser contre cet adversaire un effet spécial offensif ou défensif de son choix, qui réussit automatiquement et qui est appliqué immédiatement.
 
-For firearms, the ammunition of most projectile-based firearms will be able to impale. Game Masters may wish to restrict or ban this effect for plasma or laser-based energy weapons. Bullets, fléchettes and similar projectiles are clearly too small to impose any secondary impaling effects.
+#### Rechargement Rapide
 
-#### Marksman
+Lorsqu’il utilise une arme à distance, l’attaquant peut réduire d’une unité le temps de rechargement de la prochaine attaque. Cet effet spécial peut être cumulé.
 
-Permits the shooter to move the Hit Location struck by his shot by one step, to an immediately adjoining body area. Physiology has influences over what can be re-targeted and common sense should be applied. Thus, using this Special Effect on a humanoid would permit an attacker who rolled a leg shot, to move it up to the abdomen instead. Conversely shooting a griffin in the chest would permit selection of the forelegs, wings, or head.
+Armes à feu : Cet effet spécial est surtout utile pour les armes à poudre noire ou à un coup. Il peut aussi servir à changer rapidement le magasin (chargeur) d’une arme automatique ou, dans le cas d’une arme énergétique, à recharger ses condensateurs ou à laisser le temps à un canon de refroidir.
 
-#### Maximize Damage
+#### Repousser
 
-On a Critical the character may substitute one of his weapon's damage dice for its full value. For example, a Hand Axe which normally does 1d6 damage would instead be treated as a 6, whereas a great club with 2d6 damage would instead inflict 1d6+6 damage. This Special Effect may be stacked. Although it can also be used for natural weapons, Maximize Damage does not affect the Damage Modifier of the attacker, which must be rolled normally.
+L’attaquant repousse violemment l’adversaire. L’importance du recul dépend de l’arme utilisée. Les boucliers repoussent l’adversaire d’un mètre par tranche de deux points de dégâts (avant toute soustraction due à l’armure, la parade, etc.), tandis que les armes contondantes provoquent un recul d’un mètre tous les trois points de dégâts. Repousser ne fonctionne que sur les créatures ayant jusqu’à deux fois la TAI de l’attaquant. Si la victime recule dans un obstacle, elle devra réussir un jet Difficile d’Athlétisme ou d’Acrobatie pour éviter de trébucher ou de tomber.
 
-#### Over-penetration
+Armes à feu : Étant donné que Repousser consiste davantage à déséquilibrer un adversaire plutôt qu’à le projeter en arrière par la force, il est concevable qu’une cible puisse chanceler si elle est heurtée par un projectile sur une extrémité. Les armes énergétiques sont moins susceptibles d’infliger un tel effet, à moins que le rayon soit de nature à provoquer une forme d’explosion à l’impact.
 
-Critical, Firearms Only. If shooting at lineally positioned opponents or into a densely packed group, this special effect allows the shot to travel completely through the first victim to strike a second behind them, assuming that it overcomes the first target's body armor. The second victim, however, only suffers half damage due to attenuation or slowing down of the shot. Over-penetration is generally of more use with high powered weapons that inflict large amounts of damage or those which have some sort of armor piercing ability. Any special effects inflicted on the first target are not applied to the second.
+#### Saigner
 
-#### Pin Down
+L’attaquant essaie de trancher un vaisseau sanguin important. Si le coup traverse l’armure et blesse la cible, le défenseur doit effectuer un jet d’opposition d’Endurance contre le jet d’attaque initial. Si le défenseur échoue, il commence à saigner abondamment. Au début de chaque round, la fatigue de la victime augmente d’un niveau jusqu’à ce qu’elle s’effondre et meure. L’hémorragie peut être jugulée par un jet réussi de Premiers Soins, mais la victime ne peut plus effectuer d’activité intense ou violente sans rouvrir la plaie. Voir Hémorragie à la page 46.
 
-Firearms Only. Similar to Press Advantage, this special effect forces the target to make an Opposed Test of their Willpower against the attacker's hit roll. Failure means that the target hunkers down behind whatever cover is available and cannot return fire on their next Turn. Note that Pin Down works even if no actual damage is inflicted on the target (perhaps due to a successful evasion or shots striking their cover instead), as it relies on the intimidation effect of gunfire passing very close by.
+Armes à feu : La plupart des armes à feu infligent des plaies de faible diamètre et sont donc moins susceptibles de toucher ou de sectionner un gros vaisseau sanguin qu’une arme blanche. En conséquence, cet effet spécial nécessite une réussite critique — à moins que l’arme ne projette des projectiles bizarres comme des shurikens, des fléchettes militaires, des champs de force aplatis ou d’autres munitions exotiques.
 
-Although a pinned victim is unable to fire back for the requisite time, they can perform other actions provided they don't expose themselves to fire in the process, such as crawling away to new cover, communicating with others, reloading a weapon and so on.
+#### Saisir
 
-#### Prepare Counter
+À condition que l’adversaire soit à portée de ses armes naturelles, le personnage peut agripper son adversaire, à l’aide d’une main libre ou d’un membre similaire capable de saisir, comme des griffes, une queue ou un tentacule. Il empêche ainsi l’adversaire de se désengager du combat. Toutefois, l’adversaire peut tenter de se libérer à son tour : il se libère s’il réussit un jet d’opposition de Force Brute ou de Bagarre. Chaque protagoniste utilise la compétence de son choix parmi ces dernières.
 
-The defender reads the patterns of his foe and prepares a counter against a specific Special Effect (which should be noted down in secret). If his opponent attempts to inflict the chosen Special Effect upon him during the fight, the defender instantly substitutes the attacker's effect with one of his own, which succeeds automatically.
+#### Se Libérer
 
-#### Rapid Reload
+Sur une réussite critique, le défenseur se libère automatiquement des effets spéciaux comme Coincer l’Arme, Emmêler ou Saisir.
 
-When using a Ranged Weapon, the attacker reduces the reload time for the next shot by one. This effect can be stacked. For firearms, whilst useful for black powder or single round firearms, this effect has less of an obvious application when applied to automatic weapons, where the next shot is chambered (or charged) instantly. However, Rapid Reload could be used instead to quickly change weapon magazines. It might also be applicable for energy weapons that possess lengthy cycle times to recharge capacitors or allow the barrel to cool.
+#### Se Redresser
 
-#### Scar Foe
+Le défenseur profite d’une ouverture momentanée pour se remettre sur ses pieds.
 
-The combatant inflicts his opponent with a scar that will be the talk of all for the rest of his or her life – such as an almost-severed-throat, or the letter 'Z' artfully inscribed across the chest.
+#### Se Replier
 
-#### Select Target
+Le défenseur peut automatiquement s’éloigner hors de portée, rompant le combat contre cet adversaire.
 
-When an attacker Fumbles, the defender may maneuver or deflect the blow in such a way that it hits an adjacent bystander instead. This requires that the new target is within reach of the attacker's close combat weapon, or in the case of a ranged attack, is standing along the line of fire. The new victim is taken completely by surprise by the unexpected accident and has no chance to avoid the attack which automatically hits. In compensation, however, they suffer no Special Effect.
+#### Transpercer
 
-#### Slip Free
+Réussite critique, armes à feu uniquement. Dans le cas d’un tir contre plusieurs adversaires alignés les uns derrière les autres ou rassemblés en groupe compact, cet effet spécial permet au projectile de transpercer entièrement la première cible pour atteindre la seconde se trouvant derrière, sous réserve que les dégâts dépassent les points d’armure de la première cible. La seconde cible ne subit, elle, que la moitié des dégâts en raison de l’atténuation de la force du projectile. Transpercer est habituellement utilisé avec des armes de forte puissance infligeant beaucoup de dégâts ou disposant de projectiles perforants. Tout effet spécial supplémentaire que subit éventuellement la première cible ne s’applique pas à la seconde.
 
-On a Critical the defender can automatically escape being Entangled, Gripped, or Pinned.
+#### Tir Précis
 
-#### Stun Location
+Le tireur échange la localisation touchée avec une localisation adjacente. Il faut tenir compte de l’anatomie de la cible. Ainsi un tireur qui atteint la jambe d’un humanoïde pourra toucher l’abdomen à la place ; s’il atteint un griffon à la poitrine, il pourra choisir les membres antérieurs, les ailes ou la tête.
 
-The attacker can use a bludgeoning weapon to temporarily stun the body part struck. If the blow overcomes Armor Points and injures the target, the defender must make an Opposed Roll of Endurance vs. the original attack roll. If the defender Fails, then the Hit Location is Incapacitated for a number of Turns equal to the damage inflicted. A blow to the torso causes the defender to stagger winded, only able to defend. A head shot renders the foe briefly insensible and unable to act.
+#### Traverser l’Armure
 
-#### Sunder
+Sur une réussite critique, l’attaquant découvre une faille dans l’armure naturelle ou portée du défenseur. Si le défenseur porte une armure par-dessus sa protection naturelle, l’attaquant devra décider laquelle des deux il traverse. Cet effet peut être cumulé pour contourner les deux à la fois. Pour les besoins de cet effet, une protection physique d’origine magique est considérée comme étant une armure portée.
 
-The attacker may use a suitable weapon, such as an axe, to damage the armor or natural protection of an opponent. Any weapon damage, after reductions for parrying or magic, is applied against the armor Point value of the protection. Surplus damage over its Armor Points is then used to reduce the Armor Point value of that armor(ed) location – ripping straps, bursting rings, creasing plates, or tearing away the hide, scales, or chitin of monsters. If any damage remains after the protection has been reduced to zero AP, it carries over onto the Hit Points of the location struck. For firearms, Sunder would be suitable for energy-based firearms designed to destroy ablative armors or more exotic concepts like gravity wave guns.
+Armes à feu : Bien que cet effet spécial puisse normalement être utilisé avec tout type d’attaque, certaines munitions n’y ont pas accès (la chevrotine par exemple en raison de sa dispersion). Au contraire, certains types de munitions en bénéficient automatiquement en raison de leur conception (projectiles à téléportation), et accordent cet effet spécial en bonus, en plus des autres éventuellement obtenus. Cela dépend beaucoup de la façon dont le maitre de jeu souhaite modéliser l’arme en question.
 
-#### Trip Opponent
+## Combat rapproché
 
-The character attempts to overbalance or throw his opponent to the ground. The opponent must make an Opposed Roll of his Brawn, Evade, or Acrobatics against the character's original roll. If the target fails, they fall prone. Quadruped opponents (or creatures with even more legs) may substitute their Athletics skill for Evade and treat the roll as one Difficulty Grade easier. For firearms, assuming the firearm shoots ammunition with mass, there is no reason that this effect couldn't be used when shooting at the legs of an opponent, even if no damage penetrates any worn protection.
+Le combat rapproché correspond au corps à corps classique opposant des adversaires utilisant des armes de mêlée ou des armes naturelles. Bien que les bases du combat aient été décrites précédemment, cette section fournit des suggestions pour rendre le combat rapproché plus intéressant et détaille des concepts présentés au début de ce chapitre.
 
-#### Weapon Malfunction
+### Modificateurs situationnels
 
-Attacker Fumbles, Firearms Only. The attacker's firearm malfunctions in such a way that it is rendered useless until time can be spent field stripping and cleaning it.
+Les modificateurs situationnels s’appliquent dans des circonstances de combat particulières ou lors de l’utilisation d’effets spéciaux. Par exemple, combattre dans le noir impose un niveau de difficulté Herculéen. Sauf indication contraire, les modificateurs sont choisis par le maitre de jeu. Lorsque plusieurs modificateurs situationnels peuvent s’appliquer à un personnage, utilisez le plus sévère.
 
-#### Withdraw
+Dans certaines circonstances, plutôt que d’appliquer un niveau de difficulté, la compétence Combat est limitée par une compétence particulière. Par exemple, lorsqu’un personnage combat à cheval, son style de combat ne peut pas dépasser sa compétence Équitation. Dans l’eau, le style de combat d’un personnage est limité par sa compétence Nage.
 
-The defender may automatically withdraw out of reach, breaking off engagement with that particular opponent.
+Modificateurs situationnels de combat rapproché
 
----
-## Close Combat
-
-Close combat is hand-to-hand fighting in its classic sense when combatants strike each other with wielded or natural weapons. The following guidelines offer ways to make close combat more interesting and help to further explain some concepts hinted at earlier in this chapter.
-
-### Situational Modifiers
-
-Situational modifiers may be applied when fighting in particular conditions, or as the result of a Special Effect. For example, fighting in the dark might incur a Difficulty Grade of Herculean. Unless stated otherwise, modifiers are decided by the Games Master. Where two or more situations are pertinent to the character, use the most severe.
-
-Some modifiers are circumstance dependent, but rather than applying a Difficulty Grade the Combat Skill is limited by a relevant skill. For example, fighting from the back of a horse would cap the combatant's Combat Skill by their Ride skill, while fighting in water might cap it to the value of the character's Swim.
-
-#### Close Combat Situational Modifiers
-
-| Situation | Difficulty Grade |
-| :-- | :-: |
-| Attacking a helpless target | Automatic |
-| Attacking in a confined situation | Hard |
-| Defending while on lower ground or against mounted foe | Hard |
-| Fighting while on unstable ground | Hard |
-| Fighting while crouching or from one knee | Hard |
-| Fighting in poor visibility (thick fog, snowstorm) | Hard |
-| Defending against an attack from behind | Formidable |
-| Fighting while prone | Formidable |
-| Fighting in partial darkness (dim illumination) | Formidable |
-| Fighting in pitch black conditions (no illumination at all) | Herculean |
-| Blinded or loss of primary perceptive sense | Herculean |
+| Situation                                                                 | Niveau de difficulté |
+|---------------------------------------------------------------------------|----------------------|
+| Attaquer une cible sans défense                                           | Automatique          |
+| Attaquer en situation confinée                                            | Difficile            |
+| Combattre sur un sol instable                                             | Difficile            |
+| Combattre accroupi ou à genou                                             | Difficile            |
+| Combattre avec une faible visibilité (brouillard épais, tempête de neige) | Difficile            |
+| Se défendre en contrebas ou contre un adversaire monté                    | Difficile            |
+| Combattre au sol                                                          | Redoutable           |
+| Combattre dans l’obscurité partielle (faible lumière)                     | Redoutable           |
+| Se défendre contre une attaque de dos                                     | Redoutable           |
+| Aveuglé ou perte du sens principal de perception                          | Herculéen            |
+| Combattre dans le noir complet (aucune lumière)                           | Herculéen            |
 
 ### Engagement
 
-A character is considered Engaged if within melee weapon range of an opponent. This does not necessarily require that both combatants can reach each other; only that one of them can be potentially struck by the other. Once a character has Engaged with an opponent, they can no longer freely depart that fight (charging past is a special exception). It requires some form of deliberate act to break contact with the foe, normally performed via a Combat Action such as Outmaneuver, or use of the Withdraw Special Effect.
+Un personnage est considéré comme étant engagé s’il est à portée d’une arme naturelle ou de mêlée de son adversaire. Cela ne signifie pas qu’il peut atteindre son adversaire, mais seulement qu’il peut être atteint par celui-ci. Un personnage engagé ne peut plus quitter librement le combat rapproché (la charge étant une exception). Se désengager est un acte délibéré que l’adversaire peut tenter de contrer ; il est normalement réalisé par l’intermédiaire d’une action de combat, comme Changer la Distance ou Manœuvrer ou grâce à un effet spécial Se Replier.
 
-### Charging
+### Balayages
 
-The Charge action is the act of moving quickly to increase the force and impact of an attack. A charge requires the attacker to choose a Charge action, moving at either a Run or Sprint Gait - see the [Movement Rate](0002_Characters.md?id=movement-rate) section above. Movement rules are fully covered in the _Mythras_ rulebook. 
+Les attaques de balayage surviennent à la discrétion du maitre de jeu, lorsque des armes ou des créatures de taille inhabituelle ciblent un groupe d’adversaires agglutinés, par exemple la charge implacable d’un tricératops ou la queue d’un énorme dragon fauchant plusieurs ennemis simultanément.
 
-If this brings them into contact with their opponent, they must stop there and conduct the Attack action, as modified for the charge. There is no minimum distance that must be covered before a charge can take place, as the distance moved is less a factor than the momentum achieved. Hence running or sprinting.
+Une attaque de balayage est effectuée en appliquant un jet d’attaque unique contre toutes les cibles sur le chemin de l’attaquant. Chaque défenseur doit résoudre séparément les effets de l’attaque, et les éventuels effets spéciaux affectant l’attaquant sont considérés comme ayant lieu simultanément.
 
-While charging, the attack roll suffers a Difficulty Grade of Hard. In return the charge increases the Size of the attacking weapon by one step and a bipedal attacker's Damage Modifier by one step, or two steps if a quadruped (or more legs). Riding characters may substitute their Damage Modifier for that of their mount instead. The final position of the charging character depends on the result of the exchange and whether the attacker wishes to stop or continue sweeping past, immediately breaking engagement.
+### Bond offensif
 
-Rather than Parrying or Evading, the recipient of a charge can simultaneously counterattack the charging attacker instead. In this case the wielder of the longer weapon strikes first. If the weapon can be set to receive a charge (such as a spear), the recipient may use the Damage Modifier of the charger instead of his own.
+Les bonds offensifs sont surtout utilisés dans le cadre d’une embuscade ou pour conclure une charge. Certaines créatures ont même la capacité de bondir sur un adversaire sans avoir besoin d’une course d’élan ou d’une position surélevée.
 
-### Cover
+Une attaque par bond est résolue par un jet différentiel d’Athlétisme contre la Force Brute ou l’Esquive du défenseur. Si la cible est un quadrupède, la difficulté du jet de l’attaquant augmente d’un niveau. Si le défenseur échoue, il se retrouve automatiquement à terre, avec l’attaquant à califourchon sur lui. Si l’attaque échoue, le défenseur a évité ou bien a résisté à l’impact. Si le vainqueur obtient une différence d’un niveau de réussite ou plus sur son adversaire, il peut choisir des effets spéciaux adaptés comme en combat normal.
 
-Opponents use cover to obstruct attacks against them, by either physically blocking a blow due to the toughness of the interposing material, or by obscuring where precisely the foe is. The precise value of cover depends on the thickness of its protection and the extent of its coverage.
+Le saut lui-même n’inflige aucun dégât. Mais la victime au sol ne peut se relever que si son agresseur la libère, ou si elle obtient l’effet spécial Se Redresser. En outre, les bonds offensifs ne fonctionnent que contre des adversaires dont la TAI ne dépasse pas deux fois celle de l’attaquant. En utilisant l’action Renforcer sa Position, la cible devient plus difficile à renverser, à condition d’avoir conscience de l’attaque imminente.
 
-An attack against a target that lands on an obscured Hit Location will be blocked to the extent of the cover's inherent protection. Cover can be partially negated either by use of the Choose Location Special Effect to aim at visible parts of the target or striking through the cover if the weapon can penetrate it.
+### Charger
 
-In situations where cover is total, but the attacker believes his attack will penetrate, they may strike blindly at the hidden target. In such cases, the attack roll is one grade harder, and Choose Location may not be taken if a Special Effect is won. This assumes the attacker knows fairly accurately the target's position behind the cover.
+La charge est l’acte de se déplacer rapidement pour augmenter la force et l’impact d’une attaque. Pour charger, l’attaquant doit choisir l’action Charger et courir (ou sprinter). Une fois au contact avec son adversaire, l’attaquant s’arrête et réalise l’action Attaquer, modifiée par la charge. Une charge n’impose pas de distance minimale pour prendre de l’élan. En effet, seule la vitesse est prise en compte, et non la distance parcourue. C’est pourquoi l’attaquant doit simplement courir ou sprinter.
 
-### Evading
+Lorsqu’un personnage charge, son jet d’attaque est Difficile. En contrepartie, la taille de son arme augmente d’une catégorie. De plus, la charge augmente d’un niveau le modificateur de dégâts d’un attaquant bipède et de deux niveaux celui d’un quadrupède (ou d’une créature avec encore plus de pattes). Un personnage monté peut substituer son modificateur de dégâts par celui de sa monture. La position finale du personnage qui charge dépend du résultat de l’attaque et de son choix de s’arrêter ou de continuer sa course, rompant aussitôt l’engagement.
 
-Evading in combat is to throw oneself clear of an overwhelming attack. This requires an Opposed Roll of the Evade skill of the defender versus the attacker's pertinent roll. This could be anything from the Drive skill of a ramming battle tank to the spell casting skill of a magician. If the attacker wins, then they inflict damage as per normal. If the defender wins, damage is completely avoided.
+Plutôt que de parer ou d’esquiver, la cible d’une charge peut contrattaquer au moment de la charge. Dans ce cas, celui qui possède l’arme la plus longue frappe en premier. Si le défenseur utilise une arme pouvant être « calée » en vue d’une charge (telle qu’une lance), il peut remplacer son modificateur de dégâts par celui de l’adversaire qui charge.
 
-If the winner of the Opposed Roll achieves one or more Levels of Success over his opponent, they may select suitable Special Effects as per normal combat. Whatever the result, the evasive gambit leaves the defender prone – usually requiring the character to regain his footing on his following turn – unless they can use the Arise Special Effect.
+### Couverture
 
-### Knockback
+Les protagonistes se mettent à couvert pour se protéger des attaques. Ils peuvent ainsi bloquer un coup grâce à la solidité du matériau d’interposition ou cacher leur position à l’ennemi. La valeur précise de cette couverture dépend de l’épaisseur et de l’étendue de la protection.
 
-An attack which imparts more damage than the SIZ of the recipient will, by default, result in the character being knocked back. The damage in this circumstance is before any reduction due to parrying or armor. On receiving such a blow, the recipient must pass an Easy Acrobatics or Standard Athletics roll to avoid falling prone. They are also thrust one metre for every five points of damage (or fraction thereof) over their SIZ. Proactively using the Brace Combat Action can reduce or even negate the effects of knockback.
+Une attaque dirigée contre la cible atteignant une localisation couverte sera bloquée à hauteur de la protection fournie par la couverture. Les effets d’une couverture peuvent être partiellement annulés, soit en utilisant l’effet spécial Choisir la Localisation pour viser les parties visibles de la cible, soit en frappant à travers la couverture avec une arme capable de la pénétrer.
 
-### Leaping Attacks
+Dans les situations où la couverture est totale, mais où l’attaquant pense que son attaque pénètrera la couverture, il peut attaquer la cible cachée à l’aveuglette. Dans ce cas, la difficulté du jet d’attaque est augmentée d’un niveau et l’effet spécial Choisir la Localisation ne peut pas être sélectionné. Une telle attaque n’est possible que si l’attaquant connait assez précisément la position de la cible derrière la couverture.
 
-Leaping attacks can be launched from a variety of situations, most are triggered as part of an ambush or at the conclusion of a charge, but some creatures can leap atop an opponent without the need for a run-up or superior height.
+### Esquive
 
-A leaping attack is resolved with an Opposed Roll of the leaper's Athletics skill versus the defender's Brawn or Evade skill. Quadruped targets make the attack roll one Difficulty Grade harder. If the leaper wins then the defender is automatically knocked prone, with the attacker astride them. Failure means the defender has weathered or sidestepped the impact. If the winner of the Opposed Roll achieves one or more Levels of Success over his opponent, they may select suitable Special Effects as per normal combat.
+Esquiver au cours d’un combat consiste à se jeter sur le côté pour éviter une attaque. Une telle action nécessite un jet différentiel entre la compétence Esquive du défenseur et la compétence appropriée de l’attaquant. Cela peut être n’importe quoi, de la compétence Conduite d’un char de combat lancé à pleine vitesse à la compétence de lancer de sort d’un magicien. Si l’attaquant l’emporte, il inflige les dégâts habituels. Si le défenseur gagne, les dégâts sont complètement évités.
 
-No damage is inflicted as part of the leap; however, a subsequently prone victim cannot recover his footing until either his attacker leaves, or they eventually win a Special Effect permitting them to Arise. In addition, leaping attacks only work against opponents of up to twice the attacker's SIZ. A target can make themselves more difficult to knock down by proactive use of the Brace Combat Action, provided they are aware of the impending leap attack.
+Si le vainqueur du jet différentiel obtient un ou plusieurs niveaux de réussite de plus que son adversaire, il peut choisir des effets spéciaux adaptés, comme en combat normal. Quel que soit le résultat, l’esquive laisse le défenseur au sol, l’obligeant en général à utiliser l’action Se Redresser au tour suivant.
 
-### Outmaneuvering
+## Manœuvrer
 
-A character facing multiple opponents can use movement to limit the number which can attack him at any time, constantly shifting position, forcing foes to interfere with one another. Outmaneuvering requires that the character has room to move about and is not pinned in a confining area.
+Un personnage affrontant plusieurs adversaires peut se déplacer de façon à limiter le nombre d’ennemis susceptibles de l’attaquer à un moment donné. Pour cela, il change en permanence de position, ce qui oblige des ennemis à se gêner les uns les autres. Un personnage qui manœuvre doit disposer d’une grande liberté de mouvement et ne doit donc pas être acculé.
 
-Outmaneuvering requires that the character engages his opponents in a group Opposed Roll of Evade skills. Every participant, both the maneuvering character and those foes who wish to corner him, must spend an Action Point. Then they each roll once and those who fail to beat the maneuvering character's roll cannot attack him for the remainder of that Combat Round, being blocked by their allies or terrain features.
+Le personnage qui manœuvre effectue un jet d’opposition de groupe de la compétence Esquive contre ses adversaires. Lui et chaque adversaire désirant le coincer doivent dépenser un point d’action. Les protagonistes effectuent ensuite leurs jets. Tous ceux qui ne parviennent pas à battre le jet du personnage qui manœuvre sont dits manœuvrés : ils ne peuvent l’attaquer pour le reste de ce round de combat, car ils sont bloqués par leurs alliés ou par des obstacles.
 
-If the maneuvering character beats all of his opponents, one has the choice of safely engaging a single foe for the rest of the Round or Withdrawing from the fight completely.
+Si le personnage l’emporte sur tous ses adversaires, il peut soit combattre en toute sécurité un seul ennemi pour le reste du round, soit se replier pour se désengager du combat.
 
-### Passive Blocking
+### Parade passive
 
-Passive Blocking allows a character armed with a weapon to hold it in such a way that it covers a chosen location (or locations when using a shield), but at the cost of being unable to actively Parry with it (see Ward Location). Any attack which hits the locations automatically receives the benefit of the weapon or shield, reducing damage as normal. The technique is commonly used when a warrior wishes to guard a weak spot or wounded location. Nothing prevents a dual weapon, or weapon and shield combatant from using his other weapon to actively parry.
+La parade passive consiste à placer une arme ou un bouclier de manière à protéger une localisation du corps, ou plusieurs dans le cas d’un bouclier, en abandonnant la possibilité de l’utiliser pour parer activement (voir Garde page 62). Toute attaque atteignant ces localisations subit automatiquement la réduction des dégâts habituelle de l’arme ou du bouclier. Cette technique est couramment utilisée lorsqu’un guerrier tient à protéger un point faible ou une localisation blessée. En outre, rien n’empêche un combattant avec deux armes (ou avec une arme et un bouclier) d’utiliser l’autre pour parer activement.
 
-Since Passive Blocking works in the same way as cover, the Choose Location Special Effect cannot be used to bypass the block in close combat, though opponents can still use the effect to strike other unblocked areas. Crouching down behind a shield allows a character to double the number of locations covered while Passive Blocking.
+Comme la parade passive fonctionne de la même manière qu’une couverture, l’effet spécial Choisir la Localisation ne peut pas être utilisé pour contourner la protection, même s’il peut servir à atteindre une localisation non protégée. Avec un bouclier, la parade passive est très efficace contre les projectiles, car Choisir la Localisation demande une réussite critique pour les armes à distance. En s’accroupissant derrière son bouclier, le personnage peut doubler le nombre de zones couvertes par une parade passive.
+
+### Recul
+
+Une attaque qui provoque plus de dégâts que la TAI du personnage le fera reculer. On considère pour cela les dégâts effectués avant toute réduction due à la parade ou à l’armure. En recevant un tel coup, le personnage doit réussir un jet Facile d’Acrobatie ou Standard d’Athlétisme pour éviter de tomber au sol. Il est également repoussé d’un mètre par tranche (ou fraction) de cinq points de dégâts au-delà de sa TAI. L’utilisation de l’action Renforcer sa Position peut réduire ou même annuler les effets du recul.
 
 ### Surprise
 
-Surprise occurs when an unexpected attack is launched against opponents unaware of the attacker's presence or intention. An ambush would be an example of the former, while treacherously turning on an unsuspecting ally during amiable conversation illustrates the latter.
+Un personnage est surpris lorsqu’il subit une attaque inattendue de la part d’un assaillant dont il ignorait la présence ou les intentions. On peut penser par exemple à une embuscade ou à la trahison d’un allié lors d’une conversation amicale.
 
-The effects of surprise on a target are potent:
+Un personnage surpris est fortement désavantagé :
 
-- The target suffers a –10 penalty to Initiative.
-- Until their Initiative arrives, they are considered flat-footed and cannot defend themselves.
-- The first attack on the target, if successful, gains a bonus Special Effect
-- For the remainder of the Round, they may not perform any offensive ActionAction.
+-   Il subit un malus de − 10 à l’initiative ;
+-   Jusqu’à ce que son tour survienne (en tenant compte du malus d’initiative), il est considéré comme pris au dépourvu et ne peut se défendre ;
+-   La première attaque sur le personnage bénéficie, en cas de réussite, d’un effet spécial en bonus ;
+-   Pour le reste du round, le personnage ne pourra pas effectuer d’action offensive.
 
-### Sweep Attacks
+## Combat à distance
 
-Sweep attacks occur at the Games Master's decision, when weapons or creatures of unusual size attack a closely clumped group of opponents – the scything tail of a huge dragon or the unstoppable charge of a giant triceratops for example – striking several foes simultaneously.
+Le combat à distance englobe toutes les armes qui peuvent être tirées, lancées ou projetées sur une cible. Les attaques à distance sont gérées comme les attaques rapprochées. Cependant, les armes à distance ne peuvent normalement être parées qu’avec des boucliers ; sans ceux-ci, il faut donc esquiver le tir ou se mettre à couvert. De ce fait, les armes à distance peuvent être redoutables contre des ennemis mal protégés.
 
-A sweep attack is made by applying a single attack roll of the weapon or creature to all targets in its path. Each defender must resolve the effects of the attack separately and any Special Effects imposed on the attacker are treated as having occurred concurrently.
+Chaque arme à distance possède des attributs spécifiques qui déterminent son efficacité. Ceux qui ont une incidence sur le combat sont les suivants :
 
----
-## Ranged Combat
+#### Impact
 
-Ranged combat incorporates all forms of weaponry which require to be shot, thrown, or slung to strike their target. Ranged attacks are resolved in an identical way to close combat. However, Ranged Weapons can normally only be parried with shields; those without must rely on natural cover or use Evade to dive out of the line of fire. Thus, against lightly armored foes, Ranged Weapons can be formidable deterrents.
+L’équivalent de la taille pour les armes à distance. C’est une mesure abstraite du pouvoir de pénétration de l’arme ou du projectile qui permet de déterminer si l’attaque transperce la parade (du bouclier).
 
-Each Ranged Weapon has several specific attributes which determine its effectiveness. The ones which have a key bearing on combat are as follows:
+#### Modificateur de dégâts
 
-- **Force:** The Ranged Weapon equivalent of Size. It is an abstract measure of the penetrative power of a weapon or its ammunition to determine whether the blow overcomes a (shield) parry.
-- **Damage Modifier:** This Attribute shows whether the Damage Modifier of the attacker can be used to boost the Ranged Weapon's damage roll. In general, only self-drawn bows and thrown weapons allow the user to apply their Damage Modifier.
-- **Range:** Three numbers separated by slashes, representing the maximum Close, Effective, and Long ranges of the weapon or its ammunition. Close Range is the distance over which the Choose Location Special Effect may be used, provided the target is stationary or unaware of the impending attack. Effective Range has no significant modifiers. At Long Range, the weapon can still inflict harm, but the amount of damage is halved, and Force is reduced by one step.
-- **Load:** The time in Turns taken to load or reload a weapon that fires ammunition. A character can reduce the time spent loading or readying by use of the Rapid Reload Special Effect.
-- **Impale Size:** The Size of an impaled weapon is different from the Force it strikes with. Ranged impaling weapons have a special column denoting their actual size when considering the hindrances caused by the Impale Special Effect.
+Cet attribut indique si le modificateur de dégâts de l’attaquant peut être utilisé pour augmenter le jet de dégâts de l’arme à distance. En général, seuls les arcs et les armes de jet le permettent.
 
-### Situational Modifiers
+#### Portée
 
-As with close combat, situational modifiers may be applied when using Ranged Weapons in particular conditions. A character's Combat Skill may be capped when using the weapon in difficult circumstances, such as throwing a spear while riding a horse.
+Trois nombres séparés par des traits représentent les portées Courte, Efficace et Longue de l’arme ou de la munition. La portée Courte est la distance à laquelle l’effet spécial Choisir la Localisation peut être utilisé, à condition que la cible soit immobile ou inconsciente de l’attaque. La portée Efficace n’implique pas de modificateur particulier. À Longue portée, l’arme peut encore blesser, mais les dégâts sont divisés par deux et l’impact est réduit d’une catégorie.
 
-##### Ranged Combat Situational Modifiers
+#### Recharge
 
-| Situation | Difficulty Grade |
-| :-- | --- |
-| Light Wind\* | Hard |
-| Moderate Wind\* | Formidable |
-| Strong Wind\* | Herculean |
-| Gale, Storm, or Worse\* | Hopeless |
-| Target is Running | Hard |
-| Target is Sprinting | Formidable |
-| Target obscured by mist or is in partial darkness | Hard |
-| Target obscured by thick smoke or is in darkness | Formidable |
-| Target completely obscured | Herculean |
-| Target completely invisible | Impossible\*\* |
-| Target prone | Formidable |
-| Attacker prone\*\*\* | Herculean |
-| Attacker is on unstable ground | Hard |
+Le temps en tours nécessaire pour charger ou recharger une arme tirant des munitions. Un personnage peut réduire ce délai grâce à l’effet spécial Rechargement Rapide.
 
-_\* Assumes the thrown weapon or ammunition is vulnerable to crosswinds, and supersedes the normal penalty imposed by the winds on normal skills._
+### Taille d’empalement
 
-_\*\* Unless targets general location is revealed or known, then treat as Herculean_
+La taille d’une arme empalée est différente de sa valeur d’impact. Les armes à distance pouvant empaler ont une colonne spéciale indiquant la taille réelle à prendre en compte lorsqu’on considère les effets causés par l’effet spécial Empaler.
 
-_\*\*\* Penalty can be negated if using a crossbow or firearm from a prepared position._
+### Modificateurs situationnels
 
-### Aiming
+Comme pour le combat rapproché, des modificateurs situationnels peuvent s’appliquer aux armes à distance. Le style de combat d’un personnage peut être limité lorsqu’une arme est utilisée dans les circonstances difficiles, par exemple jeter une lance en montant à cheval.
 
-By spending additional time aiming a Ranged Weapon, a character can potentially increase his chance of hitting. Aiming requires an entire Combat Round steadying the weapon and waiting for the best opportunity to release, for example withholding a bowshot for a momentary lull in the wind or until a target moves between two obstructions. By aiming, the character may reduce the difficulty of a Range or Situational Modifier by one grade. Additional Rounds spent aiming grant no further advantage.
+Modificateurs situationnels de combat à distance
 
-### Automatic Fire
+| Situation                                                    | Niveau de difficulté |
+|--------------------------------------------------------------|----------------------|
+| Vent léger\*                                                 | Difficile            |
+| Vent modéré\*                                                | Redoutable           |
+| Vent puissant\*                                              | Herculéen            |
+| Tornade, tempête ou pire\*                                   | Sans espoir          |
+| La cible court                                               | Difficile            |
+| La cible zigzague                                            | Redoutable           |
+| Cible obscurcie par du brouillard ou des ténèbres partielles | Difficile            |
+| Cible obscurcie par une fumée épaisse ou dans les ténèbres   | Redoutable           |
+| Cible complètement obscurcie                                 | Herculéen            |
+| Cible complètement invisible                                 | Impossible\*\*       |
+| Aveuglé ou perte du principal sens de perception             | Sans espoir          |
+| Cible au sol                                                 | Redoutable           |
+| Attaquant au sol\*\*\*                                       | Herculéen            |
+| Attaquant sur un sol instable                                | Difficile            |
 
-Some firearms automatically chamber the next shot, by using the waste gases, recoil, or energy from the previous shot. With no need to re-cock, this grants the weapon a range of different firing rates, all dependent on how much ammo the user wishes to release.
+\* Suppose que l’arme lancée ou la munition est vulnérable au vent, et prend le pas sur le malus normal du vent sur les compétences physiques.
 
-These firing modes are known as Semi-Automatic, Burst and Full-Automatic. Whilst this ability can make some guns capable of dealing out fearsome damage, trying to maintain accuracy with recoiling weapons is problematic. Assume that the following rules primarily apply to projectile firing automatic weapons.
+\*\* Si l’emplacement approximatif de la cible est connu ou révélé, le niveau de difficulté est abaissé à Herculéen.
 
-#### Semi-Automatic
+\*\*\* Le malus peut être annulé pour un tir d’arbalète ou d’arme à feu depuis une position préparée.
 
-This is actually the default rate of fire for most guns, where each pull of the trigger fires a single shot and loads the next round.
+### Tirer dans le tas
 
-#### Burst
+Même pour le tireur le plus compétent, tirer dans la masse tourbillonnante d’une mêlée n’a rien d’évident. Il existe toujours un risque de toucher accidentellement quelqu’un d’autre que la cible désignée.
 
-For burst fire each pull on the trigger releases a short number of rounds, usually no more than three to five depending on the weapon. Its original purpose was to permit limited suppression fire but restrict excessive ammunition use. It is not intended to improve the shooter's chance to hit since rapid, sequential recoil continually jerks the weapon off-line. Firing in burst mode imposes a penalty grade of Hard to the attack roll. If the attack succeeds however, the shooter rolls a dice to see how many of the rounds in that burst struck home on the target. So, a three round burst would use 1d3. Roll separate location and damage for each round which hits.
+Lorsqu’on tire sur une cible spécifique à la lisière d’une foule ou d’une mêlée, le niveau de difficulté de l’attaque est Difficile. Pour toucher une cible au milieu ou de l’autre côté d’un groupe, le niveau de difficulté devrait être augmenté à Redoutable. Toutefois, il est possible de viser pour augmenter les chances de toucher.
 
-#### Full-Automatic
+Un tireur qui réussit son jet d’attaque malgré le malus a visé juste et atteint sa cible. Si le tireur manque le jet qu’il aurait réussi sans le malus imposé par le tir dans le tas, il touche un personnage adjacent (qui peut esquiver ou parer normalement).
 
-Normally used for full blown suppressing fire to pin down multiple targets, full-automatic can be devastating if fired into a closely grouped body of enemies. The shooter decides how many rounds of ammo to fire (up to the limit of the cyclic rate of the weapon) which are then evenly distributed across all the targets included in the arc of fire. Any spare rounds are considered lost whilst traversing aim (thus firing 15 rounds at 6 targets would be two bullets each). A separate attack roll is made for each target, but at a difficulty grade of Formidable due to the increased recoil effects of sustained fire. Those targets who are hit suffer a random number of rounds as per Burst Fire.
+Si plusieurs cibles se trouvent dans la ligne de mire, le maitre de jeu déterminera aléatoirement la victime. Tout effet spécial généré lors de l’attaque s’applique uniquement à la cible initiale, pas à l’individu touché accidentellement.
 
-Note that only the first shot which strikes during a burst or full automatic spray can benefit from special effects. Thus, rolling a critical attack whilst firing in automatic mode would permit the selection of Maximize Damage, but only with the first shot, even if all the remaining rounds hit home.
+### Viser
 
-#### Why is Automatic Fire So Heavily Penalised?
+En passant plus de temps à viser avec une arme à distance, un personnage peut augmenter ses chances de toucher. Viser nécessite un round entier pour stabiliser son arme et attendre la meilleure opportunité : accalmie momentanée du vent, cible qui se déplace entre deux obstacles… En visant, le personnage peut réduire d’un niveau la difficulté d’un modificateur situationnel. Les rounds supplémentaires passés à viser n’accordent aucun avantage supplémentaire.
 
-It might appear that the rules for automatic fire are unduly harsh compared with the apparent accuracy of modern firearms. There are several reasons for this, the primary ones being streamlining and game balance. Players who criticize their character's inaccuracy should be reminded that any tweaks to the rules will be applied against them too, which given the lethality of rapid fire should be a sobering thought.
+### Tir automatique
 
-Of course, some of these recoil penalties can be mitigated, for example by using Steady Weapon to brace automatic firearms. The truth of the matter is though, that firefights are very different to target shooting on a gun range. The instinct to take cover when bullets are flying, the need to keep mobile and every shot taken pinpointing the shooter by its muzzle flash or sound, often prevents any chance of aiming or bracing. The phrase 'Spray and Pray' was coined for very good reason!
+Certaines armes à feu chargent automatiquement la munition suivante, en utilisant les gaz résiduels, le recul ou l’énergie de la munition précédente. Cela évite de devoir réarmer et permet au tireur de varier la cadence de tir selon le nombre de munitions qu’il désire utiliser. Cependant, le recul engendré par une cadence de tir élevée peut nuire à la précision.
 
-### Dual Firearms
+Les trois modes de tir sont : semi-automatique (coup par coup), rafale courte (rafale limitée à 3 coups par exemple) et rafale longue (rafale libre).
 
-Characters may use dual firearms, shooting both weapons simultaneously during their Turn to gain a more rapid rate of fire. However, this comes at a penalty to accuracy. Firing a pistol in each hand suffers a penalty of Hard to hit the target. Those trying to concurrently shoot with a carbine or SMG in each hand suffer a penalty of Formidable.
+Les règles suivantes s’appliquent principalement aux armes automatiques à projectiles.
 
-### Firing into a Crowd
+Semi-automatique : C’est en fait la cadence de tir par défaut de la plupart des armes à feu. Chaque pression de la détente provoque un seul tir et charge le projectile suivant.
 
-Firing into the swirling ebb and flow of a melee can be a risky business, thus there is always a risk of accidentally striking someone other than the original target being aimed at. When firing at a specific target at the edge of a crowd or melee, the attack suffers a Difficulty Grade of Hard. If trying to fire through it should be raised to Formidable. Aiming is still permitted to help mitigate the danger.
+Rafale courte : Chaque pression sur la détente libère un petit nombre de projectiles, généralement pas plus de trois à cinq selon l’arme. Ce mode a pour but d’effectuer des tirs de suppression limités, sans dépenser trop de munitions. Il n’est pas destiné à améliorer les chances du tireur de toucher, puisque le recul rapide et séquentiel dévie l’arme hors de la ligne de visée. Ce mode impose un niveau de difficulté Difficile au jet d’attaque. Cependant, si l’attaque réussit, le tireur lance un dé pour savoir combien de projectiles atteignent la cible. Ainsi, pour une rafale de trois balles, utilisez 1d3. Déterminez séparément la localisation et les dégâts pour chaque balle qui fait mouche.
 
-A marksman who passes his attack roll despite the difficulty penalty has aimed true and will hit his intended target. If, however, the marksman fails the roll, but would have succeeded if not for the 'firing into a crowd' penalty, then an adjacent victim is struck instead (who is free to Evade or Parry as normal).
+Rafale longue : Normalement utilisé pour un tir de suppression capable de clouer sur place plusieurs cibles, ce mode peut être dévastateur sur un groupe serré d’ennemis. Le tireur décide du nombre de munitions tirées (dans la limite de la cadence maximum de l’arme), qui sont ensuite réparties uniformément entre toutes les cibles présentes dans l’arc de tir. Tous les projectiles restants sont considérés comme étant perdus dans l’espace entre les cibles (tirer 15 balles sur 6 cibles signifie que deux balles touchent chaque victime). Un jet d’attaque est effectué séparément pour chaque cible, mais à un niveau de difficulté Redoutable en raison de l’effet de recul de ce tir soutenu. Comme dans le cas d’une rafale courte, les cibles touchées subissent un nombre aléatoire d’impacts.
 
-If more than one target is in the line of fire, the Games Master should determine the victim randomly. Any Special Effects won as part of the attack only apply to the original target, not any accidentally struck bystander.
+Notez que seul le premier projectile qui touche avec une rafale courte ou longue peut bénéficier d’effets spéciaux. Ainsi une réussite critique lors d’un tir en rafale permet de choisir Maximiser les Dégâts, mais seulement pour le premier impact, même si tous les autres projectiles atteignent une cible.
 
-### Fumbling with Firearms
+#### Pourquoi le tir automatique est-il autant pénalisé ?
 
-Since gunfire is not normally resisted by an opposing skill, a special provision should be made when a shooter fumbles their attack roll. In this case, whomever was the intended target is allowed to select a fumble specific special effect, which the shooter then suffers. See also the fumble only Special Effect - Weapon Malfunction.
+Les règles de tir automatique peuvent paraitre trop sévères au regard de la précision des armes à feu modernes. Elles ont été conçues ainsi avant tout par souci de simplification et pour préserver l’équilibre du jeu. Les joueurs qui se plaignent de la maladresse de leurs personnages doivent garder à l’esprit que ceux-ci risqueraient de mordre rapidement la poussière si les tirs automatiques étaient plus efficaces…
 
-### Parrying Weapon Fire with Shields
+Bien sûr, certaines pénalités de recul peuvent être atténuées, en utilisant par exemple l’action Stabiliser l’Arme. Mais les échanges de coups de feu réels sont très différents d’un exercice sur un stand de tir. L’instinct de se mettre à couvert quand les balles sifflent, la nécessité de rester mobile, le fait que chaque tir peut faire repérer le tireur à cause de sa flamme ou du son émis… Tout cela empêche de viser correctement ou de stabiliser une arme.
 
-As expressed earlier, it is almost impossible to deliberately parry a supersonic projectile or energy beam. Shields however still provide a degree of protection since in effect they are portable 'cover'. To utilize a shield in a firefight, just use the Passive Blocking rules from the [Close Combat](0005_Combat.md?id=passive-blocking) section, above.
+### Deux armes à feu
 
-With regard to more modern firearms or those of a science fiction nature, a Game Master may wish to grant the shield an Armor Point value rather than assigning it a Size, based upon the inherent material it is made from. For example, a wooden shield might be treated as 4 Armor Points, a Kevlar tactical shield 8 AP, and a Ulysses 31 bracelet force field shield 15 AP.
+Les personnages peuvent tenir une arme à feu dans chaque main pour tirer deux projectiles à la fois pendant leur tour et bénéficier ainsi d’une cadence de tir plus rapide. Cependant, le niveau de difficulté de leur jet d’attaque est Difficile en tirant avec deux pistolets, et Redoutable avec deux carabines ou mitraillettes.
 
-### Telescopic Sights
+### Parer un tir avec un bouclier
 
-A telescopic sight improves the accuracy of a firearm over greater distances when the user takes the time to aim properly (see Aiming). The most basic telescopic sights are merely optical magnifiers, but as technology advances, they begin to incorporate integral rangefinders, projectile trajectory calculators, air movement sensors, atmospheric lensing compensators, IR or low light amplifiers and a host of other gadgets which improve its effective 'hit' distance.
+Comme indiqué précédemment, il est presque impossible de parer volontairement un projectile supersonique ou un faisceau d’énergie. Les boucliers peuvent cependant fournir une certaine protection en tant que « couverture » portable. Pour utiliser un bouclier lors d’un échange de coups de feu, il suffit d’utiliser les règles de parade passive décrites à la page 79.
 
-Telescopic Sights make skill rolls easier by one or more Grades (see [Modifying Skills](0003_Skills.md?id=modifying-skills)), depending on the sophistication of the sight. No sight can make a skill roll an Automatic success, so the best Grade that can be attained is Very Easy.
+### Lunette de tir
 
----
-## Arms and Armor
+Lorsque le tireur prend le temps de viser correctement, une lunette de tir améliore la précision d’une arme à feu à longue distance (voir Viser, page 82). Les lunettes de tir les plus simples ne permettent qu’un grossissement optique, mais les plus évoluées peuvent intégrer un télémètre, un calculateur de trajectoire, un capteur de mouvement de l’air, un compensateur de réfraction atmosphérique, un capteur infrarouge ou un amplificateur de lumière, et une foule d’autres gadgets qui améliorent la portée de tir effective.
 
-Presented here is a selection of armor and weapons from a variety of settings and milieus.
+Une lunette de tir abaisse d’un ou plusieurs niveaux de difficulté le jet de style de combat ou de compétence. Toutefois, elle ne peut pas transformer un jet de style de combat ou de compétence en réussite automatique : la difficulté peut seulement être abaissée au niveau Très Facile.
 
-### Sample Armor Table
+## Armes et armures
 
-| Ancient/Medieval | Modern | Futuristic | Armor Points |
-| :-- | :-- | :-- | :-: |
-| Furs/Hides | Bike Leathers | | 1 |
-| Aketon, Gambeson | Sports Gear | | 2 |
-| Linothorax | Ballistic Cloth | | 3 |
-| Brigandine | Flak Jacket | Liquid Body Armor | 4 |
-| Hoplite Plate | Riot Gear | | 5 |
-| Mail | Type I Bulletproof Vest | Adaptive Mesh | 6 |
-| Plated Mail | Type II Bulletproof Vest | | 7 |
-| | Type III Bulletproof Vest | Light Assault Armor | 8 |
-| | Type IV Bulletproof Vest | | 10 |
-| | | Full Assault Armor | 12 |
+Nous présentons ici une sélection d’armes et d’armures provenant de différentes périodes.
 
-### Sample Shield Table
+Exemples d’armures
 
-| Shield Type | Damage | Size | AP/HP | Number of Locations for Passive Blocking |
-| :-- | :-: | :-: | :-: | :-: |
-| Buckler | 1d3 | M | 6/9 | 2 |
-| Heater | 1d4 | L | 6/12 | 3 |
-| Kite | 1d4 | H | 4/15 | 4 |
-| Scutum | 1d4 | H | 4/18 | 5 |
-| Viking/Riot Shield | 1d4 | L | 4/12 | 4 |
+| Antiquité, M.A.    | Contemporain              | Futur                     | PA |
+|--------------------|---------------------------|---------------------------|----|
+| Fourrures, peaux   | Blouson en cuir de motard |                           | 1  |
+| Jacque, gambison   | Équipement de sport       |                           | 2  |
+| Linothorax         | Tissu balistique          |                           | 3  |
+| Brigandine         | Gilet pare-éclats         | Armure corporelle liquide | 4  |
+| Cuirasse hoplite   | Équipement antiémeute     |                           | 5  |
+| Mailles            | Gilet pare-balle type I   | Maillage adaptatif        | 6  |
+| Mailles et plaques | Gilet pare-balle type II  |                           | 7  |
+| Plaque gothique    | Gilet pare-balle type III | Armure d’assaut légère    | 8  |
+|                    | Gilet pare-balle type IV  |                           | 10 |
+|                    |                           | Armure d’assaut           | 12 |
 
-### Sample Melee Weapons
+Exemples de boucliers
 
-| Weapon | Damage | Size | AP/HP | Notes |
-| :-- | :-: | :-: | :-: | :-- |
-| Axe | 1d6+1 | M | 4/8 | Can Sunder Armor |
-| Broadsword | 1d8 | M | 6/10 | — |
-| Chain | 1d4 | M | 8/6 | Can entangle |
-| Club | 1d6 | M | 4/4 | — |
-| Dagger | 1d4+1 | S | 6/8 | Can be thrown |
-| Fist/Kick | 1d3 | S | — | Human Unarmed Combat Damage |
-| Longsword | 1d8 | M | 6/12 | Two handed |
-| Mace | 1d8 | M | 6/6 | — |
-| Net | 1d4 | S | 2/20 | Entrapping, Thrown |
-| Shortsword | 1d6 | M | 6/8 | — |
-| 1H Spear | 1d8+1 | M | 4/5 | |
-| 2H Spear | 1d10+1 | L | 4/10 | Can be set to receive a charge |
-| War hammer | 1d8+1 | M | 3/8 | Two handed |
-| Whip | 1d3 | M | 2/8 | Entangling |
+| Type de bouclier | Dégâts  | TAI | PA/PV | Nombre de localisations protégées par la parade passive |
+|------------------|---------|-----|-------|---------------------------------------------------------|
+| Écu              | 1d4     | G   | 6/12  | 3                                                       |
+| Pavois           | 1d4     | TG  | 4/15  | 4                                                       |
+| Rondache         | 1d3 + 1 | G   | 6/9   | 2                                                       |
+| Scutum           | 1d4     | TG  | 4/18  | 5                                                       |
+| Viking           | 1d4     | G   | 4/12  | 4                                                       |
 
-### Sample Ranged Weapons
+Exemples d’armes de mêlée
 
-| Weapon | Damage | Damage Modifier | Force | Range (Metres) | Load | Impale Size | AP/HP |
-| :-- | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| Bolas | 1d4 | N | — | 10/25/50 | — | — | 2/2 |
-| Bow | 1d8 | Y | L | 15/100/200 | 1 | S | 4/4 |
-| Dagger | 1d4 | Y | S | 5/10/20 | — | S | 4/8 |
-| Javelin | 1d8+1 | Y | H | 10/20/50 | — | M | 3/8 |
-| Sling | 1d8 | N | L | 10/150/300 | 2 | — | 1/2 |
-| Stone/Rock | 1d3 | Y | S | 5/10/20 | — | — | — |
-| Pistol | 1d6 | N | L | 50/100/200 | 2 | — | — |
-| Rifle | 2d6 | N | H | 100/300/2000 | 2 | — | — |
-| Shotgun | 3d6 | N | M | 20/50/200 | 3 | — | — |
-| Laser Rifle | 1d10+2 | N | — | 40/120/480 | 3 | — | — |
-| Plasma Rifle | 2d6+4 | N | E | 30/100/300 | 3 | — | — |
-| Gauss Rifle | 2d8+2 | N | E | 150/500/5000 | 3 | — | — |
+| Arme              | Dégâts   | TAI | PA/PV | Notes                                       |
+|-------------------|----------|-----|-------|---------------------------------------------|
+| Chaine            | 1d4      | M   | 8/6   | Peut emmêler                                |
+| Dague             | 1d4 + 1  | P   | 6/8   | Peut être lancée                            |
+| Épée courte       | 1d6      | M   | 6/8   |                                             |
+| Épée large        | 1d8      | M   | 6/10  |                                             |
+| Épée longue       | 1d8      | M   | 6/12  | Arme à deux mains                           |
+| Filet             | 1d4      | P   | 2/20  | Piège, Arme de lancer                       |
+| Fouet             | 1d3      | M   | 2/8   | Peut emmêler                                |
+| Grande hache      | 2d6 + 2  | E   | 4/10  | Peut fracasser l’armure, arme à deux mains  |
+| Gourdin           | 1d6      | M   | 4/4   |                                             |
+| Hache             | 1d6 + 1  | M   | 4/8   | Peut fracasser l’armure                     |
+| Lance à 1 M       | 1d8 + 1  | M   | 4/5   |                                             |
+| Lance à 2 M       | 1d10 + 1 | G   | 4/10  | Peut recevoir une charge                    |
+| Marteau de guerre | 1d8 + 1  | M   | 3/8   | Arme à deux mains                           |
+| Masse             | 1d8      | M   | 6/6   |                                             |
+| Poing/pied        | 1d3      | P   | –     | Dégâts d’un combat sans arme pour un humain |
+
+Exemples d’armes à distance
+
+| Arme           | Dégâts   | MD | Impact | Portée       | Rech. | TAI | PA/PV |
+|----------------|----------|----|--------|--------------|-------|-----|-------|
+| Arc            | 1d8      | O  | G      | 15/100/200   | 1     | P   | 4/4   |
+| Bolas          | 1d4      | N  | –      | 10/25/50     | –     | –   | 2/2   |
+| Carabine       | 2d6      | N  | TG     | 100/300/2000 | 2     | –   | –     |
+| Dague          | 1d4      | O  | P      | 5/10/20      | –     | P   | 4/6   |
+| Fronde         | 1d8      | N  | G      | 10/150/300   | 2     | –   | 1/2   |
+| Fusil à pompe  | 3d6      | N  | M      | 20/50/200    | 2     | –   | –     |
+| Fusil laser    | 1d10 + 2 | N  | –      | 40/120/480   | 3     | –   | –     |
+| Fusil à plasma | 2d6 + 4  | N  | –      | 30/100/300   | 3     | –   | –     |
+| Fusil de Gauss | 2d8 + 2  | N  | E      | 150/500/5000 | 3     | –   | –     |
+| Javelot        | 1d8 + 1  | O  | TG     | 10/20/50     | –     | M   | 3/8   |
+| Pierre         | 1d3      | O  | P      | 5/10/20      | –     | –   | –     |
+| Pistolet       | 1d6      | N  | G      | 50/100/200   | 2     | –   | –     |

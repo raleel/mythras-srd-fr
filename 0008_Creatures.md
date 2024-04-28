@@ -1,552 +1,419 @@
-# Creatures
+# Créatures
 
-This section contains a small sample of creatures and various Creature Abilities. The list of sample creatures is not exhaustive but provides a good template for developing one's own creatures or adapting them from other sources. All the creatures follow the _Mythras Imperative_ rules outlined and explored in this document; however, to reflect the challenge some creatures (the dragon being a prime example) should pose, the rules have been slightly adjusted to allow for the creature's relative power level.
+Nous listons ici quelques exemples de créatures et de leurs capacités. L’échantillon est loin d’être exhaustif, mais fournit un bon modèle pour concevoir des créatures ou les adapter à partir d’une autre source.
 
----
-## Sample Creatures
+#### Alligator/crocodile
 
-Use these Sample Creatures as the inspiration for your own creations, adapting the templates as needed for the scenario, level of challenge desired, and so on. The creatures represent typical examples of their species: greater and lesser forms will exist, with higher and lower skills, Combat capabilities, and Hit Points. Note that most of these creatures have certain Abilities. These are more fully described below in the [Creature Abilities](0008_Creatures.md?id=Creature-Abilities) section.
+TAI : 37, points d’action : 2, Modificateur de dégâts : + 2d6, Points de magie : 7, Bonus d’initiative : + 13, Mouvement : 6 m
 
-The [Mythras Encounter Generator](https://mythras.skoll.xyz/), AKA MEG, is a wonderful monster repository with thousands of monsters and encounters available to generate. Links to the relevant entries are provided.
+**Capacités :** Camouflage, Nageur, Sang Froid
 
-<br>
+**Compétences :** Athlétisme 47 %, Endurance 78 %, Esquive 32 %, Force Brute 99 %, Nage 80 %, Perception 49 %, Volonté 44 %
 
----
-#### Giant Ant 
-[MEG Entry](https://mythras.skoll.xyz/enemy_template/244/)
+**Style de combat :** La Mort Cachée (balayage de queue, morsure) 67 %
 
-| Creature | Giant Ant  |
-| :-- | :-- |
-| Characteristics | STR 16, CON 19, SIZ 14, DEX 15, INT 7, POW 4, CHA 0 |
-| Action Points | 2 | 
-| Damage Modifier | +1d2 |
-| Initiative | +11 |
-| Move | 12m |
-| Abilities | [Formidable Natural Weapons](0008_Creatures.md?id=formidable-natural-weapons) |
-| Skills | Athletics 67%, Brawn 68%, Endurance 74%, Evade 56%, Perception 53%, Track 66%, Willpower 48% |
-| Combat Style | Ant Attack (Mandibles and Sting) 67% |
+-   Morsure (Taille : TG, Dégâts : 1d10 + 2d6)
+-   Queue (Taille : TG, Dégâts : 1d8 + 2d6 — peut effectuer une attaque de balayage)
 
-##### Weapon Details
+| 1d20  | Localisation         | PA/PV |
+|-------|----------------------|-------|
+| 1-3   | Queue                | 5/12  |
+| 4-5   | Patte arrière droite | 5/12  |
+| 6-7   | Patte arrière gauche | 5/12  |
+| 8-10  | Arrière-train        | 5/13  |
+| 11-14 | Poitrail             | 5/14  |
+| 15-16 | Patte avant droite   | 5/12  |
+| 17-18 | Patte avant gauche   | 5/12  |
+| 19-20 | Tête                 | 5/13  |
 
-| Weapon | Size | Damage | AP/HP | Special |
-| :-- | :-: | :--: | :--: | :-- |
-| Bite | M | 1d6+1d2 | as location |
-| Sting | M | 1d4+1d2 | as location |
+#### Cheval
 
-##### Hit Locations & Armor
+TAI : 31, points d’action : 2, modificateur de dégâts : + 1d12, points de magie : 7, bonus d’initiative : + 11, mouvement : 12 m
 
-| 1d20 | Location | AP/HP |
-| :-: | :-- | :-: |
-| 1 | Right Rear Leg | 4/6 |
-| 2 | Left Rear Leg | 4/6 |
-| 3 | Right Middle Leg | 4/6 |
-| 4 | Left Middle Leg | 4/6 |
-| 5-9 | Abdomen | 4/9 |
-| 10-13 | Thorax | 4/6 |
-| 14 | Right Front | 4/6 |
-| 15 | Left Front Leg | 4/6 |
-| 16-20 | Head | 4/7 |
+**Capacités** : Piétinement
 
-<br>
+**Compétences :** Athlétisme 52 %, Endurance 66 %, Esquive 40 %, Force Brute 83 %, Perception 48 %, Volonté 34 %
 
----
-#### Bear (Grizzly)
-[MEG Entry](https://mythras.skoll.xyz/enemy_template/276/)
+**Style de combat :** Ruade et Cabrage (sabots) 62 %
 
-| Creature | Bear (Grizzly)  |
-| :-- | :-- |
-| Characteristics | STR 26, CON 16, SIZ 34, DEX 16, INT 10, POW 6, CHA 0 |
-| Action Points | 3 | 
-| Damage Modifier | +1d12 |
-| Initiative | +13 |
-| Move | 8m |
-| Abilities | [Intimidate](0008_Creatures.md?id=intimidate), [Night Sight](0008_Creatures.md?id=night-sight) |
-| Skills | Athletics 68%, Brawn 79%, Endurance 66%, Evade 46%, Perception 60%, Stealth 66%, Survival 60%, Swim 68%, Track 66%, Willpower 44% |
-| Combat Style | Ursine Fury (Bite and Claws) 78% |
+-   Sabots (Taille : TG, dégâts 1d6 + 1d12)
 
-##### Weapon Details
+| 1d20  | Localisation         | PA/PV |
+|-------|----------------------|-------|
+| 1-3   | Jambe arrière droite | 1/9   |
+| 4-6   | Jambe arrière gauche | 1/9   |
+| 7-9   | Croupe               | 1/10  |
+| 10-12 | Poitrail             | 1/11  |
+| 13-14 | Jambe avant droite   | 1/8   |
+| 15-16 | Jambe avant gauche   | 1/8   |
+| 17-20 | Tête                 | 1/9   |
 
-| Weapon | Size | Damage | AP/HP | Special |
-| :-- | :-: | :--: | :--: | :-- |
-| Bite | L | 1d8+1d12 | as location |
-| Claw | H | 1d8+1d12 | as location |
-
-##### Hit Locations & Armor
-
-| 1d20 | Location | AP/HP |
-| :-: | :-- | :-: |
-| 1-3 | Right Rear Leg | 3/10 |
-| 4-6 | Left Rear Leg | 3/10 |
-| 7-9 | Hindquarters | 3/11 |
-| 10-12 | Forequarters | 3/12 |
-| 13-15 | Right Front | 3/10 |
-| 16-18 | Left Front Leg | 3/10 |
-| 19-20 | Head | 3/10 |
-
-<br>
-
----
-#### Crocodile/Alligator
-[MEG Entry](https://mythras.skoll.xyz/enemy_template/11809/)
-
-| Creature | Crocodile/Alligator  |
-| :-- | :-- |
-| Characteristics | STR 31, CON 19, SIZ 37, DEX 14, INT 12, POW 6, CHA 0 |
-| Action Points | 2 | 
-| Damage Modifier | +2d6 |
-| Initiative | +13 |
-| Move | 6m |
-| Abilities | [Camouflaged](0008_Creatures.md?id=camouflaged), [Cold Blooded](0008_Creatures.md?id=cold-blooded), [Swimmer](0008_Creatures.md?id=swimmer) |
-| Skills | Athletics 47%, Brawn 99%, Endurance 78%, Evade 32%, Perception 49%, Swim 80%, Willpower 44% |
-| Combat Style | Lurking Death (Bite and Tail) 67% |
-
-##### Weapon Details
-
-| Weapon | Size | Damage | AP/HP | Special |
-| :-- | :-: | :--: | :--: | :-- |
-| Bite | H | 1d10+2d6 | as location | |
-| Tail | H | 1d8+2d6 | as location | [Bash](0005_Combat.md?id=bash), [Sweep Attacks](0005_Combat.md?id=sweep-attacks) |
-
-##### Hit Locations & Armor
-
-| 1d20 | Location | AP/HP |
-| :-: | :-- | :-: |
-| 1-3 | Tail | 5/12 |
-| 4-5 | Right Rear Leg | 5/12 |
-| 6-7 | Left Rear Leg | 5/12 |
-| 8-10 | Hindquarters | 5/13 |
-| 11-14 | Forequarters | 5/14 |
-| 15-16 | Right Front | 5/12 |
-| 17-18 | Left Front Leg | 5/12 |
-| 19-20 | Head | 5/13 |
-
-<br>
-
----
 #### Dragon
-[MEG Entry](https://mythras.skoll.xyz/enemy_template/11817/)
-
-| Creature | Dragon  |
-| :-- | :-- |
-| Characteristics | STR 33, CON 35, SIZ 50, DEX 18, INT 20, POW 19, CHA 17 |
-| Action Points | 4 | 
-| Magic Points | 19 | 
-| Damage Modifier | +2d8 |
-| Initiative | +19 |
-| Move | 12m/18m Flying |
-| Abilities | [Breathe Flame](0008_Creatures.md?id=breathe-flame), [Cold Blooded](0008_Creatures.md?id=cold-blooded), [Dark Sight](0008_Creatures.md?id=dark-sight), [Diving Strike](0008_Creatures.md?id=diving-strike), [Engulfing](0008_Creatures.md?id=engulfing), [Flying](0008_Creatures.md?id=flying), [Formidable Natural Weapons](0008_Creatures.md?id=formidable-natural-weapons), [Immunity (Fire)](0008_Creatures.md?id=immunity), [Terrifying](0008_Creatures.md?id=terrifying), [Trample](0008_Creatures.md?id=trample) |
-| Skills | Athletics 80%, Brawn 120%, Deceit 78%, Endurance 92%, Evade 68%, Fly 90%, Insight 78%, Locale 68%, Lore (Dragon) 68%, Perception 78%, Teach 58%, Willpower 78% |
-| Magic | 78% (Befuddle, Cleanse, Coordination, Find Treasure, Mindspeech, Spiritshield, Vigor, Witchsight) |
-| Combat Style | Death and Destruction (Bite, Claws, Tail Sweep) 90%; Flame Breath 80% |
-
-##### Weapon Details
-
-| Weapon | Size | Damage | AP/HP | Special |
-| :-- | :-: | :--: | :--: | :-- |
-| Bite | E | 1d12+2d8 | as location | |
-| Claw | E | 1d10+2d8 | as location | |
-| Flame Breath | E | 4d6 | - | The fire breathed by a dragon stretches in a cone for a number of metres in length equal to the dragon's CON (35m), and a number of metres wide equal to a quarter of CON (9m). Anything caught in the blast ignites if flammable, and the heat is powerful enough to melt un-enchanted metals. |
-| Tail | E | 1d10+2d8 | as location | [Bash](0005_Combat.md?id=bash), [Sweep Attacks](0005_Combat.md?id=sweep-attacks) |
-| Trample | C | 4d8 | - | 
-
-##### Hit Locations & Armor
-
-| 1d20 | Location | AP/HP |
-| :-: | :-- | :-: |
-| 1-2 | Tail | 8/17 |
-| 3-4 | Right Rear Leg | 8/17 |
-| 5-6 | Left Rear Leg | 8/17 |
-| 7-8 | Hindquarters | 8/18 |
-| 9-10 | Right Wing | 8/16 |
-| 11-12 | Left Wing | 8/16 |
-| 13-14 | Forequarters | 8/19 |
-| 15-16 | Right Front Leg | 8/17 |
-| 17-18 | Left Front Leg | 8/17 |
-| 19-20 | Head | 8/17 |
-
-<br>
-
----
-#### Goblin/Orc
-[MEG entry](https://mythras.skoll.xyz/enemy_template/10891/)
-
-| Creature | Goblin/Orc  |
-| :-- | :-- |
-| Characteristics | STR 11, CON 14, SIZ 11, DEX 11, INT 11, POW 11, CHA 7 |
-| Action Points | 2 | 
-| Damage Modifier | - |
-| Initiative | +11 |
-| Move | 6m |
-| Abilities | [Night Sight](0008_Creatures.md?id=night-sight) |
-| Skills | Athletics 52%, Brawn 42%, Deceit 57%, Endurance 48%, Evade 62%, Perception 61%, Unarmed 52%, Willpower 42% |
-| Combat Style | Warrior (Shortsword, Shield, Spear, Sling) 62% |
-
-##### Weapon Details
-
-| Weapon | Size | Damage | AP/HP | Special |
-| :-- | :-: | :--: | :--: | :-- |
-| Shortsword | M | 1d6 | 6/8 | [Bleed](0005_Combat.md?id=bleed), [Impale](0005_Combat.md?id=impale)|
-| Spear | M | 1d8+1 | 4/5 | [Impale](0005_Combat.md?id=impale)|
-| Sling | L | 1d8 | 1/2 | [Bash](0005_Combat.md?id=bash), [Stun Location](0005_Combat.md?id=stun-location), Range 10/150/300m |
-| Shield | L | 1d4 | 4/9 | [Passive Blocking/Warding on 3 locations](0005_Combat.md?id=passive-blocking), Ranged Parry |
-
-##### Hit Locations & Armor
-
-| 1d20 | Location | AP/HP |
-| :-: | :-- | :-: |
-| 1-3 | Right Leg | 1/5 |
-| 4-6 | Left Leg | 1/5 |
-| 7-9 | Abdomen | 1/6 |
-| 10-12 | Chest | 1/7 |
-| 13-15 | Right Arm | 1/4 |
-| 16-18 | Left Arm | 1/4 |
-| 19-20 | Head | 1/5 |
-
-<br>
-
----
-#### Horse
-[MEG Entry](https://mythras.skoll.xyz/enemy_template/9997/)
-
-| Creature | Horse  |
-| :-- | :-- |
-| Characteristics | STR 26, CON 16, SIZ 31, DEX 16, INT 10, POW 6, CHA 0 |
-| Action Points | 2 | 
-| Damage Modifier | +1d12 |
-| Initiative | +11 |
-| Move | 12m |
-| Abilities | [Trample](0008_Creatures.md?id=trample) |
-| Skills | Athletics 52%, Brawn 83%, Endurance 66%, Evade 40%, Perception 48%, Willpower 34% |
-| Combat Style | Rear and Plunge (Hoofs) 62% |
-
-##### Weapon Details
-
-| Weapon | Size | Damage | AP/HP | Special |
-| :-- | :-: | :--: | :--: | :-- |
-| Hoof | H | 1d6+1d12 | |
-| Trample | E | 2d12 | - | 
-
-##### Hit Locations & Armor
-
-| 1d20 | Location | AP/HP |
-| :-: | :-- | :-: |
-| 1-3 | Right Hind Leg | 1/9 |
-| 4-6 | Left Hind Leg | 1/9 |
-| 7-9 | Hindquarters | 1/10 |
-| 10-12 | Forequarters | 1/11 |
-| 13-14 | Right Front Leg | 1/8 |
-| 15-16 | Left Front Leg | 1/8 |
-| 17-20 | Head | 1/9 |
-
-<br>
-
----
-#### Minotaur
-[MEG Entry](https://mythras.skoll.xyz/enemy_template/11814/)
-
-| Creature | Minotaur |
-| :-- | :-- |
-| Characteristics | STR 15, CON 14, SIZ 22, DEX 11, INT 13, POW 11, CHA 7 |
-| Action Points | 2 | 
-| Damage Modifier | +1d6 |
-| Initiative | +12 |
-| Move | 8m |
-| Abilities | [Intimidate](0008_Creatures.md?id=intimidate) |
-| Skills | Athletics 57%, Brawn 79%, Customs 66%, Endurance 66%, Evade 40%, Insight 44%, Locale 56%, Lore (Herding) 66%, Perception 54%, Unarmed 57%, Willpower 42% |
-| Combat Style | Minotaur Warrior (Two Handed Axe, 2H spear used one handed, Hoplite Shield, Gore) 67% |
-
-##### Weapon Details
-
-| Weapon | Size | Damage | AP/HP | Special |
-| :-- | :-: | :--: | :--: | :-- |
-| Gore | L | 1d8+1d6 | as location | [Impale](0005_Combat.md?id=impale) |
-| Two Handed Axe | E | 2d8+2+1d6 | 6/12 | |
-| Spear | H | 1d10+1+1d6 | 4/10 | [Impale](0005_Combat.md?id=impale) |
-| Hoplite Shield | E | 1d4+1d6 | 6/15 | [Passive Blocking/Warding on 4 locations](0005_Combat.md?id=passive-blocking), Ranged Parry |
-
-##### Hit Locations & Armor
-
-| 1d20 | Location | AP/HP |
-| :-: | :-- | :-: |
-| 1-3 | Right Leg | 0/7 |
-| 4-6 | Left Leg | 0/7 |
-| 7-9 | Abdomen | 0/8 |
-| 10-12 | Chest | 0/9 |
-| 13-14 | Right Arm | 0/6 |
-| 15-16 | Left Arm | 0/6 |
-| 17-20 | Head | 3/7 |
-
-<br>
-
----
-#### Shark
-[MEG Entry](https://mythras.skoll.xyz/enemy_template/11815/)
-
-| Creature | Shark  |
-| :-- | :-- |
-| Characteristics | STR 22, CON 19, SIZ 42, DEX 20, INT 6, POW 6, CHA 0 |
-| Action Points | 3 | 
-| Damage Modifier | +2d6 |
-| Initiative | +13 |
-| Move | 12m (swim) |
-| Abilities | [Blood Sense](0008_Creatures.md?id=blood-sense), [Frenzy](0008_Creatures.md?id=frenzy), [Swimmer](0008_Creatures.md?id=swimmer) |
-| Skills | Athletics 87%, Brawn 87%, Endurance 66%, Evade 55%, Perception 57%, Swim 91%, Willpower 34% |
-| Combat Style | Jaws (Bite), 81% |
-
-##### Weapon Details
-
-| Weapon | Size | Damage | AP/HP | Special |
-| :-- | :-: | :--: | :--: | :-- |
-| Bite | E | 1d10+2d6 | as location | |
-
-##### Hit Locations & Armor
-
-| 1d20 | Location | AP/HP |
-| :-: | :-- | :-: |
-| 1-3 | Tail | 2/12 |
-| 4-6 | Dorsal Fin | 2/11 |
-| 7-10 | Hindquarters | 2/13 |
-| 11-14 | Forequarters | 2/14 |
-| 15-16 | Right Fin | 2/11 |
-| 17-18 | Left Fin | 2/11 |
-| 17-20 | Head | 2/12 |
-
-<br>
-
----
-#### Skeleton
-[MEG Entry](https://mythras.skoll.xyz/enemy_template/7925/)
-
-| Creature | Skeleton  |
-| :-- | :-- |
-| Characteristics | STR 11, CON 14, SIZ 13, DEX 11, INT 11, POW 16, CHA 7 |
-| Action Points | 2 | 
-| Damage Modifier | - |
-| Initiative | +11 |
-| Move | 6m |
-| Abilities | [Undead](0008_Creatures.md?id=undead) |
-| Special | Animated skeletons are susceptible to weapons delivering blunt-force trauma, which smashes the bone (or chitin), and disrupts the joints. Such weapons increase their damage dice by one step when used against skeletons (for example a club with 1d6 damage would become 1d8). On the other handhand, skeletons are resistant to slashing and thrusting weapons. Reduce the damage dice of slashing weapons by one step, and thrusting weapons by two steps. |
-| Skills | Athletics 68%, Brawn 45%, Endurance 44%, Evade 72%, Perception 57%, Unarmed 68%, Willpower 72% |
-| Combat Style | Skeletal Warrior (Sword, Spear, Peltast Shield) 68% - Formation Fighting |
-
-##### Weapon Details
-
-| Weapon | Size | Damage | AP/HP | Special |
-| :-- | :-: | :--: | :--: | :-- |
-| Shortsword | M | 1d6 | 6/8 | [Bleed](0005_Combat.md?id=bleed), [Impale](0005_Combat.md?id=impale)|
-| Spear | M | 1d8+1 | 4/5 | [Impale](0005_Combat.md?id=impale)|
-| Shield | L | 1d4 | 4/12 | [Passive Blocking/Warding on 3 locations](0005_Combat.md?id=passive-blocking), Ranged Parry |
 
-##### Hit Locations & Armor
+TAI : 50, points d’action : 4, modificateur de dégâts : + 2d8, points de magie : 19, bonus d’initiative : + 19, mouvement : 12 m/18 m Vol
 
-| 1d20 | Location | AP/HP |
-| :-: | :-- | :-: |
-| 1-3 | Right Leg | 0/5 |
-| 4-6 | Left Leg | 0/5 |
-| 7-9 | Abdomen | 0/6 |
-| 10-12 | Chest | 0/7 |
-| 13-15 | Right Arm | 0/4 |
-| 16-18 | Left Arm | 0/4 |
-| 19-20 | Head | 0/5 |
+**Capacités :** Armes Naturelles Formidables, Attaque en Piqué, Engloutissement, Immunité (feu), Piétinement, Sang Froid, Souffle Enflammé, Terrifiant, Vision dans le Noir, Vol
 
-<br>
+**Magie :** Magie Populaire 78 % (Bouclier Spirituel, Communication Mentale, Confusion, Coordination, Détection [trésor], Nettoyer, Vigueur, Vue Magique)
 
----
-#### Xenomorphic Alien
-[MEG Entry](https://mythras.skoll.xyz/enemy_template/11816/)
+**Compétences :** Athlétisme 80 %, Connaissance (dragon) 68 %, Endurance 92 %, Enseignement 58 %, Esquive 68 %, Force Brute 120 %, Perception 78 %, Perspicacité 78 %, Savoir Régional 68 %, Tromperie 78 %, Vol 90 %, Volonté 78 %
 
-| Creature | Xenomorphic Alien  |
-| :-- | :-- |
-| Characteristics | STR 23, CON 11, SIZ 16, DEX 24, INT 12, POW 12, CHA 13 |
-| Action Points | 3 | 
-| Damage Modifier | +1d6 |
-| Initiative | +18 |
-| Move | 8m |
-| Abilities | [Camouflaged](0008_Creatures.md?id=camouflaged), [Frenzy](0008_Creatures.md?id=frenzy) |
-| Special | Whenever the xenomorph is injured, its acidic blood sprays out over an attacker within hand-to-hand range. It inflicts 1d3 damage for 1d3 rounds to a random Hit Location. The acid will eat through armor first before affecting the flesh below. |
-| Skills | Athletics 77%, Brawn 68%, Endurance 56%, Evade 80%, Perception 62%, Stealth 76%, Track 64, Willpower 52% |
-| Combat Style | Parasitic Alien Horror (Bite, Claw and Tail) 77% |
+**Style de combat :** Mort et Destruction (morsure, griffes, queue) 90 %, Souffle Enflammé 80 %
 
-##### Weapon Details
+-   Griffes (Taille : E, dégâts : 1d10 + 2d8)
+-   Morsure (Taille : E, dégâts : 1d12 + 2d8)
+-   Piétinement (Taille : G+, dégâts : 4d8)
+-   Queue (Taille : E, dégâts : 1d10 + 2d8)
 
-| Weapon | Size | Damage | AP/HP | Special |
-| :-- | :-: | :--: | :--: | :-- |
-| Bite | H | 1d4+1d6 | as location | |
-| Claw | H | 1d4+1+1d6 | as location | |
-| Tail | H | 1d6+1d6 | as location | [Sweep Attacks](0005_Combat.md?id=sweep-attacks) |
+**Souffle enflammé :** 4d6. Le feu craché par un dragon forme un cône d’une longueur égale à la CON du dragon en mètres, et d’une largeur égale au quart de sa CON. Tout élément pris dans le souffle s’embrase s’il est inflammable ; la chaleur dégagée est assez puissante pour faire fondre les métaux non enchantés.
 
-##### Hit Locations & Armor
+| 1d20  | Localisation         | PA/PV |
+|-------|----------------------|-------|
+| 1-2   | Queue                | 8/17  |
+| 3-4   | Patte arrière droite | 8/17  |
+| 5-6   | Patte arrière gauche | 8/17  |
+| 7-8   | Arrière-train        | 8/18  |
+| 9-10  | Aile droite          | 8/16  |
+| 11-12 | Aile gauche          | 8/16  |
+| 13-14 | Poitrail             | 8/19  |
+| 15-16 | Patte avant droite   | 8/17  |
+| 17-18 | Patte avant gauche   | 8/17  |
+| 19-20 | Tête                 | 8/17  |
 
-| 1d20 | Location | AP/HP |
-| :-: | :-- | :-: |
-| 1-3 | Tail | 6/5 |
-| 4-5 | Right Rear Leg | 6/6 |
-| 6-7 | Left Rear Leg | 6/6 |
-| 8-10 | Abdomen | 6/7 |
-| 11-14 | Chest | 6/8 |
-| 15-16 | Right Arm | 6/5 |
-| 17-18 | Left Arm | 6/5 |
-| 19-20 | Head | 6/7 |
+#### Fourmi géante
 
-<br> 
+TAI : 14, points d’action : 2, modificateur de dégâts : + 1d2, points de magie : 4, bonus d’initiative : + 11, mouvement : 12 m
 
----
-## Creature Abilities
+**Capacités :** Armes naturelles formidables
 
-A Creature Ability is something it can do naturally because of its physiology, biology, innate magic, and so forth. Birds, for example, can flap through the air, and so Flying is an ability.
+**Compétences :** Athlétisme 67 %, Endurance 74 %, Esquive 56 %, Force Brute 68 %, Perception 53 %, Pistage 66 %, Volonté 48 %
 
-Each of the following Abilities is described in terms of its game effects, and how it may affect interactions with others. Not all these Abilities are on display in the Sample Creatures provided earlier, but they show how seemingly mundane creatures can be turned into something unique, challenging, or downright terrifying. As a general rule of thumb, creatures should have up to three Abilities that are applicable to their nature and environment. A demonic spider, for example, might have Adhering, Grappler and Vampiric. However, in exceptional cases, more Abilities are allowed to reflect the awesome nature of the creature being described.
+**Style de combat :** Attaque de Fourmi (mandibules, dard) 67 %
 
-#### Adhering
+-   Dard (Taille : M, dégâts : 1d4 + 1d2)
+-   Morsure ( Taille M, dégâts : 1d6 +1d2)
 
-The creature can move freely on vertical surfaces, and even move upside down on a ceiling with no special equipment. Such Movement is always at half the creature's normal Movement rate.
+| 1d20  | Localisation          | PA/PV |
+|-------|-----------------------|-------|
+| 1     | Patte arrière droite  | 4/6   |
+| 2     | Patte arrière gauche  | 4/6   |
+| 3     | Patte centrale droite | 4/6   |
+| 4     | Patte centrale gauche | 4/6   |
+| 5-9   | Abdomen               | 4/8   |
+| 10-13 | Thorax                | 4/9   |
+| 14    | Patte avant droite    | 4/6   |
+| 15    | Patte avant gauche    | 4/6   |
+| 16-20 | Tête                  | 4/7   |
 
-#### Aquatic
+#### Gobelin/orc
 
-The creature breathes water rather than air, generally possessing gills or a skin capable of absorbing dissolved air directly. If taken out of water and their breathing organs allowed to dry out, they begin to suffocate after their CON in minutes if remaining passive or half that time if moving or fighting.
+TAI : 11, points d’action : 2, modificateur de dégâts : 0, points de magie : 11, bonus d’initiative : + 11, mouvement : 6 m
 
-#### Blood Sense
+**Capacités :** Vision Nocturne
 
-Allows the creature to detect blood over great distances, either carried by wind or water. Traces of blood can be sensed up to 1d6+6 kilometres.
+**Compétences :** Athlétisme 52 %, Bagarre 52 %, Endurance 48 %, Esquive 62 %, Force Brute 42 %, Perception 61 %, Tromperie 57 %, Volonté 42 %
 
-#### Breathe Flame
+**Style de combat :** Guerrier (bouclier, épée courte, fronde, lance) 62 %
 
-The creature breathes flame over an area as a Combat Action. The flame covers a cone in front of the creature, which stretches for its CON in metres. At the furthest extent, the width of the cone is one quarter of the creature's CON. Any creature caught in the flame suffers fire-based damage to all hit locations, though a character can attempt to Evade to halve this damage. Armor Points count as normal unless otherwise noted.
+-   Épée courte (taille : M, dégâts : 1d6)
+-   Lance courte (taille : M, dégâts : 1d8 + 1)
+-   Rondache (Taille : G, dégâts : 1d4, parade passive protège 3 localisations)
 
-A creature can only breathe flame once in a specified time period (usually once per hour or once per day). Further attempts to breathe flame within this time require the creature to pass Endurance rolls with each roll becoming one grade harder or suffer a level of Fatigue.
+| 1d20  | Localisation | PA/PV |
+|-------|--------------|-------|
+| 1-3   | Jambe droite | 1/5   |
+| 4-6   | Jambe gauche | 1/5   |
+| 7-9   | Abdomen      | 1/6   |
+| 10-12 | Poitrine     | 1/7   |
+| 13-15 | Bras droit   | 1/4   |
+| 16-18 | Bras gauche  | 1/4   |
+| 19-20 | Tête         | 1/5   |
 
-#### Burrower
+#### Minotaure
 
-The creature is adept at tunneling through the ground at its normal Movement rate. Some creatures are limited in the kind of ground they can move through, which is noted in the creature's description.
+TAI : 22, points d’action : 2, modificateur de dégâts : + 1d6, points de magie : 11, bonus d’initiative : + 12, mouvement : 8 m
 
-#### Camouflaged
+**Compétences :** Athlétisme 57 %, Bagarre 57 %, Connaissance (élevage) 66 %, Coutumes 66 %, Endurance 66 %, Esquive 40 %, Force Brute 79 %, Perception 54 %, Perspicacité 44 %, Savoir Régional 56 %, Volonté 42 %
 
-The creature is adept at hiding due to its coloration or unusual surface texture. Those attempting to spot the creature suffer a penalty to Perception of two difficulty grades.
+**Style de combat :** Guerrier Minotaure (aspis, cornes, hache à deux mains, lance à deux mains utilisée à une main) 67 %
 
-#### Characteristic Drain
+-   Aspis (taille : E, dégâts 1d8 + 1d6)
+-   Cornes (taille : G, dégâts 1d8 + 1d6)
+-   Grande lance taille : E, dégâts : 1d8 + 1 + 1d6)
+-   Lance courte (taille : TG, dégâts : 1d8 + 1 + 1d6)
 
-The creature has the innate ability to drain temporary Characteristic points from the target of their attacks. The type of attack, the Characteristic affected, and how to resist the draining effect is detailed in the creature's description.
+| 1d20  | Localisation | PA/PV |
+|-------|--------------|-------|
+| 1-3   | Jambe droite | 0/7   |
+| 4-6   | Jambe gauche | 0/7   |
+| 7-9   | Abdomen      | 0/8   |
+| 10-12 | Poitrine     | 0/9   |
+| 13-15 | Bras droit   | 0/6   |
+| 16-18 | Bras gauche  | 0/6   |
+| 19-20 | Tête         | 3/7   |
 
-#### Cold-Blooded
+#### Ours
 
-The creature does not need to eat frequently. One meal a week is sufficient to keep it healthy and well fed, and gorging itself on a large amount of meat will remove the need to eat for a month. Conversely, when exposed to temperatures below 15 degrees Celsius, its reflexes become muted, suffering a penalty of –6 to Initiative, and the loss of one Combat Action per round. Below 5 degrees Celsius cold-blooded creatures become completely torpid, entering a helpless catatonic state.
+Taille : 34, points d’action : 3, modificateur de dégâts : + 1d12, points de magie : 7, bonus d’initiative : + 13, mouvement : 8 m
 
-#### Dark Sight
+**Capacités :** Intimidation, Vision Nocturne
 
-Allows the creature to see normally in the complete absence of light.
+**Compétences :** Athlétisme 68 %, Discrétion 66 %, Endurance 66 %, Esquive 46 %, Force Brute 79 %, Nage 68 %, Perception 60 %, Pistage 66 %, Survie 60 %, Volonté 44 %
 
-#### Death Sense
+**Style de combat :** Fureur ursine (morsure, griffes) 78 %
 
-In tune with the powers of death, the creature can sense the death of living things, and dead flesh at a range of up to half its INT in kilometres.
+-   Griffes (taille : TG, dégâts : 1d8 + 1d12)
+-   Morsure (taille : G, dégâts : 1d8 + 1d12)
 
-#### Disease Immunity
+| 1d20  | Localisation         | PA/PV |
+|-------|----------------------|-------|
+| 1-3   | Patte arrière droite | 3/10  |
+| 4-6   | Patte arrière gauche | 3/10  |
+| 7-9   | Arrière-train        | 3/11  |
+| 10-12 | Poitrail             | 3/12  |
+| 13-15 | Patte avant droite   | 3/10  |
+| 16-18 | Patte avant gauche   | 3/10  |
+| 19-20 | Tête                 | 3/10  |
 
-The creature is immune to all diseases. All creatures without SIZ automatically have this ability, although it is not specifically listed in their descriptions.
+#### Requin
 
-#### Diving Strike
+Taille : 42, points d’action : 3, modificateur de dégâts : + 2d6, points de magie : 7, bonus d’initiative : + 13, mouvement : 12 m (nage)
 
-Some creatures can plummet from the sky or surge through the waters to attack their prey, striking with incredible force. This is effectively charging for creatures which are not land based. Diving Strike increases both the Size of the attack, and the creature's Damage Modifier by one step, for this attack only. A diving strike may only be used once per round. The creature must be at least one full round of Movement above its target (or possibly below if submerged) in order to use the diving strike.
+**Capacités :** Flairer le Sang, Frénésie, Nageur
 
-#### Earth Sense
+**Compétences :** Endurance 62 %, Esquive 52 %, Force Brute 87 %, Nage 81 %, Perception 57 %, Volonté 34 %
 
-Some creatures are so in tune with the underground world that they can work perfectly well in the total darkness of the deep. By sensing vibration and air pressure, a creature with Earth Sense can fight, and make Perception rolls with no penalty as long as their target is no more than their INS in metres away. If using Earth Sense above ground the range is halved.
+**Style de combat :** Attaque de Requin ! (morsure) 81 %
 
-#### Echolocation
+-   Morsure (taille : 3, dégâts : 1d10 + 2d6)
 
-The creature senses its environment through reflections of sonic waves. This means that it can perceive others that may be either motionless or hidden. In such circumstances, using a Stealth roll to attempt to remain unperceived by the creature is two grades more difficult.
+| 1d20  | Localisation    | PA/PV |
+|-------|-----------------|-------|
+| 1-3   | Queue           | 2/12  |
+| 4-6   | Aileron dorsal  | 2/11  |
+| 7-10  | Arrière         | 2/13  |
+| 11-14 | Avant           | 2/14  |
+| 15-16 | Nageoire droite | 2/11  |
+| 17-18 | Nageoire gauche | 2/11  |
+| 19-20 | Tête            | 2/12  |
 
-#### Engulfing
+#### Squelette
 
-The creature has an orifice which can swallow targets whole. The maximum size of an engulfed victim is figured as half the creature's own SIZ but may be less than this depending on the creature's physiology. When engulfed the victim suffers at least one damage roll based on the creature's bite attack before being swallowed – the time spent chewing depends on the creature, and how sensitive its innards are. If still alive a swallowed victim will begin to suffocate, likely dying by asphyxiation before suffering any noticeable damage from stomach acid. Realistically, an engulfed victim lacks the mobility to move inside the digestive tract or the creature is so large that he will die long before he can cut its way out.
+Les squelettes sont sensibles aux armes contondantes, qui brisent leurs os (ou leur chitine) et disloquent leurs articulations. Les dés de dégâts de telles armes augmentent d’un cran contre les squelettes (ainsi, un gourdin infligera 1d8 points de dégâts au lieu de 1d6). En revanche, les squelettes sont résistants aux armes tranchantes et perforantes. Réduisez d’un cran les dés de dégâts des armes tranchantes et de deux crans ceux des armes perforantes.
 
-#### Flying
+Taille : 13, points d’action : 2, modificateur de dégâts : 0, points de magie : 16, bonus d’initiative : + 14, mouvement : 6 m
 
-The creature automatically succeeds in everyday moving and maneuvering whilst flying and need not roll their Fly skill unless attempting an unusually difficult task, such as flying against a powerful wind, evading a ranged attack in the air, or outmaneuvering an aerial foe. A flier may substitute the Fly skill (base STR+DEX) for Evade if fighting whilst aloft.
+**Capacités :** Mort-vivant
 
-#### Formidable Natural Weapons
+**Compétences :** Athlétisme 68 %, Bagarre 68 %, Endurance 44 %, Esquive 72 %, Force Brute 45 %, Perception 57 %, Volonté 72 %
 
-This creature can actively parry or deflect attacks using its natural weapons. This is due to a combination of fighting style and possessing natural armament being formed from resilient substances such as horn, chitin or bone which can shrug off damage from manufactured weapons. Note that creatures lacking this trait either rely on their natural armor to turn blows or use Evade.
+**Style de combat :** Guerrier Squelette (épée, lance, bouclier pelta) 68 %
 
-#### Frenzy
+-   Épée courte (taille : M, dégâts : 1d6)
+-   Lance courte (taille : TG, dégâts : 1d8 + 1)
+-   Bouclier pelta (taille : G, dégâts : 1d4)
 
-When wounded or exposed to a particular substance – blood for instance – the creature must succeed in a Willpower roll or enter a frenzy. The frenzy lasts a number of rounds equal to the creature's CON. During the frenzy they must only spend Combat Actions on attacking or moving towards combat. Spellcasting, parrying, evading, and anything else is forbidden; all thoughts of self-preservation washed away in a red haze. In return, the creature no longer suffers pain or fatigue, and is impervious to mental control. During this time, it is immune to all the detrimental effects of Serious Wounds, although a Major Wound will still incapacitate. If still alive, once the frenzy finishes the creature automatically gains a fatigue level of Exhausted.
+| 1d20  | Localisation | PA/PV |
+|-------|--------------|-------|
+| 1-3   | Jambe droite | 0/5   |
+| 4-6   | Jambe gauche | 0/5   |
+| 7-9   | Abdomen      | 0/6   |
+| 10-12 | Poitrine     | 0/7   |
+| 13-15 | Bras droit   | 0/4   |
+| 16-18 | Bras gauche  | 0/4   |
+| 19-20 | Tête         | 0/5   |
 
-#### Gaze Attack
+|   |
+|---|
+|   |
 
-The creature has a gaze attack. This attack may be active (the creature must consciously spend an Action Point on its turn to use it on a foe) or passive (anyone looking at the creature is affected), as listed in the creature's description.
+#### Xénomorphe
 
-#### Grappler
+Taille : 16, points d’action : 3, modificateur de dégâts : + 1d6, points de magie : 11, bonus d’initiative : + 18, mouvement : 8 m.
 
-If the creature successfully strikes in combat, it can immediately seize hold of the opponent in addition to inflicting damage. If the creature's attack was parried (or the creature itself is parrying), then the creature is granted the Grip effect against the opponent's limb or the Pin Weapon effect against his weapon instead. The creature always uses its Brawn skill to resist a victim from breaking free.
+**Capacités :** Camouflage, Frénésie
 
-#### Hold Breath
+**Compétences :** Athlétisme 77 %, Discrétion 76 %, Endurance 56 %, Esquive 80 %, Force Brute 68 %, Perception 62 %, Pistage 64 %, Volonté 52 %
 
-The creature can hold its breath for extended periods of time. If prepared and remaining fairly static, the creature can hold its breath for a number of minutes equal to its CON. This period is halved if the creature is active, such as when swimming or fighting.
+**Style de combat :** Horreur parasite (griffes, morsure, queue) 77 %
 
-#### Immunity
+-   Griffe (taille : M, dégâts : 1d4 + 1 + 1d6)
+-   Morsure (taille : M, dégâts : 1d4 + 1d6)
+-   Queue (taille : G, dégâts : 1d6 + 1d6 — peut effectuer des attaques de balayage)
 
-The creature is completely immune to damage caused by one type of source. This source (cold, fire, iron, etc.) will be noted in the creature's listing, but a narrative description may be necessary for some of the more specific immunities.
+| 1d20   | Localisation | PA/PV |
+|--------|--------------|-------|
+| 1-3    | Queue        | 6/5   |
+| 4-5    | Jambe droite | 6/6   |
+| 6-7    | Jambe gauche | 6/6   |
+| 8-10   | Abdomen      | 6/7   |
+| 11-14  | Poitrine     | 6/8   |
+| 15 -16 | Bras droit   | 6/5   |
+| 17-18  | Bras gauche  | 6/5   |
+| 19-20  | Tête         | 6/7   |
 
-#### Intimidate
+Lorsqu’un xénomorphe est blessé, son sang acide jaillit sur les attaquants qui se trouvent en combat rapproché avec lui. Le sang inflige 1d3 points de dégâts pendant 1d3 rounds à une localisation aléatoire. L’acide s’attaque d’abord à l’armure avant d’atteindre la chair en dessous.
 
-The creature may intimidate opponents as a prelude to combat or to avoid it altogether: growls, snarls, lowering of horns, and so forth. Opponents must make an unopposed Willpower roll to hold their ground; a success allows a character to stand his ground, whereas a failure indicates that they must spend the next round instinctively placing distance between themselves and the creature. If he fumbles the Willpower roll, then the character flees at maximum speed. A critical success allows the character to ignore any further intimidation attempts by the creature or its brethren during that encounter. The effect continues for as long as the creature continues to act in a threatening manner, which includes it making an attack.
+## Capacités de créature
 
-#### Leaper
+La capacité d’une créature correspond à quelque chose qu’elle peut accomplir naturellement du fait de son anatomie, de sa biologie, de sa magie innée, etc. Par exemple, les oiseaux qui peuvent voler possèdent la capacité Vol.
 
-The creature uses Leaping attacks as described in the [Combat](0005_Combat.md?id=leaping-attacks) section but can combine the leap with a physical attack such as a claw or bite. If the leaping creature wins the opposed leap attack roll, it automatically inflicts damage for one of its natural weapons on the target. This damage cannot be parried except by Passive Blocking.
+La plupart des capacités décrites ci-dessous ne sont pas utilisées pour les exemples de créatures, mais elles permettent de modifier une créature banale en un monstre unique, dangereux ou terrifiant. En règle générale, une créature devrait posséder jusqu’à trois capacités appropriées à sa nature et à son environnement. Par exemple, une araignée démoniaque pourrait disposer des capacités Adhérence, Agrippement et Vampirique. Exceptionnellement, des capacités supplémentaires peuvent être accordées à une créature particulièrement redoutable.
 
-#### Life Sense
+Chaque capacité ci-après est décrite selon ses effets en jeu et ses éventuelles interactions avec d’autres capacités.
 
-In tune with the rhythms of nature, this creature can determine the vitality of any living creature by touch alone. If the creature makes a successful Perception roll, it learns of the target's current injuries, Fatigue level, and whether it is currently afflicted by any poison or disease. The creature is also aware of any form of life within a number of metres equal to its Willpower skill, which may make Stealth difficult to accomplish.
+#### Adhérence
 
-#### Magic Sense
+La créature peut se déplacer librement sur les surfaces verticales et même sur les plafonds sans avoir besoin d’équipement spécial. De tels déplacements s’effectuent à la moitié de sa vitesse de mouvement.
 
-Similar to Life Sense but permits the creature to detect magical emanations over the same distances. If the creature touches another and makes a successful Perception roll, it learns of the target's current magic points, carried enchantments, and active spells.
+#### Agrippement
 
-#### Multi-Headed
+Lorsque la créature frappe avec succès en combat, elle peut immédiatement agripper son adversaire en plus de lui infliger des dégâts. Si son attaque est parée (ou si elle-même pare), elle obtient quand même l’effet spécial Saisir contre le membre de l’adversaire ou l’effet spécial Coincer l’Arme contre son arme. Elle utilise toujours sa Force Brute pour empêcher une victime de se libérer.
 
-The creature gains an additional Combat Action per extra head possessed beyond the first. These are lost as each individual head is incapacitated or severed. Provided one head remains active, the creature can still control its shared body. When a multi-headed creature resists spells which affect emotions or intellect, it rolls individual saves for each still intact head.
+#### Apnée
 
-#### Multi-Limbed
+La créature peut retenir longtemps son souffle. Si elle est préparée et reste passive, elle peut retenir son souffle pour un nombre de minutes égal à sa CON. Si elle se livre à une activité, comme un combat ou un déplacement, cette période est réduite de moitié.
 
-Similar to Multi-headed, the creature gains an additional Combat Action per extra pair of limbs (beyond the first) it can bring to bear during combat – those normally used to hold up or move the creature do not count. These extra Combat Actions can only be used to perform actions with those specific limbs and are lost as each pair are immobilized or incapacitated.
+#### Aquatique
 
-#### Night Sight
+La créature respire de l’eau plutôt que de l’air et possède généralement des branchies ou une peau capable d’absorber directement l’air dissout. Si elle est hors de l’eau et que ses organes respiratoires sèchent, elle commencera à suffoquer après CON minutes tant qu’elle reste passive, ou la moitié de ce temps si elle combat ou se déplace.
 
-Allows the creature to treat partial darkness as illuminated and darkness as partial darkness.
+#### Armes Naturelles Formidables
 
-#### Poison Immunity
+La créature peut parer ou dévier activement les attaques en utilisant ses armes naturelles. Elle doit cette capacité à un style de combat adapté et à la solidité de son armement naturel, capable d’ignorer les dégâts causés par les armes manufacturées. Notez que les créatures qui n’ont pas cette capacité doivent soit compter sur leur armure naturelle, soit utiliser la compétence Esquive.
 
-The creature is immune to all poisons. All creatures without SIZ automatically have this Trait, although it is not specifically listed in their descriptions.
+#### Attaque en Piqué
 
-#### Regeneration
+Certaines créatures peuvent tomber du ciel ou surgir hors de l’eau pour attaquer leurs proies avec une force incroyable. C’est l’équivalent de la charge pour les créatures non terrestres. Attaque en Piqué augmente d’une catégorie la taille de l’arme (naturelle ou non) et d’un cran le modificateur de dégâts de la créature, uniquement pour cette attaque. Une seule attaque en piqué est autorisée par round et la créature doit être à au moins un round complet de mouvement au-dessus de sa cible (ou en dessous si la créature est immergée).
 
-The creature can regenerate Hit Points lost to damage. The speed of regeneration varies depending upon the creature. Unless specifically noted, regeneration does not replace lost limbs, and the severing of a vital location (head, chest, or abdomen) will still result in death.
+#### Attaque de Regard
 
-#### Swimmer
+La créature possède une attaque de regard. Cette attaque peut être active (la créature doit dépenser un point d’action à son tour pour l’utiliser sur un ennemi) ou passive (tous ceux qui regardent la créature sont affectés), comme indiqué dans la description de la créature.
 
-The creature automatically succeeds in everyday moving and maneuvering whilst swimming and need not roll their Swim skill unless attempting an unusually difficult task, such as swimming against a powerful tide or leaping up a waterfall. A swimmer may substitute the Swim skill for Athletics and Evade rolls whilst in water.
+#### Camouflage
 
-#### Terrifying
+La créature peut se cacher facilement, en raison de sa coloration ou d’une texture de peau inhabituelle. Ceux qui tentent de la repérer voient la difficulté de leur test de Perception augmenter de deux niveaux.
 
-The creature's appearance, form or aura is so terrifying it forces viewers to make an unopposed Willpower roll. Success indicates the viewer is shaken for one round and cannot act offensively. Failure causes them to flee in terror. A fumble causes the viewer to collapse unconscious from the shock. Only a critical success allows the viewer to act unhindered. The viewer need not make any further checks for the remainder of the combat, even if more of the same creatures are present. Repeated exposure to a specific type of Terrifying monster may eventually permit the skill check to become one or more grades easier.
+#### Drain de Caractéristique
 
-#### Trample
+La créature peut drainer temporairement des points de caractéristique de son adversaire. Le type d’attaque, la caractéristique affectée et la façon de résister à l’effet sont détaillés dans la description de la créature.
 
-The creature is able to trample beings with a SIZ of half or less than its own, using its Athletics skill to attack. This inflicts damage equal to twice the creature's base Damage Modifier and increases the Size of the attack by one step. How, and when trample is used depends on the circumstances. If engaged in combat the creature may trample a prone opponent on its turn, but this costs an Action Point. If the trample is performed whilst the creature is moving or charging over an opponent, then the trample is a Free Action.
+#### Écholocation
 
-#### Undead
+La créature perçoit son environnement grâce à la réflexion des ondes sonores. Cela signifie qu’elle peut déceler des choses qui peuvent être soit immobiles, soit cachées. Celui qui veut éviter d’être repéré par la créature voit la difficulté de ses tests de Discrétion augmenter de deux niveaux.
 
-Being already dead, the creature is immune to the consequences of both fatigue and severe injuries. Undead are thus immune to all the detrimental effects of Serious Wounds. Even Major Wounds do not incapacitate them, although they can still have locations severed or shattered as per normal. Treat the head or chest location of the undead creature as the area where the spirit or magic has been bound. Any location (and those contiguous to it) which is smashed or severed from the bound area ceases to function, but the remainder of the body can continue if it still has limbs with which to act. A Major Wound to the magic-infused location destroys the undead outright. Only fully corporeal dead creatures may possess the Undead trait.
+#### Engloutissement
 
-#### Vampiric
+La créature possède un orifice qui lui permet d’avaler entièrement ses cibles. La taille maximale d’une victime avalée est égale à la moitié de la TAI de la créature qui engloutit, mais elle peut être inférieure selon les particularités physiques de la créature. La victime avalée subit alors au moins un jet de dégâts basé sur l’attaque de morsure de la bête ; le temps passé à mâcher la victime dépend de la créature et de la sensibilité de ses entrailles. La victime, si elle est encore en vie après la morsure, commencera à suffoquer et l’asphyxie la tuera surement avant l’acide gastrique. Normalement, une victime avalée ne peut pas se déplacer à l’intérieur du tube digestif, ou alors la créature est si grande que la victime mourra longtemps avant qu’elle ne puisse se tailler une issue.
 
-The creature drains its victim's blood, causing an increase in Fatigue levels. The creature must use a bite attack, and cause damage with the bite to be able to drain blood at the rate described in the creature's description.
+#### Envergure
 
-#### Venomous
+La créature est tellement grande qu’elle peut blesser ses adversaires en battant des ailes. Cela nécessite une action de combat et inflige des dommages égaux à son modificateur de dégâts à ceux qui sont à 3 m ou moins devant ou à côté de la créature.
 
-The creature has a venomous bite, sting, or other means of attack.
+#### Flairer le Sang
 
-#### Wing Buffet
+La créature détecte l’odeur du sang dans l’eau ou dans l’air à une distance égale à 1d6 + 6 km.
 
-The creature is so large it can damage opponents by beating its wings. This requires an Attack action and does damage equal to its damage bonus to those within 3 metres of the front or side of the creature.
+#### Fouisseur
+
+La créature creuse dans la terre à sa vitesse de mouvement normale. Certaines créatures ne peuvent creuser que certains types de sols, comme indiqué dans leur description.
+
+#### Frénésie
+
+Lorsqu’elle est blessée ou exposée à une substance particulière — par exemple du sang —, la créature doit réussir un test de Volonté ou entrer en frénésie. La frénésie dure un nombre de rounds égal à la CON de la créature. Pendant la frénésie, la créature utilise ses actions de combat uniquement pour attaquer ou se déplacer dans le combat, sans chercher à se protéger. Le lancer de sorts, la parade, l’esquive et les autres actions sont interdits. En contrepartie, la créature ne subit plus la douleur ou la fatigue et devient imperméable au contrôle mental. Elle ignore tous les effets néfastes des Blessures Sérieuses, mais une Blessure Grave la mettra hors de combat. Si elle est encore en vie lorsque la frénésie se termine, la créature reçoit automatiquement le niveau de fatigue Épuisé.
+
+#### Immunité
+
+La créature est complètement insensible aux dégâts causés par un type de source : froid, feu, fer, etc. Certaines immunités spécifiques seront détaillées plus amplement dans la description de la créature.
+
+#### Immunité aux Maladies
+
+La créature est immunisée à toutes les maladies. Toutes les créatures sans TAI obtiennent automatiquement cette capacité, même si leur description ne le mentionne pas.
+
+#### Immunité aux Poisons
+
+La créature est immunisée à tous les poisons. Les créatures sans TAI obtiennent automatiquement cette capacité, même si leur description ne le mentionne pas.
+
+#### Intimidation
+
+La créature cherche à impressionner ses adversaires potentiels : elle grogne, gronde, baisse les cornes, etc. Les adversaires doivent effectuer un jet Standard de Volonté pour garder leur sang-froid. Une réussite permet à un personnage d’agir normalement, tandis qu’un échec indique qu’il doit dépenser son prochain round à se mettre à bonne distance de la créature. Si le personnage obtient une maladresse, il fuit à sa vitesse maximale. Une réussite critique permet au personnage d’ignorer toutes les autres tentatives d’intimidation de la créature ou de ses congénères pendant toute la rencontre. L’effet se poursuit tant que la créature continue d’agir d’une manière menaçante, ce qui comprend le fait d’attaquer.
+
+#### Membres Multiples
+
+Similaire à Polycéphale. La créature gagne une action de combat par paire supplémentaire de membres (au-delà de la première) qu’elle peut utiliser pendant le combat — les membres utilisés pour se soutenir ou se déplacer ne comptent pas. Ces actions de combat supplémentaires ne peuvent servir qu’à effectuer des actions avec ces membres spécifiques, et diminuent si des paires de membres sont immobilisées ou détruites.
+
+#### Mort-vivant
+
+Étant déjà morte, la créature est immunisée aux conséquences de la fatigue et des Blessures Sérieuses. Même les Blessures Graves ne la neutralisent pas, mais ses localisations peuvent être tranchées ou brisées comme d’habitude. La tête ou la poitrine du mort-vivant est considérée comme la zone reliée à l’esprit ou à la magie qui anime la créature. Toute localisation brisée ou tranchée cesse de fonctionner, mais le reste du corps peut continuer à fonctionner s’il reste des membres encore valides. Par contre, une Blessure Grave à la localisation reliée détruit immédiatement le mort-vivant. Seules les créatures corporelles mortes peuvent posséder la capacité Mort-vivant.
+
+#### Nageur
+
+La créature réussit automatiquement les déplacements et manœuvres aquatiques de routine ; elle n’aura pas besoin de tester sa compétence Nage, à moins d’entreprendre une tâche particulièrement difficile, comme nager contre un courant puissant ou bondir hors de l’eau. Tant qu’elle est dans l’eau, elle pourra remplacer sa compétence Athlétisme ou Esquive par Nage.
+
+#### Piétinement
+
+La créature est capable de piétiner les êtres d’une TAI inférieure ou égale à la moitié de la sienne, en utilisant la compétence Athlétisme pour attaquer. Cela inflige des dégâts égaux à deux fois le modificateur de dégâts de la créature et augmente d’une catégorie la taille de l’attaque. Si la créature est immobile, elle peut piétiner un adversaire à plat ventre à son tour, mais elle doit utiliser une action de combat. Par contre, le piétinement devient une action libre durant un déplacement ou une charge.
+
+#### Polycéphale
+
+La créature gagne une action de combat supplémentaire par tête en plus de la première. Par contre, chaque tête individuelle tranchée ou hors combat lui enlève une action de combat. Tant qu’une tête reste active, la créature peut toujours contrôler son corps partagé. Quand une créature à plusieurs têtes tente de résister à un pouvoir magique affectant les émotions ou l’intellect, elle effectue un test de résistance pour chaque tête encore intacte.
+
+#### Régénération
+
+La créature est capable de régénérer ses points de vie perdus. La vitesse de régénération varie selon la créature. Sauf indication contraire, la régénération ne permet pas de remplacer les membres perdus, et la destruction d’une localisation vitale (tête, thorax ou abdomen) entrainera la mort.
+
+#### Sang Froid
+
+La créature n’a pas besoin de manger fréquemment. Un repas par semaine suffit à la maintenir en bonne santé et bien nourrie. La consommation d’une grande quantité de viande supprime le besoin de manger pendant un mois. À l’opposé, lorsque la créature est exposée à des températures inférieures à 15 degrés Celsius, ses réflexes diminuent : elle subit alors un malus de − 6 à son bonus d’initiative et perd une action de combat par round. En dessous de 5 degrés Celsius, les créatures à sang-froid deviennent complètement engourdies et entrent dans un état catatonique.
+
+#### Sauteur
+
+La créature utilise des bonds offensifs (page 77), mais peut combiner le saut avec une attaque physique, comme un coup de griffe ou une morsure. Si la créature bondissante remporte le jet d’opposition de bond offensif, elle inflige automatiquement à la cible les dégâts d’au moins une de ses armes naturelles. Ces dégâts ne peuvent être parés qu’au moyen d’une parade passive.
+
+#### Sens Magique
+
+La créature peut détecter les émanations magiques dans un rayon égal à sa compétence Volonté en mètres. Si la créature en touche une autre et réussit un jet de Perception, elle connaitra les points de magie actuels, les enchantements et les sorts actifs de la cible.
+
+#### Sens de la Mort
+
+La créature peut se rendre compte de la mort d’autres créatures et de la présence de chair morte dans un rayon égal à la moitié de son INT en kilomètres.
+
+#### Sens Souterrain
+
+La créature est tellement en phase avec le monde souterrain qu’elle peut parfaitement vivre dans l’obscurité totale des profondeurs. En se repérant grâce aux vibrations et à la pression de l’air, la créature peut se battre et effectuer des tests de Perception sans pénalité, à condition que sa cible ne se trouve pas à plus de son INS en mètres. La portée de Sens Souterrain est réduite de moitié si la capacité est utilisée au-dessus du niveau du sol.
+
+#### Sens Vital
+
+En harmonie avec les rythmes de la nature, cette créature peut déterminer la vitalité de toute créature vivante en la touchant. En réussissant un jet de Perception, elle connait les blessures actuelles de la cible ainsi que son niveau de fatigue et sait si elle est sous l’effet d’un poison ou d’une maladie. La créature est également consciente de toute forme de vie dans un rayon égal à sa compétence Volonté en mètres, ce qui complique les tests de Discrétion contre elle.
+
+#### Souffle Enflammé
+
+La créature peut souffler des flammes sur une zone en tant qu’action de combat. Les flammes couvrent une zone en forme de cône qui part de la gueule ou de la bouche de la créature et qui s’étend sur sa CON en mètres. Au point le plus éloigné, la largeur du cône est égale au quart de la CON de la créature. Toute créature prise dans les flammes subit des dégâts de feu sur toutes les localisations touchées, mais un personnage peut tenter d’esquiver pour réduire les dégâts de moitié. Les points d’armure comptent normalement, sauf indication contraire.
+
+Une créature ne peut souffler des flammes qu’une seule fois par période spécifiée (généralement une fois par heure ou par jour). Toute nouvelle tentative pour souffler durant cette période exige que la créature réussisse un test d’Endurance avec une difficulté augmentant d’un niveau après chaque essai ; sinon, elle subira un niveau de fatigue.
+
+#### Terrifiant
+
+L’apparence, la forme ou l’aura de la créature est si terrifiante qu’elle oblige ceux qui l’observent à effectuer un jet Standard de Volonté. En cas de succès, l’observateur est effrayé et ne peut agir offensivement pendant un round. L’échec le pousse à fuir, terrorisé. Sur une maladresse, l’observateur s’évanouit de terreur. Seule une réussite critique permet d’agir sans entrave. L’observateur n’a pas besoin d’effectuer de tests supplémentaires pour le reste du combat, même si plusieurs de ces créatures sont présentes. L’exposition répétée à un type spécifique de monstre terrifiant peut éventuellement réduire le niveau de difficulté du jet de Volonté.
+
+#### Vampirisme
+
+La créature aspire le sang de sa victime. La créature doit utiliser une attaque de morsure et causer des dégâts à la victime pour être en mesure d’aspirer son sang, ce qui a pour effet d’augmenter la fatigue de la victime, au rythme indiqué dans la description de la créature.
+
+#### Venimeux
+
+La créature dispose d’un moyen d’attaque venimeux : morsure, dard… La description de la créature indique les effets du poison. Une créature venimeuse peut, si elle le désire, inoculer son poison grâce à l’effet spécial Inoculer Venin.
+
+#### Vision dans le Noir
+
+Permet à la créature de voir normalement en l’absence de lumière.
+
+#### Vision Nocturne
+
+Permet à la créature de traiter l’obscurité partielle comme une zone illuminée et les ténèbres comme de l’obscurité partielle.
+
+#### Vol
+
+La créature réussit automatiquement les déplacements et les manœuvres aériennes de routine. Elle n’a pas à tester sa compétence de vol, à moins de tenter une action particulièrement difficile, comme voler contre un vent puissant, esquiver une attaque à distance en vol, ou prendre le dessus sur un ennemi volant. Si elle reste dans les airs durant un combat, la créature peut utiliser sa compétence Vol (basée sur FOR + DEX) à la place d’Esquive.
+
+#### 

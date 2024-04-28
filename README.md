@@ -1,77 +1,66 @@
-# Mythras Imperative System Resource Document
+# Introduction
 
----
-## Introduction 
+MYTHRAS FONDAMENTAUX est une version ouverte, sous licence ORC, du système de règles de Mythras. Ce document couvre notamment la création de personnages, les compétences, la gestion de situations particulières, le combat et la magie. Les maitres de jeu et les joueurs disposeront ainsi du nécessaire pour se familiariser avec le système, tandis que les concepteurs en herbe pourront s’appuyer sur une base solide lorsqu’ils imagineront leurs jeux ou leurs mondes. MYTHRAS FONDAMENTAUX est compatible avec le livre de règles de Mythras, ainsi qu’avec d’autres systèmes à pourcentage sous licence ORC. Il est aussi complètement compatible avec FANTASIE CLASSIQUE FONDAMENTAUX, et les deux ouvrages peuvent facilement être combinés.
 
-_Mythras Imperative_ is an Open, ORC Licensed, version of the _Mythras_ ruleset. This document offers a comprehensive, but not exhaustive, set of rules, including character creation, skills, rules for certain typical situations, combat, and magic – more than enough to get both players and Games Masters started, and form a solid basis for further development. _Mythras Imperative_ is compatible with the Mythras core rules, and other ORC licensed percentile gaming systems. Its companion volume, _Classic Fantasy Imperative,_ is also completely compatible and released under ORC, meaning that the two Imperatives can be easily combined.
+## Licence ORC
 
----
-## ORC Licensing
+MYTHRAS FONDAMENTAUX est publié sous licence ORC. Cette licence permet aux concepteurs de jeux de partager ouvertement les mécanismes de leurs créations, les utilisateurs en aval pouvant ainsi librement utiliser, modifier et partager à leur tour des adaptations de ces mécanismes.
 
-_Mythras Imperative_ is published using the ORC License. The ORC License provides a way for game creators to openly share the mechanics of their game and allows for downstream users to freely use, modify, and re-share adaptations of these game mechanics.
+Ce qui est partagé sous licence ORC est appelé **Contenu autorisé** et inclut les éléments clés du jeu tels que les blocs de statistiques, les règles du jeu, les attributs des personnages ainsi que les méthodes et les systèmes inhérents au jeu, de même que tout ce que souhaite le concédant. La licence est globale et permet d’utiliser le contenu autorisé dans des ouvrages imprimés, des jeux vidéos, des podcasts, de l’intelligence artificielle et toute autre technologie existante ou pouvant exister dans le futur. Une grande partie de MYTHRAS FONDAMENTAUX constitue le Contenu autorisé.
 
-What is openly shared under the ORC is known as _**Licensed Material**_, and includes the broad functional elements of the game, such as stat blocks, game rules, character attributes, and the methods and systems inherent in playing the game, as well as anything else the licensor explicitly wants to share. The license is broad and lets you use the Licensed Materials globally in connection with printed books, video games, podcasts, AI, or any other technology that may exist or be created in the future. The vast bulk of the content found in _Mythras Imperative_ constitutes Licensed Material.
+Ce qui est n’est pas partagé sous licence ORC est appelé **Contenu réservé** : cela inclut les marques déposées, les descriptions de cadres de jeu, les arcs narratifs, les personnages spécifiques et l’art visuel. La liste du contenu réservé est mentionnée ci-dessous dans la notice ORC.
 
-What is _not_ shared under the ORC is known as _**Reserved Material**_ and includes trademarks, world lore, story arcs, distinctive characters, and visual art. We have listed Reserved Material in the ORC Notice, below.
+La licence ORC vous autorise à partager, à adapter et à étoffer le Contenu autorisé comme vous l’entendez, sous réserve d’ajouter dans votre œuvre publiée une notice qui doit :
 
-Under the ORC License you can use, share, adapt, and build on the Licensed Material however you see fit, so long as you give proper attribution in the form of a notice in your published work. This notice both credits the upstream licensors and their contribution to the work, as well as providing an easy way for downstream users to credit the author of the work in which the notice appears. By using material licensed under the ORC, you automatically agree to license out your game mechanics in your published work under the same terms. If you develop your own Reserved Material, that is your exclusive property.
+-   créditer les concédants en amont et leur contribution à l’œuvre qui contient la notice ;
+-   fournir un moyen facile aux utilisateurs en aval de créditer l’auteur de l’œuvre qui contient la notice.
 
----
-#### ORC Notice
+En utilisant du contenu sous licence ORC, vous acceptez automatiquement de placer les mécanismes de jeu de votre création sous cette même licence. Si vous produisez votre propre Contenu réservé, celui-ci est votre propriété exclusive.
 
-_Mythras Imperative_ is licensed under the ORC License located at the Library of Congress and available online at various locations including [Paizo.com](https://paizo.com/community/blog/v5748dyo6sico) and others.
+## Notice ORC
 
-All warranties are disclaimed as set forth therein.
+MYTHRAS FONDAMENTAUX est publié sous la licence ORC disponible à la Bibliothèque du Congrès et en ligne sur différents sites dont Paizo.com.
 
----
-#### Attribution
+### Attribution
 
-This product is based on the following Reserved Material:
+Ce produit est basé sur le Contenu réservé suivant :
 
-_Mythras_, The Design Mechanism Copyright 2016, Written by Pete Nash, and Lawrence Whitaker
+Mythras, écrit par Pete Nash et Lawrence Whitaker et publié par The Design Mechanism, Copyright 2016
 
-If you use our Licensed Material in your own published works, please credit us as follows:
+Si vous utilisez notre Contenu autorisé dans vos propres publications, merci d’inclure la mention suivante :
 
-_Based on Mythras Imperative, Written by Pete Nash and Lawrence Whitaker, and published by The Design Mechanism, Copyright 2023_
+*Basé sur Mythras Imperative, écrit par Pete Nash et Lawrence Whitaker et publié par The Design Mechanism, Copyright 2023*
 
----
-#### Reserved Material
+### Contenu réservé
 
-Note that _Mythras Imperative_'s parent games, _**Classic Fantasy**_ and _**Mythras**_, published by The Design Mechanism, are designated as Reserved Material under the ORC license.
+MYTHRAS FONDAMENTAUX est issu de FANTASIE CLASSIQUE et de MYTHRAS, qui sont des jeux publiés par The Design Mechanism constituant du Contenu réservé au sens de la licence ORC.
 
-If you wish to draw upon content found in either _**Classic Fantasy**_ or _**Mythras**_, please contact The Design Mechanism about the separate _Mythras Gateway License_, which allows for Reserved Material to be accessed, free of royalties, but with some conditions regarding approvals and attribution.
+Si vous souhaitez vous baser sur du contenu de FANTASIE CLASSIQUE ou de MYTHRAS, merci de contacter The Design Mechanism à propos de la licence spécifique *Mythras Gateway*, qui vous autorise à utiliser du Contenu réservé sans verser de redevance, sous réserve de respecter quelques conditions d’attribution et de validation.
 
-The following are also considered Reserved Material:
+MYTHRAS FONDAMENTAUX — en tant que nom, logo inclus, sauf quand il est utilisé sous autorisation, y compris son logo.
 
-_**Mythras Imperative**_ – as a name, save for when used in attribution, including its logo.
+Mythras — en tant que nom, logo inclus, sauf quand ils sont utilisés sous autorisation, y compris son logo.
 
-_**Mythras**_ – as a name, save for when used in attribution, including its logo.
+Toutes les illustrations, la charte graphique et l’apparence visuelle de MYTHRAS FONDAMENTAUX.
 
-_**All artwork, graphics and trade dress**_ found in _Mythras Imperative_
+# Vous découvrez les jeux d100 ?
 
----
-## New to d100?
+MYTHRAS FONDAMENTAUX est un système dit d100 ou à pourcentage. Ce genre de système existe depuis les débuts du jeu de rôle et repose sur un mécanisme éprouvé. Le principe de ce mécanisme est simple : le dé à pourcentage, ou d100, sert à résoudre des actions clés, comme l’utilisation de compétences, le combat, le lancer de sorts, etc. Le nombre cible est exprimé en pourcentage (Athlétisme 65 %) ; le maitre de jeu ou le joueur lance 1d100 et obtient un succès si le résultat du dé est inférieur ou égal au nombre cible.
 
-_Mythras Imperative_ is a d100 or percentile system. Percentile dice, or 1d100, are used to resolve key actions – skill use, combat, magic casting, and so on. It is a roll-under system, meaning that the target number is expressed as a percentage (Athletics 65%, for instance), and both the Games Master and player are looking to roll equal to or less than this target number, using 1d100, to achieve a Success. It is quite easy to replace the 1d100 with a d20 if preferred, and all percentages can be divided by 5 (round up) to gain the target number for a d20 roll. Athletics 65% would become Athletics 13, in our example.
+S’il peut sembler étrange que la réussite implique un résultat bas et non élevé, avoir un nombre cible exprimé en pourcentage simplifie l’estimation des chances de réussite et permet quelques subtilités que nous détaillerons plus loin, comme les jets d’Opposition, les réussites critiques ou les maladresses. À l’usage, le mécanisme est intuitif et se fait facilement oublier ! Bien sûr, si vous le désirez, il est relativement facile de remplacer le d100 par un d20 : en divisant tous les pourcentages par 5 (arrondir au supérieur), vous obtiendrez le nombre cible avec un jet de d20. Athlétisme 65 % deviendrait ainsi Athlétisme 13. Toutefois, nous vous recommandons de vous en tenir au d100, du moins au début, car le jeu a été pensé pour tirer parti de la flexibilité de ce dé.
 
-However, 1d100 offers a great deal of flexibility and nuance that underpins the whole game, so our recommendation is to try the 1d100 approach first. While it may seem counterintuitive to have to roll _less_ than something (in many games, higher is usually better!), having a target number expressed as a percentage range that one needs to roll within makes it easy and simple to see your chances of success, and allows for quite a few 'dice tricks,' such as Opposed Rolls, Criticals and Fumbles, and a few other things explored later in these rules. Percentile roleplaying has been around since the earliest days of roleplaying and is a firmly established game system with a tried and tested core mechanic that is flexible, intuitive, and tends to fade into the background during play.
-
----
 ## Simplification
 
-Long time owners of _**Mythras**_ will note that in some places the _Mythras Imperative_ rules have been simplified. This has been done so that a Games Master may more quickly introduce the game to new players with a minimum of fuss.
+Les habitués de Mythras noteront que les règles de MYTHRAS FONDAMENTAUX sont simplifiées par endroit. Nous avons procédé ainsi pour que les maitres de jeu puissent plus facilement initier de nouveaux joueurs au système.
 
----
-## Rounding of Numbers and Results
+## Arrondir les nombres et les résultats
 
-On some occasions you will be required to divide numbers – typically the rating in a skill (such as for determining a Critical Success, which is 1/10th of the skill's value). Whenever a division result creates a fraction, always round up to the whole number. So, for instance, 1/10th of 63% is 6.3; this is rounded up to 7.
+Vous aurez parfois besoin de diviser des nombres, en général la valeur d’une compétence (par exemple pour déterminer une réussite critique, qui correspond au dixième de la valeur de cette compétence). Lorsque le résultat d’une division est une fraction, arrondissez toujours au nombre entier le plus élevé. Par exemple, un dixième de 63 % est égal à 6,3, mais sera arrondi à 7.
 
----
-## Dice Used
+## Dés utilisés
 
-_Mythras Imperative_ uses the standard polyhedral dice set: d4, d6, d8, d10 d12, d20 and d100. Additionally, the following dice are called for:
+MYTHRAS FONDAMENTAUX a recours aux dés polyédriques standards : d4, d6, d8, d12, d20 et d100. Les dés suivants sont aussi requis :
 
-d2: Roll any die. An odds number equals 1 and evens equals 2. Or flip a coin.
+d2 : Lancez n’importe quel dé. Un résultat impair correspond à 1, un résultat pair est égal à 2. Vous pouvez aussi lancer une pièce de monnaie.
 
-d3: Roll a six-sided die; 1-2 = 1, 3-4 = 2, 5-6 = 3
-
+d3 : Lancez un dé à six faces. 1-2=1, 3-4=2, 5-6=3.

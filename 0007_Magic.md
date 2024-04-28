@@ -1,412 +1,429 @@
-# Magic and Powers
+# Magie et pouvoirs
 
-Games Masters who want to include magic and/or superpowers in their games will find some basic rules for doing so in this section. It is always best to ensure that everyone involved in the game is happy for magic or superpowers to be included, and always give some thought to the kind of game it may produce.
+Le maitre de jeu trouvera dans ce chapitre des règles simples pour gérer la magie et les pouvoirs (notamment les superpouvoirs des superhéros). Avant d’utiliser tout ou partie de ces règles, nous lui recommandons de réfléchir aux conséquences qu’elles pourraient avoir sur ses parties, et aussi de s’assurer de l’accord des joueurs.
 
----
-## How Powers Work
+## Fonctionnement
 
-Casting a spell or using a superpower usually requires the expenditure of some form of energy drawn from a pool of points. The size of this pool is equal to the character's POW characteristic, and in the case of magicians the pool is known as Magic Points; and for superheroes, Power Points. Using magic or powers costs a certain number of points that is deducted from this pool, and when the pool is empty, no more magic can be cast, or powers used, until it recovers.
+En règle générale, un personnage ne peut lancer un sort ou utiliser un pouvoir qu’en puisant dans une forme d’énergie, représentée dans le jeu par une réserve de points de magie, si le personnage est un magicien, ou de points de pouvoir, si le personnage est un superhéros. La taille maximale de la réserve est égale au POU du personnage. Chaque sort lancé ou pouvoir utilisé consomme un certain nombre de points qui est soustrait à cette réserve. Lorsque la réserve est vide, le personnage n’a plus accès à sa magie ou à ses pouvoirs.
 
-Magic recovers at a number of points equal to the character's Healing Rate per hour until they reach a level equal to the character's POW. This assumes that the character is can rest fully, participating in no other activities, , and is not recovering from fatigue or injury. If so, the Games Master can increase the time taken to recover Magic/Power Points, or reduce the Healing Rate.
+Un magicien récupère un nombre de points de magie égal à la vitesse de guérison du personnage (page 11) par heure, jusqu’à ce que sa réserve soit égale à son POU. Cela implique toutefois que le personnage se consacre entièrement au repos (aucune autre activité n’est autorisée) et n’est pas déjà en train de récupérer d’une blessure ou de la fatigue. Si ce n’est pas le cas, le maitre de jeu peut augmenter le temps de récupération des points de magie ou réduire la vitesse de guérison.
 
-For superpowers, Power Points recover at a rate of one per full minute of rest, but characters can also spend a Luck Point to immediately regain 1d4+1 lost Power Points up to their maximum.
+Un superhéros récupère un point de pouvoir par minute de repos, mais peut également dépenser un point de chance pour immédiatement regagner 1d4 + 1 points de pouvoir.
 
-#### Casting Spells
+### Lancer des sorts
 
-Spells are cast using the Magic skill; without it, magic is simply not possible. Preparing and casting a spell requires one Action and a successful Magic roll. If the roll fails, the spell does not work and must be readied and attempted again later. If the roll succeeds, the spell works, and Magic Points are deducted from the Magic Point pool.
+La compétence Magie est indispensable pour lancer des sorts. La préparation et le lancer d’un sort nécessitent une action et un jet réussi de Magie. En cas d’échec au jet, le sort ne fonctionne pas et devra être préparé à nouveau. En cas de réussite au jet, le sort fonctionne et les points de magie nécessaires pour le lancer sont soustraits à la réserve de points de magie du personnage.
 
-#### Using Superpowers
+### Utiliser des pouvoirs
 
-Superhero characters find that their superpower is always working, and so needs no roll to use or Power Point expenditure; however, if trying to Boost a power, then there is a Power Point cost.
+Pour utiliser un pouvoir, le personnage n’a pas à lancer de dés ni à dépenser de points de pouvoir. Toutefois, il devra dépenser des points de pouvoir pour augmenter (voir page 103) un pouvoir.
 
----
-## Beginning Powers and Learning New Ones
+## Sorts et pouvoirs de départ
 
-#### Magicians
+### Magicien
 
-Magicians begin with 1d4+1 spells, all of which are cast using the Magic skill. The player and Games Master should consult on which spells are available and how the character came by them. For example, the character may have been an apprentice to a local magician, or may have learned magic at their mother's knee.
+Le magicien possède 1d4 + 1 sorts de départ, qui sont tous lancés grâce à la compétence Magie. Le maitre de jeu et le joueur devraient s’entendre sur les sorts accessibles et la manière dont le personnage les a obtenus. Par exemple, un magicien a peut-être été l’apprenti d’un sorcier local ou a appris sa magie auprès de ses parents.
 
-More spells can be learned, but it costs 3 Experience Rolls to learn a new spell, and takes a week of dedicated study and practice. New spells must be learned from a teacher or a reliable source (such as a scroll or grimoire designed to teach a new spell).
+Pour apprendre un nouveau sort, il doit respecter les conditions suivantes :
 
-#### Superheroes
+-   Il doit trouver une source d’enseignement fiable, comme un mentor, un professeur ou un parchemin décrivant la formule du sort.
+-   Il dépense 3 jets d’expérience.
+-   Il consacre une semaine entière à l’étudier et à tenter de le lancer.
 
-For superheroes, the Games Master and player should decide how the character came by his or her powers, and what the source of the power is (for example, it may be a suit of special armor, abilities gained through exposure to cosmic rays, or a genetic mutation).
+### Superhéros
 
-Superheroes start with a number of core powers determined by POW plus another Characteristic based on the source of the powers: CON for altered physiology (mutation, alien species, experimentation) or INT for technology or skill-based powers (cybernetics, battle suits, intense training, and so on). See the table, below.
+Le maitre de jeu et le joueur devraient décider comment le personnage a obtenu ses pouvoirs et quelle est sa source d’énergie : armure spéciale, exposition au rayonnement cosmique, mutation génétique, etc.
 
-A core power can be exchanged for two Boosts that can be applied to any core power. A character may also take up to two Limits from the list starting in the Super Powers section, with one providing a bonus Boost, or two granting a bonus core power. A selection of powers and example Boosts are listed in the [Super Powers](0007_Magic.md?id=superpowers) section.
+Tout superhéros débute la partie avec un nombre de pouvoirs principaux déterminé par la somme du POU et d’une autre caractéristique, puis en consultant le tableau ci-dessous. L’autre caractéristique dépend de l’origine des pouvoirs :
 
+-   CON : Métabolisme altéré (mutation, espèce extraterrestre, expérimentation, etc.)
+-   INT : Technologie ou expertise (cybernétique, armure de combat, entrainement spécial, etc.)
 
-##### Super Powers Table
+Le joueur peut échanger un pouvoir principal contre deux augmentations, qui sont applicables à n’importe quel pouvoir principal, et prendre jusqu’à deux limites (voir la liste à la page 115). Une limite fournit une augmentation ; deux limites octroient un pouvoir principal supplémentaire. Une sélection de pouvoirs et d’augmentations est fournie à partir de la page 111.
 
+Superpouvoirs
 
-| POW+(CON or INT) | Core Powers |
-|:-:|:-:|
-| 1-12 | 1 |
-| 13-20 | 2 |
-| 21-30 | 3 |
-| 31-40 | 4 |
-| 40+ | 5 |
+| POU + Caractéristique | Nombre de pouvoirs principaux |
+|-----------------------|-------------------------------|
+| 12 ou moins           | 1                             |
+| 13-20                 | 2                             |
+| 21-30                 | 3                             |
+| 31-40                 | 4                             |
+| 40+                   | 5                             |
 
+## Magie
 
----
-## Magic
+Lorsqu’un personnage veut lancer un sort, il doit réussir un jet de Magie. Un sort est lancé en un seul tour, mais la quantité de points de magie utilisés et le fonctionnement du sort dépendent du résultat du jet de Magie.
 
-Whenever a character wishes to use a spell, they make a roll against their Magic skill. Casting takes a single turn, but the amount of Magic Points used and whether the spell is successful depends on the result of the roll..
+Si le jet de Magie est un/une…
 
-If the Magic roll is a...
+-   Réussite critique : Le sort est lancé et le personnage ne perd aucun point de magie.
+-   Réussite : Le sort est lancé et le personnage perd 1 point de magie.
+-   Échec : Le sort ne fonctionne pas et le personnage perd 1 point de magie.
+-   Maladresse : Le sort ne fonctionne pas et le personnage perd 1d3 points de magie.
 
-- **Critical Success:** the spell's Magic Point cost is zero.
-- **Success:** the caster loses 1 Magic Point, and the spell works
-- **Failure:** the caster loses 1 Magic Point, but the spell does not work.
-- **Fumble:** the caster loses 1d3 Magic Points for the spell and the spell fails.
+Par défaut, tous les sorts ont une intensité et une magnitude de 1.
 
-Due to their minor or petty nature, all Magic spells have a default Intensity and Magnitude of 1.
+### Limites à la capacité magique
 
+Le magicien peut apprendre un nombre illimité de sorts, sous réserve que le maitre de jeu lui donne accès à de nouveaux sorts.
 
-#### Limits to Magic Capacity
+### Sorts
 
-Characters have no actual limit to the number of Magic spells they can learn, provided that the Games Master permits them to have access to new ones.
+Les sorts possèdent des traits qui définissent leurs effets et leurs limitations particulières. Certains sorts peuvent posséder plus ou moins de traits que d’autres.
 
-#### Spells
+#### Durée des sorts
 
-Spells are defined by various traits defining the effects of the spell and any particular limitations. Every spell is different with some having fewer traits than others.
+À moins qu’un sort n’ait le trait Concentration ou Instantané, il dure tout le temps nécessaire à la scène ou à l’action où il est utilisé. Certains sorts ont une durée spéciale qui est précisée dans leur description.
 
-#### Duration of Spells
+#### Traits magiques
 
-Unless a spell has either the Concentration or Instant traits it has a natural duration which lasts the entire scene or action for which the spell was used. A few spells have custom durations noted in the spell's definition.
+Les traits possibles sont les suivants :
 
-#### Magic Traits
+À Distance : Les sorts avec ce trait peuvent être lancés à une distance allant jusqu’à la valeur de la compétence Magie du personnage en mètres. Le lanceur doit connaitre l’emplacement de la cible : « elle est cachée derrière la porte », par exemple. S’il ne parvient pas à voir ou à percevoir directement la cible, la difficulté du jet de Magie augmente d’un niveau.
 
-Magic Traits are as follows:
+Concentration : Les effets du sort perdurent tant que le lanceur reste concentré sur le sort. Le lanceur ne doit pas être distrait par des perturbations mentales ou physiques : cela interromprait sa concentration et annulerait immédiatement le sort.
 
-- **Concentration:** The spell's effects remain in place if the caster continues to concentrate on maintaining it. Concentration requires the caster to be free of all physical and mental distractions: any such disturbance interrupts the concentration, resulting in the spell's immediate dismissal.
-- **Instant:** The spell's effects happen immediately. It has no duration.
-- **Ranged:** Spells with the Ranged trait can be cast at a distance of up to the character's Magic score in metres. The caster must know the location of the target, such as 'hiding behind the door': if they are unable to directly see or sense the target of the spell, then the Magic roll becomes one grade harder.
-- **Resist (Endurance, Evade, Willpower):** Any spell that is not readily accepted by a target can be actively resisted using either Endurance, Evade or Willpower, as determined by this trait. To successfully resist a spell, the target must win an Opposed Roll of the relevant skill against the caster's Magic casting result. If the target fails in the roll, then the spell takes effect as normal. Note that resisting is usually a passive action if Endurance or Willpower are the being used. If a spell requires the target to Evade, then it costs an Action Point to make the Evade attempt. Targets without Action Points to spend in evading will therefore be powerless against the spell's effect.
-- **Touch:** The caster must be in physical contact with the target whilst the spell is cast. If a target is intent on resisting physical contact, then the caster will most likely fail to complete his spell unless some specific circumstance prevents the target's withdrawal, such as surprise or the Grip special effect. A touch spell merely needs to contact the target or its carried accouterments to work.
+Contact : Le magicien doit être en contact physique avec la cible pendant qu’il lance le sort. Si la cible désire éviter le contact physique, le lanceur ne pourra probablement pas terminer le sort, à moins qu’une circonstance particulière empêche la cible de se soustraire au contact (par exemple à cause de l’effet de surprise ou de l’effet spécial Saisir). Pour fonctionner, un sort de contact nécessite de toucher la cible ou ses possessions.
 
+Déclencheur : Le lanceur peut retarder les effets d’un sort avec le trait déclencheur. Si le sort n’est pas déclenché pendant la scène, il se dissipe naturellement.
 
----
-## Spell Descriptions
+Instantané : Les effets du sort sont immédiats. Le sort n’a donc pas de durée.
 
-#### Alarm
+Résistance (Endurance, Esquive, Volonté) : La cible a le droit de résister au sort en utilisant la compétence indiquée par le trait : Endurance, Esquive ou Volonté. Pour ce faire, la cible doit remporter un jet d’opposition entre la compétence appropriée et le jet originel de Magie. Si la cible échoue, le sort prend effet normalement. Notez que résister est généralement une action passive si l’Endurance ou la Volonté sont utilisées. Si la cible est censée esquiver, elle doit dépenser un point d’action ; sinon, elle sera impuissante face au sort.
 
-_Special Duration_
+## Description des sorts
 
-Casting Alarm on a location such as a room or small clearing creates a temporary psychic bond between the area and the caster. If the area is accessed by a living creature with a SIZ greater than 1, the caster is automatically made aware that something has transgressed no matter how great the distance. The Alarm is usually a distinct tingling sensation or mental twinge which will awaken the caster. Alarm can also be used on an individual object, triggering when touched or moved.
+#### Alarme
 
-#### Avert
+*Durée spéciale*
 
-_Instant, Ranged_
+Si l’Alarme est lancée sur un endroit comme une pièce ou une petite clairière, cela crée un lien psychique temporaire entre cette zone et le lanceur. Si un être vivant avec une TAI supérieure à 1 pénètre dans la zone, le lanceur du sort est automatiquement alerté de ce fait, quelle que soit la distance qui les sépare. En général, l’alerte se manifeste par une sensation de picotement ou de pincement mental qui réveillera le lanceur. L’Alarme peut aussi être utilisée sur un objet : elle se déclenchera quand celui-ci sera touché ou déplacé.
 
-Avert is used to dismiss another spell within range. Avert can be cast reactively to neutralize offensive spells, by using the Counter Magic Reactive Action.
+#### Apaisement
 
-#### Befuddle
+*À Distance, Résistance (Volonté)*
 
-_Ranged, Resist (Willpower)_
+Apaisement tente de réfréner les passions de la cible, pour veiller à ce qu’un amant transi d’amour ne soit pas trop entreprenant, qu’un rival apeuré ne crie pas à l’aide ou que les armes ne soient pas dégainées sous l’effet de la colère. Une personne apaisée n’est pas autrement affectée : elle se défendra ou attaquera normalement en cas de menace ou d’agression, mais le fera en gardant son calme.
 
-Befuddle causes confusion within the mind of a corporeal target. The subject of the spell has difficulty thinking straight, forgetting where it is, what it is doing and why – often lapsing into disassociated lines of thought. Befuddled targets can still act in self defense, but cannot initiate any constructive activity until the spell ends. Any sort of attack or threatening action instantly breaks the spell, whether or not it was directed specifically at the befuddled target.
+#### Apnée
 
-#### Bladesharp
+*Contact*
 
-_Touch_
+Apnée permet à sa cible de retenir sa respiration pendant une période prolongée, afin que celle-ci puisse s’aventurer temporairement dans des environnements dangereux, sous l’eau, ou dans des atmosphères viciées par de la poussière, des gaz, du poison ou de la fumée. Si la cible parle lorsque le sort est actif, le sort cesse immédiatement et elle commence à s’asphyxier (ou à s’empoisonner).
 
-Bladesharp is cast on edged and piercing melee weapons. It increases the damage of a weapon by one dice step and incidentally leaves the edge honed after the spell concludes. This spell is often used on tools such as logging axes, plows, and razors. Thus, casting this spell on a dagger increases it to 1d6+1 damage, whereas the same spell on a great axe would increase it to 2d8+2 damage. (1d4→1d6→1d8→1d10→2d6→2d8→2d10).
+#### Bouclier Spirituel
 
-#### Bludgeon
+*Concentration, Contact, Résistance (Volonté)*
 
-_Touch_
+Ce sort crée autour de la cible un bouclier qui empêche les esprits de s’approcher. Tout esprit souhaitant attaquer ou posséder la cible devra remporter un jet d’opposition entre sa Volonté et la compétence Magie du lanceur.
 
-Bludgeon is like Bladesharp but used on weapons and tools that deal blunt-force trauma rather than cutting or piercing damage. It is normally used to aid with threshing grain, fulling wool, or similar heavy-duty work.
+#### Cimenter
 
-#### Breath
+*Contact*
 
-_Touch_
+Cimenter colle ensemble deux objets solides inanimés pour la durée du sort, par exemple la roue d’un charriot à son essieu ou une porte à son cadre. Sous l’effet du sort, les objets, aussi disparates soient-ils, ne peuvent être séparés à moins que quelque chose n’essaie activement de le faire. Le sort est détruit en cas d’échec à un jet d’opposition de Force Brute. La valeur de Force Brute du sort est égale à cinq fois le POU du lanceur de sort. Une fois que le sort se termine ou échoue, chaque élément se sépare sans dommage.
 
-Breath permits the recipient to hold their breath for an extended period, so that they can temporarily venture into harmful environments, such as underwater; or atmospheres tainted by rock dust, gases, smoke, or poisons. The spell lasts for a maximum of half the caster's POW in minutes, during which time the recipient cannot speak, or the breath is lost, and they must immediately begin to breathe from their environment suffering any present risks - be that asphyxiation, drowning, poisoning, etc.
+#### Confusion
 
-<details>
+*À Distance, Résistance (Volonté)*
 
-<summary>* Community Errata</summary>
+Confusion perturbe l’esprit d’une créature physique. La cible du sort a du mal à penser posément, au point d’oublier où elle se trouve, ce qu’elle fait et pourquoi elle le fait, et peut même avoir des pensées contradictoires. Elle peut encore se défendre, mais elle est incapable d’agir de façon cohérente jusqu’à la fin du sort. Toute forme d’attaque ou de menace affectant la créature confuse brise instantanément le sort, même si elle ne la visait pas spécifiquement.
 
-_**Breath**_
+#### Contrecarrer
 
-_The original spell description was as follows: "Breath permits the recipient to hold their breath for an extended period, so that they can temporarily venture into harmful environments, such as underwater; or atmospheres tainted by rock dust, gases, smoke, or poisons. The spell lasts for a maximum of half the caster's POW in minutes, during which time the recipient cannot speak, or the breath is lost, and they immediately begin to asphyxiate (or become poisoned)."_
+*À Distance, Instantané*
 
-_This could be read as an offensive effect triggered at the spell's end, which seems counter to the authors' intention and the pattern of such spells as utilities rather than weapons. Hence the Community Errata edit above. We will update this text should the original authors revise the rule as written._
+Contrecarrer annule un autre sort à portée. Il peut être utilisé en réaction à des sorts offensifs grâce à l’action Contresort.
 
-</details>
+#### Détection (X)
 
-#### Calm
+*À Distance, Concentration, Résistance (spécial)*
 
-_Ranged, Resist (Willpower)_
+Il existe de nombreuses variantes de Détection, qui sont toujours spécifiques et apprises comme des sorts distincts. Quelques exemples courants sont donnés ci-dessous. Le sort met le lanceur en harmonie avec les émanations naturelles d’une créature ou d’une chose, l’alertant de sa présence si elle est à portée du sort.
 
-Calm attempts to dampen down the passions or the target, perhaps ensuring that a lovesick paramour doesn't press his suit, a frightened rival doesn't scream for help or that weapons are not drawn in anger. A calmed person is not otherwise mentally affected; Thus, any sort of assault or threatening action still permits the target to defend themselves and even attack, albeit they will do so in a calm and level-headed manner.
+Toutefois, il ne peut pas discerner les émotions ou les pensées. De plus, il peut être bloqué par des matériaux denses ou épais d’au moins un mètre d’épaisseur : métal, terre, pierre…
 
-#### Chill
-
-_Instant, Touch_
-
-Chill dramatically reduces the temperature of small objects (no larger than the caster's hand) down to the temperature of ice water. Useful for rapidly cooling hot items, chilling drinks, and so forth. The spell does not freeze an object and neither does it cause any damage to its structure: it merely renders it very cold.
-
-#### Darkness
-
-_Concentration, Ranged_
-
-Darkness creates an area of shadow, equal to POW in square metres, which suppresses all light within it. This is enough volume to fill a modest room, a length of corridor or form a small cloud if cast outside. All non-magical light, including sunlight, passing into or present within the boundary is reduced to the equivalent of a dim glow.
+-   Détection (animal) : Localise un type d’animal. La cible peut résister au sort avec sa Volonté.
+-   Détection (défauts) : Identifie les défauts d’un objet, comme les imperfections cachées ou des dégâts physiques.
+-   Détection (flèches) : Localise les projectiles perdus par la cible. Utile pour les chasseurs.
+-   Détection (maladie) : Identifie la présence d’une maladie, qu’elle soit magique ou ordinaire.
+-   Détection (objet) : Localise une possession personnelle perdue.
+-   Détection (trésor) : Localise les métaux et les pierres précieuses.
 
 #### Disruption
 
-_Instant, Ranged, Resist (Endurance)_
+*À Distance, Instantané, Résistance (Endurance)*
 
-Disruption is used for damaging or disassembling physical objects without the need for tools. It is commonly employed to drive off or kill living creatures, such as birds or vermin. When successfully cast, Disruption inflicts 1d3 damage to a single random Hit Location or the overall Hit Points of an object. In both cases the damage ignores any armor or natural protection.
+Ce sort endommage ou détruit des objets physiques sans l’aide d’outils. Il sert aussi à chasser ou à tuer des êtres vivants, comme des oiseaux ou les petits animaux nuisibles. S’il est lancé avec succès, il inflige 1d3 points de dégâts à une localisation aléatoire ou aux points de vie globaux d’un objet. Dans les deux cas, les dégâts ne tiennent pas compte de l’armure ou de la protection naturelle.
 
-#### Extinguish
+#### Extinction
 
-_Instant, Ranged_
+*À Distance, Instantané*
 
-Extinguish immediately quenches flames and small fires of modest size and heat. It is useful for dousing candles, lanterns, torches, or small cook fires, but it will not work on magical or larger, more ferocious conflagrations such as pyres, burning houses or dragon flames.
+Extinction éteint immédiatement les flammes et les feux de taille modeste. Il est utile pour les bougies, les lanternes, les torches ou les petits feux de cuisson, mais il ne fonctionnera pas sur des foyers plus grands ou magiques, comme un bucher, une maison en feu ou les flammes d’un dragon.
 
-#### Find (X)
+#### Flèche de Feu
 
-_Concentration, Ranged, Resist (Special)_
+*Contact*
 
-Find has many variations; always specific and learned as separate spells. Some common examples are given below. It works by attuning to the natural emanations of a creature or thing, alerting the caster to its presence within the spell's range. Find can be blocked by dense or thick materials such as metal, or earth and stone at least one metre thick. The spell cannot discern emotions or thoughts. 
+Tous les projectiles lancés ou tirés par le bénéficiaire de Flèche de Feu s’enflamment lorsqu’ils sont projetés. Créé à l’origine pour servir de signal éclairant, le sort sert désormais surtout en combat. Les projectiles avec cet effet infligent 1d3 points de dégâts supplémentaires, mais s’éteignent s’ils pénètrent la chair. Ceux qui atteignent des matériaux inflammables, comme des boucliers de bois ou des toits de chaume, ont une chance d’enflammer ces matériaux égale à la valeur de la compétence Magie du lanceur. Les projectiles en bois enchantés par Flèche de Feu sont consumés à la fin du sort.
 
-- *Find Arrows*: Locates ammunition shot by hunters, which miss their target.
-- *Find Flaw*: Identifies any flaws in an object, such as hidden imperfections or physical damage.
-- *Find Livestock*: Locates a particular type of animal. Can be resisted with Willpower.
-- *Find Loot*: Locates precious metals and gems.
-- *Find Object*: Locates a lost personal possession.
-- *Find Sickness*: Identifies the existence of disease and illness, whether magical or mundane.
+#### Fracasser
 
-#### Firearrow
+*Contact*
 
-_Touch_
+Fracasser est similaire à Vivelame, mais il est utilisé sur les armes et les outils contondants plutôt que ceux qui sont tranchants ou perforants. Il est normalement utilisé pour faciliter les travaux pénibles : battre les grains, fouler la laine, etc.
 
-Firearrow causes all missiles thrown or fired by the recipient to burst into flame when released. Ostensibly created to act as a signal flare, it has since evolved into a combat magic. Missiles under its effect add an additional 1d3 damage but are extinguished if they impale flesh. Those that strike flammable material have a chance equal to the caster's Folk Magic skill of setting alight whatever they lodge in, such as wooden shields, thatched roofs and so on. Wooden ammunition is consumed as part of the spell.
+#### Froid
 
-#### Fireblade
+*Contact, Instantané*
 
-_Touch_
+Ce sort réduit la température d’objets de petite taille (avec un ENC inférieur au tiers du POU du lanceur) à la température de l’eau glacée. Il est utile pour refroidir des objets brulants, des boissons, etc. Le sort ne gèle pas un objet et ne lui cause aucun dégât structurel : il le rend simplement très froid.
 
-Fireblade like Firearrow but is instead cast on hand tools and melee weapons. The original purpose of the spell is to sterilize surgical equipment, aid in slash and burn agriculture or provide illumination during darkness without the need to carry an additional light source. If cast on a weapon it inflicts an additional 1d3 damage, and damage and has the chance of setting flammable materials alight if held to them for several rounds (see Fire in the Game System Section). Wooden hafted weapons under the effects of Fireblade will be consumed as part of the spell.
+#### Ignition
 
-#### Glue
+*À Distance, Instantané*
 
-_Touch_
+Ignition ne fonctionne que sur la matière inorganique inflammable, provoquant l’embrasement d’un objet ou d’une zone de la taille d’une main. Selon ce qui est enflammé, le feu peut alors se répandre, à moins d’être éteint ou étouffé à temps. Ce sort est normalement utilisé pour allumer de loin des bougies, des torches ou des lanternes. Il peut également être utilisé pour allumer un feu dans des conditions défavorables : vents forts, matériaux humides…
 
-Glue cements together two solid, inanimate objects for the duration of the spell, for example a cartwheel to its axle or a door to its frame. Whilst under the effects of the spell the items, no matter how disparate, cannot be parted unless something actively tries to wrench them apart. In this circumstance the spell has a Brawn skill equal to five times the caster's POW and fails when a superior Brawn is set against it, defeating it in an Opposed Roll. Once the spell concludes or fails, the items part completely unharmed.
+#### Lame de Feu
 
-#### Heal
+*Contact*
 
-_Instant, Touch_
+Lame de Feu est semblable à Flèche de Feu, à la différence qu’il est lancé sur les outils et les armes de mêlée. Le but initial du sort est de stériliser le matériel chirurgical, d’aider à la culture sur brulis ou de fournir un éclairage sans avoir à transporter une source de lumière supplémentaire. S’il est lancé sur une arme, celle-ci inflige 1d3 points de dégâts supplémentaires et a une chance d’enflammer des matériaux combustibles si elle reste à leur contact pendant plusieurs rounds (voir Feux à la page 48). Les armes avec une poignée en bois qui sont enchantées avec Lame de Feu sont consumées à la fin du sort.
 
-Heal has several different effects depending on the nature of the ailment it is being used on. If the subject is suffering from a minor complaint such as a headache, back pain, hangover, cold, warts and so on, then the symptoms are immediately lifted. Cast on a location suffering a Minor Wound it restores all lost Hit Points instantly. Against Serious or Major Wounds no Hit Points are recovered. However, the spell will stabilize locations, stop all bleeding and prevent imminent death from inattention.
+#### Lumière
 
-#### Ignite
+*À Distance, Concentration*
 
-_Instant, Ranged_
+Ce sort doit être lancé sur un objet inanimé (qui peut être une branche, une épée, une pointe de lance, une torche, etc.). Il produit assez de lumière pour éclairer une zone comme le ferait une lanterne. Il peut également être directement lancé pour contrer un sort de Ténèbres. Dans ce cas, les deux sorts s’annulent, laissant la lumière ambiante éclairer la zone.
 
-Ignite only works on flammable inorganic matter, causing a small object or hand-sized area to burst into flame. Depending on what was set alight, once burning, the flames may then spread unless quenched or countered in some way. This spell is normally used to light candles, torches, or lanterns from afar. It can also be used to start a camp or cooking fire in adverse conditions, such as using damp kindling or in strong winds.
+#### Mirage
 
-#### Knock
+*À Distance, Concentration*
 
-_Instant, Touch_
+Mirage permet au lanceur de manipuler des objets immatériels ou très légers à proximité pour leur conférer une forme fantomatique. Ainsi, une figure spectrale peut être modelée à partir d’un brouillard d’origine naturelle, ou un visage pourra se former à partir d’un tas de feuilles mortes. À part cela, le sort a peu d’effets et sert surtout à effrayer, à intriguer ou à déconcerter les spectateurs.
 
-Knock magically unfastens any device that is currently secured with a mechanical bar or lock. It does not work on magically locked objects, only mundane ones. The spell only affects a single fastening, so if there are several locks and bars securing the object, the spell will need to be recast for each one.
+#### Soins
 
-#### Light
+*Contact, Instantané*
 
-_Concentration, Ranged_
+Les effets de ce sort dépendent de la nature de l’affection à traiter. Si le sujet est atteint d’une affection bénigne comme un mal de tête, de dos, une gueule de bois, un rhume ou encore des verrues, alors les symptômes sont immédiatement levés. Lancé sur une localisation subissant une Blessure Légère, il restaure instantanément tous les points de vie perdus. En cas de Blessure Sérieuse ou Grave, aucun point de vie n’est récupéré, mais le sort stabilise la localisation, stoppant ainsi les hémorragies et empêchant une mort imminente.
 
-Light must be cast on an inanimate object (this could be a branch, sword blade, spear point, torch and so on). It produces enough light to illuminate an area as though with a lantern. It can also be cast directly against a Darkness spell to counter it. In this case both spells are consumed, leaving the ambient light to illuminate the area.
+#### Sommeil
 
-#### Lock
+*Contact, Résistance (Endurance)*
 
-_Special Duration, Touch_
+Sommeil plonge la cible dans un sommeil profond et paisible. Il n’a aucun effet sur les créatures d’une TAI supérieure au POU du lanceur. À moins que les cibles ne résistent, elles dormiront pendant un nombre d’heures égal à la moitié du POU du lanceur de sort. Cependant, la cible ne s’endort qu’au bout de 1d3 rounds. Toute tentative pour lancer ce sort en combat échoue automatiquement.
 
-Lock magically secures any device that already has a mechanical bar or lock present. A Locked device can be opened only by the caster and cannot be picked by mundane means (such as by a thief using lock-picks) since the magic renders the mechanism immobile; however, it could still be forced open by breaking the object the lock is set into. The magic remains in place until opened by the caster, after which the device must be subject to a further casting of Lock to restore the enchantment. The Magic Point used to cast Lock does not recover until the spell is dismissed or concludes naturally.
+#### Ténèbres
 
-#### Phantasm
+*À Distance, Concentration*
 
-_Concentration, Ranged_
+Ce sort crée une zone d’ombre, égale au POU du lanceur en mètres carrés, qui supprime toute lumière en son sein. Le volume est suffisant pour remplir une salle modeste, une longueur de couloir ou former un petit nuage en extérieur. Toute lumière non magique, y compris la lumière solaire, qui traverse ou se trouve dans les limites du sort est réduite à l’équivalent d’une faible lueur.
 
-Phantasm allows the caster to weave together insubstantial or near weightless objects so that they take a shape or ghostly form. Thus, a spectral figure could be woven from a naturally occurring mist, or a face formed in a pile of dead leaves. Beyond this the spell has little effect, save to frighten, intrigue, or disconcert those that view it.
+#### Vivelame
 
-#### Sleep
+*Contact*
 
-_Resist (Endurance), Touch_
+Vivelame doit être lancée sur une arme de mêlée tranchante ou perforante. Le dé de dégâts de l’arme est alors augmenté d’un cran et la pointe ou le fil de la lame sera parfaitement aiguisé jusqu’à la fin du sort. Ce sort est souvent utilisé sur des outils comme des cognées, des socs ou des rasoirs. Ainsi, une dague enchantée avec Vivelame inflige 1d6 + 1, alors qu’une grande hache infligerait 2d8 + 2.
 
-Sleep sends its recipient into a deep, peaceful sleep. It has no effect on creatures with a SIZ greater than the caster's POW. Unless the target resists, it slumbers for a number of hours equal to the half the caster's POW. However, the spell takes 1d3 Rounds to take effect before the target falls unconscious. Any attempt to cast this spell in a combat situation automatically fails.
+(1d4 \> 1d6 \> 1d8 \> 1d10 \> 2d6 \> 2d8 \> 2d10)
 
-#### Vigor
+#### Verrouiller
 
-_Touch_
+*Contact, Durée spéciale*
 
-Vigor makes the recipient feel alive and energetic, being used to offset the effects of strenuous physical labor. For the spell's duration, all Fatigue effects gained from laborious activity are ignored (but return on the spell's dismissal).
+Verrouiller sécurise magiquement tout appareil possédant déjà un système de fermeture. Un dispositif ainsi verrouillé ne peut être ouvert que par le lanceur du sort et ne peut pas être forcé par des moyens ordinaires (comme un voleur utilisant des crochets). Il peut toutefois être ouvert de force en brisant l’objet. Une fois ouvert, le dispositif doit être soumis à un nouveau lancer de Verrouiller pour restaurer l’enchantement. Le point de magie utilisé pour le lancer ne se récupère que lorsque le sort est annulé ou expiré.
 
-#### Witchsight
+#### Vigueur
 
-_Ranged, Resist (Willpower)_
+*Contact*
 
-Witchsight allows the caster to see active magic, enchanted items, and invisible entities (although such things are simply shadowy representations) that lie within range and line of sight. It can also penetrate illusions or discern the true guise of shapeshifted creatures. Beings which wish to remain hidden or disguised must win an Opposed Roll of their Willpower versus the casting roll.
+Vigueur redonne à la cible santé et énergie, et peut ainsi compenser les effets d’un travail physique intense. Pour la durée du sort, tous les effets de la fatigue dus à une activité laborieuse sont ignorés (mais reviennent à la fin du sort). Vigueur annule les effets d’un sort de Fatigue.
 
----
-## Superpowers
+#### Vue Magique
 
-The superpowers included here provide a core power that is either always active or can be activated at will. Core powers can also have special stunts called Boosts that require the expenditure of Power Points to activate. A character that reaches 0 Power Points cannot use Boosts or any core powers with a cost until Power Points are regained.
+*À Distance, Résistance (Volonté)*
 
-Limits are optional disadvantages that can be placed on a character, core powers, or Boosts. Each Limit details the circumstances in which it applies, and the Games Master must approve any Limit chosen.
+Vue Magique permet au lanceur de percevoir la magieAugmentation active, les objets enchantés et les entités invisibles (mais seulement sous la forme de silhouettes) qui se trouvent à portée du sort. Vue Magique peut aussi pénétrer les illusions ou discerner l’apparence réelle de créatures changeformes. Les créatures désirant rester cachées ou déguisées doivent réussir un jet d’opposition entre leur Volonté et le jet de lancer du sort.
 
-A character may also take up to two Limits from the list below, with one providing a bonus Boost, or two granting a bonus core power.
+## Superpouvoirs
 
+Chaque superpouvoir inclus ici fournit un pouvoir principal qui est soit constamment actif, soit activable à volonté. Certains pouvoirs principaux sont aussi accompagnés d’une capacité spéciale appelée augmentation, activable en dépensant des points de pouvoir. Un personnage réduit à 0 point de pouvoir est incapable d’utiliser ses pouvoirs principaux ou ses augmentations.
 
----
-## Powers Descriptions
+Les limites sont des désavantages optionnels pouvant affecter un personnage, un pouvoir principal ou une augmentation. Toute limite choisie par un joueur doit être validée auprès du maitre de jeu.
+
+### Pouvoirs principaux et augmentations
 
 #### Animation
 
-Animate 2 cubic metres of non-living materials within POW in metres to create a construct, usually in a humanoid form. The cost in Power Points is equal to the armor value of the highest value material used, which is also the base armor value of the construct. Constructs have a base STR of 2d6+16 (23), SIZ of 1d6+12 (15), and a DEX of 1d6+8 (11), with Hit Points determined as normal. The character must use actions to direct the construct and it uses the character's skills for any rolls. If the construct takes a Serious Wound to the chest or abdomen, make an opposed Endurance check against the attack roll. If unsuccessful the construct immediately collapses. Example Armor Values/ Power Point Cost:
+Dans un rayon égal au POU du personnage en mètres, ce pouvoir anime 2 mètres cube de matériau non vivant et forme ainsi une créature artificielle, souvent de forme humanoïde. Le cout en points de pouvoir équivaut à la valeur en points d’armure du matériau de plus grande valeur utilisé pour la créature. Voici quelques exemples : Plastique ou bois tendre, 2 points d’armure et de pouvoir ; béton ou bois dur, 4 ; métal mou ou pierre, 6 ; Métal dur, 8.
 
-| Armor Values          | Power Point Cost |
-|:--|:-:|
-| Plastic or Soft Wood  | 2                |
-| Concrete or Hard Wood | 4                |
-| Soft Metal or Stone   | 6                |
-| Hard Metal            | 8                |
+Les valeurs de base de la créature sont les suivantes :
 
-**Boost:** Spend 2 Power Points to instantly move the construct to another source of the same material within POW in metres.
+FOR : 2d6 + 16 (23) ; TAI : 1d6 + 12 (15) ; DEX : 1d6 + 8 (11). Les points de vie sont déterminés de la manière habituelle.
 
-#### Combat Expert
+Le personnage doit utiliser des actions pour diriger la créature ; celle-ci emploie les compétences du personnage pour ses jets. Si la créature subit une Blessure Sérieuse à l’abdomen, elle doit effectuer un jet d’Endurance contre le jet d’attaque. En cas d’échec, elle s’effondre immédiatement.
 
-Choose one type of combat expertise from the list below, plus one for every boost spent.
+**Augmentation :** Coute 2 points de pouvoir. Le personnage déplace instantanément la créature artificielle vers une autre source du même matériau dans un rayon égal au POU du personnage en mètres.
 
-- Melee expertise grants one bonus Action Point that can only be used defensively, and effective weapon size is increased by one step for attacks and parries. 
-- Ranged expertise reduces the situational modifiers by two grades instead of one when aiming and reload time of ranged weapons is reduced by one.
+#### Armure intrinsèque
 
-Boost: Spend 2 Power Points to gain an extra Action Point that can only be used to Attack or Ready Weapon.
+Le personnage reçoit à chaque localisation un nombre de points d’armure égal à 1/3 de sa CON, arrondi au supérieur. Lors de la création du pouvoir, il est possible de transférer jusqu’à deux points d’armure d’une localisation vers une autre : par exemple, deux points du bras droit pourraient être transférés vers la tête.
 
-#### Durability
+**Augmentation :** Si le personnage est atteint par une attaque, il gagne un point d’armure supplémentaire par point de pouvoir dépensé à la ou les localisations touchées.
 
-Hit points are calculated using CON+SIZ+POW and Healing Rate is calculated using CON+ half POW, rounded up.
+#### Expert en combat
 
-**Boost:** Spend 2 Power Points as a free action to regain Healing Rate in lost Hit Points or a lost level of Fatigue.
+Le joueur choisit pour son personnage un type d’expertise martiale parmi les quatre ci-dessous, plus une expertise supplémentaire pour chaque augmentation dépensée.
 
-#### Elemental Control
+-   Mêlée : Octroie une action de combat bonus utilisable uniquement pour parer. La taille de l’arme du personnage est augmentée d’un cran pour les attaques et les parades.
+-   À distance : Lorsque le personnage vise, la difficulté de tout modificateur situationnel est réduite de deux niveaux au lieu d’un. Le temps de rechargement des armes à distance est réduit d’un round.
+-   Sans arme : Les attaques sans arme (compétence Bagarre) sont considérées comme étant de taille Moyenne et infligent 1d4 + 1 points de dégâts par défaut.
+-   Lancer : Si l’arme lancée atteint une localisation aléatoire de la cible, il est possible de choisir à la place une localisation adjacente à cette localisation aléatoire. Par exemple, si l’arme atteint la jambe gauche, on peut choisir l’abdomen à la place. L’action Préparer une Arme devient une action libre si le personnage s’en sert pour « dégainer » une arme de lancer.
 
-Choose a specific material or type of energy. Spend an action to control up to half POW in cubic metres of the element anywhere within POW metres. May alter the basic form or create complex shapes with a successful Craft (specific element) check. Upon creation choose either a close combat attack or a ranged attack. The close combat attack has a reach of Very Long and the ranged attack has a range of 8/24/100, then choose any two Combat Effects. Damage and force/size is determined by POW: 8 or less: 1d4/T, 9-12: 1d6/S, 13-15: 1d8/M, 16-18: 1d10/M, 19+: 1d12/L.
+**Augmentation :** Coute 2 points de pouvoir. Le personnage obtient une action de combat supplémentaire, utilisable uniquement pour les actions Attaquer ou Préparer une Arme.
 
-**Boost:** Spend 3 Power Points to sheathe the character in the element for the scene. Solid materials gain an armor value equal to one fifth POW, rounded up. If it is energy, unarmed attacks inflict extra damage equal to the base damage of the power and unarmed attacks against the character suffer the same damage to the limb used.
+#### Chanceux
 
-#### Energy Blast
+Les points de chance du personnage sont calculés en fonction de la somme CHA + 1/2 POU (arrondi au supérieur).
 
-Fire blasts of a specific type of energy out to a range of 10/30/120 and choose two Combat Effects to apply at time of creation. Damage and force are determined by the character's POW: 8 or less: 1d6/S, 9-12: 1d8/M, 13-15: 1d10/M, 16-18: 1d12/L, 19+: 2d6/L. To hit, the character rolls against either an applicable Combat Style for the power or uses Unarmed.
+**Augmentation :** Coute 3 points de pouvoir. Si le résultat d’un jet du personnage est un double (66, 55, etc.), il peut activer ce pouvoir pour obtenir un point de chance, à utiliser avant la fin de la scène en cours.
 
-**Boost:** Spend 2 Power Points and an action to inflict +1d6 damage on the next energy blast attack.
+#### Contrôle élémentaire
 
-#### Enhanced Reactions
+Le joueur choisit un élément, qui peut être une matière ou un type d’énergie (eau, ténèbres, lumière, etc.). Il détermine ensuite si l’élément servira à des attaques rapprochées ou à distance, puis il choisit deux effets spéciaux liés à l’attaque.
 
-Gain a bonus to initiative rolls equal to the critical range of Athletics skill and never end up prone after using Evade.
+Un personnage doté du contrôle élémentaire peut, en utilisant une action de combat, contrôler jusqu’à POU/2 en mètres cubes de l’élément dans un rayon égal à son POU en mètres. Il est capable d’altérer la forme de base de l’élément sans effectuer de jets. S’il veut concevoir des formes complexes, il doit réussir un jet d’Artisanat (élément spécifique).
 
-**Boost:** Spend 1 Power Point to make the next Athletics or Acrobatics check one difficulty grade easier.
+L’attaque de mêlée à une allonge Très Longue, tandis que l’attaque à distance possède une portée de 8 m/24 m/100 m.
 
-#### Enhanced Speed
+Les dégâts et la taille ou l’impact dépendent du POU du personnage, comme indiqué dans le tableau ci-après.
 
-Increase base movement by a multiplier based on DEX+POW. Maximum speed outside of combat is equal to ten times the modified movement in kilometres per hour.
+| POU        | Taille/Impact            | Dégâts |
+|------------|--------------------------|--------|
+| 8 ou moins | T (TAI)                  | 1d4    |
+| 9-12       | C (taille) ou P (impact) | 1d6    |
+| 13-15      | M                        | 1d8    |
+| 16-18      | M                        | 1d10   |
+| 19 ou plus | L (taille) ou G (impact) | 1d12   |
 
-DEX+POW: 12 or less: x2, 13-24: x3, 25-36: x4, 37+: x5.
+Augmentation : Coute 3 points de pouvoir. Le personnage s’enveloppe dans son élément pour la durée de la scène. Un matériau solide fournit un nombre de points d’armure égale à 1/5 e du POU du personnage, arrondi au supérieur.
 
-**Boost:** Spend 2 Power Points to gain an extra Action Point that can only be used to Change Range, Move, or Outmaneuver.
+Si l’élément est une énergie, les attaques sans arme infligent un nombre de dégâts supplémentaires égaux aux dégâts de base du pouvoir. Les attaques sans arme contre le personnage subissent les mêmes dégâts à la localisation utilisée pour attaquer.
 
-#### Enhanced Strength
+#### Déferlement d’énergie
 
-Damage bonus is calculated using STR+SIZ+POW and maximum lift is determined by the character's STR+POW: 12 or less: 1 ton, 13-24: 2 tons, 25-36: 3 tons, 37+: 5 tons. Unarmed attacks count as large size and melee and thrown objects have their size or force increased by one.
+Le personnage envoie de l’énergie à une portée de 10/30/120 m. Au moment de la création du pouvoir, le joueur choisit le type d’énergie ainsi que deux effets spéciaux à appliquer.
 
-**Boost:** Spend 3 Power Points to double maximum lift for one action or task.
+Les dégâts et l’impact dépendent du POU du personnage, comme indiqué dans le tableau ci-dessous.
 
-#### Flight
+| POU        | Impact | Dégâts |
+|------------|--------|--------|
+| 8 ou moins | P      | 1d6    |
+| 9-12       | M      | 1d8    |
+| 13-15      | M      | 1d10   |
+| 16-18      | L      | 1d12   |
+| 19 ou plus | L      | 2d8    |
 
-Gain a flight speed equal to POW in metres, with a maximum speed outside of combat equal to ten times movement in kilometres per hour.
+**Augmentation :** Coute 2 points de pouvoir. Le personnage doit consacrer une action à activer cette augmentation. Sa prochaine attaque avec le déferlement d’énergie infligera + 1d6 points de dégâts.
 
-**Boost:** Spend 3 Power Points during an aerial Move action to initiate a charge attack during the movement.
+#### Force améliorée
 
-#### Heightened Sense
+Le modificateur de dégâts est calculé en utilisant la somme FOR + TAI + POU. De plus, la charge maximale du personnage est déterminée par sa FOR + POU : 12 ou moins, 1 tonne ; 13-24, 2 tonnes, 25-36, 3 tonnes ; 37 ou plus, 5 tonnes.
 
-Choose one sense. Perception checks with that sense are one skill grade easier.
+Les attaques sans arme du personnage sont considérées comme étant de taille Grande. Enfin, la taille ou l’impact des armes de mêlée et de lancer qu’il manie augmente d’un cran.
 
-**Boost:** Spend 2 Power Points to use the core power for a different sense.
+**Augmentation :** Coute 3 points de pouvoir. Le personnage double sa capacité de charge maximale pour une action ou une tâche.
 
-#### Inherent armor
+#### Forme vaporeuse
 
-Provides an armor value to all locations equal to one third of CON, rounded up. Characters may choose to reduce the value of a location by up to two points to add it to another location; for example, lowering the value of their right arm to add to their head.
+Le personnage utilise une action pour se transformer en un nuage de vapeur ou de fines particules. Sous cette forme, il est incapable d’interagir avec le monde matériel, mais il est invulnérable aux attaques physiques. Sa vitesse de vol est égale à son POU en mètres et il peut traverser toutes les ouvertures, peu importe leur taille. Les attaques basées sur l’énergie infligent la moitié des dommages habituels aux points de pouvoir du personnage. Si le personnage est réduit à 0 point de pouvoir, il reprend sa forme solide et doit réussir un jet d’Endurance Difficile pour éviter de perdre connaissance durant 1d6 + 1 minutes.
 
-**Boost:** When struck by an attack, gain an extra armor point against it for each 1 Power Point spent.
+**Augmentation :** Coute 3 points de pouvoir. En activant l’augmentation, le personnage solidifie une localisation pendant une action (ce qui lui permettrait par exemple d’attaquer avec).
 
-#### Life Support
+#### Réactions améliorées
 
-Gain immunity to two environmental conditions or biological requirements.
+Le personnage obtient un bonus à son initiative égal à la valeur critique (compétence/5) de sa compétence Athlétisme et ne se retrouve jamais à terre après avoir utilisé la compétence Esquive (il n’a donc pas besoin d’utiliser l’action Se Relever).
 
-**Boost:** Gain immunity to two additional environments or requirements.
+**Augmentation :** Coute 1 point de pouvoir. La difficulté du prochain jet d’Athlétisme ou d’Acrobatie baisse d’un niveau.
 
-#### Lucky
+#### Régénération
 
-Calculate base Luck Points with CHA and half of POW, rounded up.
+Au début de chaque round, le personnage regagne 1 point de vie à chaque localisation blessée, sauf si celle-ci a subi une Blessure Grave.
 
-**Boost:** When doubles are rolled spend 3 Power Points to gain a temporary Luck Point which must be used by the end of the scene.
+**Augmentation :** Le personnage entre dans une transe curative. En dépensant 1 point de pouvoir par heure, il regagne 1 point de vie à une localisation Gravement Blessée.
 
-#### Regeneration
+#### Robustesse
 
-Regain one Hit Point to all wounded locations at the start of each round if the location has not sustained a Major Wound.
+Les points de vie sont calculés en utilisant CON + TAI + POU et la vitesse de guérison est égale à CON + POU/2 (arrondi au supérieur).
 
-**Boost:** Enter a healing trance and spend 1 Power Point per hour to regain one Hit Point to a location with a Major Wound.
+**Augmentation :** Le joueur dépense deux points de pouvoir pour que son personnage regagne un niveau de fatigue ou un nombre de points de vie égal à sa vitesse de guérison. La dépense est considérée comme étant une action libre.
 
 #### Savant
 
-Choose three skills with one characteristic in common and checks with them are one grade easier.
+Le joueur choisit trois compétences ayant toutes une caractéristique en commun : la difficulté des jets liés à ces compétences baisse d’un niveau.
 
-**Boost:** When using a specialized skill such as Craft or Science that is also a Savant skill, spend 3 Power Points to gain a specialty the character doesn't have for one task at the same level as the Savant skill.
+**Augmentation :** Coute 3 points de pouvoir. Si le personnage utilise une compétence spécialisée, telle qu’Artisanat ou Science, qui est aussi une compétence de Savant, il peut activer cette augmentation. Il peut effectuer une tâche en utilisant une spécialité inconnue de lui, avec la même efficacité que sa compétence de Savant.
 
-#### Teleport
+#### Sens aiguisé
 
-Teleport to any visible point within POW in metres as a move action.
+Le joueur choisit un sens. La difficulté des jets de Perception liés à ce sens est réduite d’un niveau.
 
-**Boost:** Spend 2 Power Points to teleport up to half of POW in metres, rounded up, as a free action.
+**Augmentation :** Coute 2 points de pouvoir. Le personnage peut utiliser ce pouvoir pour un autre sens.
 
-#### Vaporous Form
+#### Survivant
 
-As an action turn into a cloud of vapor or fine particles that is incapable of interacting with the physical world but is immune to physical attacks. Gain a flying speed equal to one- third POW in metres and pass through openings of any size. Energy based attacks inflict half damage to the character's Power Points. If reduced to 0 Power Points the character returns to a solid state and must make a Hard Endurance check of fall unconscious for 1d6+1 minutes.
+Le personnage est immunisé à deux conditions environnementales (froid, chaleur, etc.) ou besoins biologiques (manger, boire, respirer, etc.).
 
-**Boost:** Spend 3 Power Point to solidify one hit location for one action.
+**Augmentation :** Coute 2 points de pouvoir. Le personnage doit consacrer une action à activer cette augmentation. Sa prochaine attaque avec le déferlement d’énergie infligera + 1d6 points de dégâts.
 
----
-## Limits
+#### Téléportation
 
-#### Activation Cost
+En utilisant une action Se Déplacer, le personnage se téléporte vers n’importe quel endroit visible dans un rayon égal à son POU en mètres.
 
-The character spends 2 Power Points to activate a core power or increases a boost's cost by 2 Power Points. Alternately a continuous power costs 1 Power Point at the start of each turn to maintain.
+**Augmentation :** Coute 2 points de pouvoir. Le personnage qui active cette augmentation se téléporte jusqu’à 1/2 POU en mètres, arrondi au supérieur, en tant qu’action libre.
 
-#### External Power Source
+#### Vitesse améliorée
 
-The source of the character's powers is an artefact or device. If small or handheld, the source is vulnerable to Special Effects such as Disarm Weapon or Take Weapon. If it's large, it requires at least one minute to don or activate before the powers can be used.
+Le mouvement du personnage est multiplié par un quotient déterminé par son score de DEX + POU : 12 ou moins, x 2 ; 13-24, x 3 ; 25-36, x 4 ; 37 ou plus, x 5.
 
-#### Fatal Flaw
+**Augmentation :** Coute 2 points de pouvoir. Le personnage obtient un point d’action supplémentaire, qui ne peut être utilisé que pour les actions Changer la Distance, Manœuvrer ou Se Déplacer.
 
-The character must consume or contact a substance every four hours or suffer a level of Fatigue. A successful Endurance check can stave this off, but the difficulty of this check increases by one grade for each additional four hours the requirement isn't met.
+#### Vol
 
-#### Limited Control
+En combat, le personnage peut voler à une vitesse égale à son POU en mètres. En dehors du combat, sa vitesse de vol équivaut à dix fois sa valeur de mouvement en km/h.
 
-With actions involving the power or boost, the character's range of critical failure increases to 90-00.
+**Augmentation :** Coute 3 points de pouvoir. Si le personnage active l’augmentation lors d’une action Se Déplacer où il vole, il peut effectuer une charge pendant cette action.
 
-#### Limited Power
+## Limites
 
-The power or boost only works under specific conditions or has some reduced effect determined by the Games Master.
+#### Contrôle limité
 
-#### Physical Limitation
+Le risque de maladresse passe à 90-00 pour tous les tests du personnage liés au pouvoir principal ou à l’augmentation.
 
-The character has a persistent limiting condition, such as blindness, permanent Hit Point loss to a location, or reduced mobility.
+#### Cout d’activation
 
-#### Vulnerability
+Le personnage dépense 2 points de pouvoir pour activer un pouvoir principal ou doit payer 2 points de pouvoir supplémentaires pour activer une augmentation. Autre possibilité : un pouvoir continuel ne peut être maintenu qu’en dépensant 1 point de pouvoir au début de chaque tour.
 
-The character takes double damage from a specific form of attack. Alternately the character must make Hard Endurance checks each turn when 5 metres of a specific substance or suffers a level of Fatigue.
+#### Faiblesse fatale
+
+Le personnage doit consommer ou toucher une substance toutes les quatre heures. Sinon, sa fatigue accroit d’un niveau. En réussissant un jet d’Endurance, le personnage peut retarder l’échéance de quatre heures, mais tant qu’il résiste à son besoin, la difficulté du jet augmentera d’un niveau toutes les quatre heures supplémentaires.
+
+#### Limitation physique
+
+Le personnage souffre d’un handicap plus ou moins grave : cécité, points de vie réduits dans une localisation, mobilité réduite, etc.
+
+#### Source de pouvoir externe
+
+La source des pouvoirs du personnage est un objet. Si celui-ci est petit ou portable, il est vulnérable à des effets spéciaux tels que Désarmer ou Prendre l’Arme. Si l’objet est grand, le personnage aura besoin d’un moins une minute pour l’activer ou le revêtir avant de pouvoir utiliser ses pouvoirs.
+
+#### Pouvoir limité
+
+Le pouvoir ou l’augmentation ne fonctionne que dans des conditions spécifiques ou un de ses effets est réduit.
+
+#### Vulnérabilité
+
+Le personnage subit le double des dégâts en provenance d’une forme d’attaque spécifique. Autre possibilité : le personnage doit effectuer un jet d’Endurance Difficile à chaque tour lorsqu’il se trouve à 5 m ou moins d’une substance spécifique pour éviter d’accroitre sa fatigue d’un niveau.

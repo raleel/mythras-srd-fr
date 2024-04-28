@@ -1,361 +1,349 @@
-# Game System
+# Système de jeu
 
-Many different things can occur during a _Mythras Imperative_ game. Some are resolved through skill use or one of the major game mechanics such as combat or magic; others require their own rules for adjudication. This chapter provides rules and guidance for a variety of different scenarios that players will encounter while playing the game.
+Ce chapitre fournit des règles et des conseils pour gérer la plupart des évènements pouvant survenir en cours de partie. Si les maitres de jeu ne trouvent pas de règles pour gérer certaines situations récurrentes dans leurs parties, nous les encourageons à créer leurs propres règles en s’inspirant de celles présentées ici.
 
-The list is not exhaustive but should represent the most common situations. If Games Masters find there are other situations that require some form of game system adjudication, and that these situations seem to occur frequently, then they are encouraged to develop their own rules to cover these special circumstances, using those given in this chapter as a basis for replication or development.
+## Amélioration du personnage
 
----
-## Asphyxiation
+Tous les personnages de MYTHRAS FONDAMENTAUX peuvent s’améliorer avec le temps. Il existe plusieurs domaines d’amélioration :
 
-Characters can hold their breath for a number of seconds equal to their Endurance skill. However, the character must be prepared (filling the lungs with as much air as possible); if not, then the period is halved if the character was in a passive situation, or reduced to one-fifth if the character was engaged in strenuous activity.
+-   L’augmentation des compétences existantes ;
+-   L’augmentation des passions ;
+-   L’apprentissage de nouvelles compétences ;
+-   L’apprentissage de nouvelles capacités.
 
-Once the period of held breath is over, characters must make an Endurance roll:
+### Jets d’expérience
 
-- If the roll is a Critical Success, no further deterioration occurs.
-- If the roll is Successful, the character accrues an extra level of Fatigue.
-- If the roll Fails, the character sustains 1d2 extra levels of Fatigue that Round.
-- If the roll is Fumbled, the character sustains 1d3 extra levels of Fatigue that Round.
+Les jets d’expérience sont utilisés pour la plupart des améliorations de personnage. Le maitre de jeu accorde des jets d’expérience à des moments appropriés de la campagne : par exemple, à la fin d’un scénario ou après deux ou trois sessions de jeu si l’histoire est longue. Lui seul décide de la fréquence des jets d’expérience. Toutefois, si les joueurs ne peuvent pas exiger des jets d’expérience, ils s’attendront certainement à en recevoir, étant donné que leurs personnages en ont besoin pour se développer. Bien entendu, les personnages s’améliorent plus rapidement lorsque les jets d’expérience sont fréquents.
 
-Without aid, death from Asphyxiation is usually swift. If the Asphyxiation ends before the character dies, they recover Fatigue levels lost to suffocation relatively quickly, regaining one level per minute.
+Le maitre de jeu décide du nombre de jets d’expérience attribués aux personnages. En règle générale, 1 à 3 jets d’expériences sont accordés par session de jeu.
 
-Depending on the method of Asphyxiation, the Games Master may wish to prevent full recovery, imposing an enduring level of Fatigue (refer to the section on [Fatigue](0004_Game_System.md?id=fatigue)) to represent damage to the lungs caused by smoke or water inhalation.
+### Augmenter les compétences existantes
 
----
-## Character Improvement
+Le joueur peut augmenter toute compétence sur sa feuille de personnage, qu’elle soit standard ou professionnelle, en dépensant un jet d’expérience.
 
-Every _Mythras Imperative_ character can improve with time and experience. Improvement can be undertaken in several areas:
+Le joueur lance 1d100 et compare le résultat à la valeur de la compétence qu’il désire augmenter. L’INT du personnage est ajoutée au jet.
 
-- Increasing existing skills
-- Increasing Passions
-- Learning new skills
-- Learning new Abilities
+-   Si le résultat du jet est supérieur ou égal à la compétence à améliorer, celle-ci augmente de 1d4 + 1 %.
+-   Si le résultat du jet est inférieur, la compétence augmente seulement de 1 %.
+-   Si un personnage a subi une maladresse avec une compétence lors de la session précédente, c’est-à-dire entre la dernière session où il a reçu des jets d’expérience et celle en cours, cette compétence augmente gratuitement de 1 %. En effet, nous apprenons souvent plus de nos échecs que de nos succès ! Le bonus reste limité à 1 %, quel que soit le nombre de maladresses accomplies avec cette compétence lors de la session. Si le joueur souhaite augmenter cette compétence avec un jet d’expérience, le bonus de 1 % est appliqué avant de lancer 1d100 pour l’améliorer.
 
-#### Experience Rolls
+Une même compétence ne peut pas bénéficier de plusieurs jets d’expérience par session.
 
-The mechanism for most character improvement is the Experience Roll. Games Masters dispense Experience Rolls at an appropriate juncture in the campaign: at the end of every successful scenario or storyline; or after perhaps two or three sessions of play if the story is a long one which will take time to complete. The frequency is at the Games Master's discretion. A high frequency of Experience Rolls will lead to the characters developing at a faster rate.
+### Augmenter les passions
 
-There is no right or wrong time to give Experience Rolls, but natural breaks in the story may suggest suitable times. The Games Master is, however, always the decision maker here. While players cannot demand Experience Rolls, they have a right to expect them at certain points – as their characters will not be able to develop without them.
+Comme décrit dans la section Passions à la page 24, les jets d’expérience peuvent augmenter la valeur d’une passion, de la même façon que pour une compétence.
 
-The number of Experience Rolls awarded is also determined by the Games Master. However, a good rule of thumb is 1-3 Experience Rolls per session since the last time they were awarded.
+Le cas échéant, le maitre de jeu peut même autoriser la réduction d’une passion au prix d’un jet d’expérience. Par exemple, un personnage amoureux peut se lasser du dédain constant d’un être chéri, ce qui justifierait la réduction de sa passion amoureuse.
 
-#### Increasing Existing Skills
+### Apprendre de nouvelles compétences
 
-Any skill on the Character Sheet, Standard or Professional, can be increased by spending one Experience Roll. Players can elect not to spend Experience Rolls on increasing skills, instead building up a stockpile for use in increasing other things – such as Class abilities (see below).
+Certains personnages peuvent souhaiter étudier de nouvelles compétences professionnelles qu’ils n’ont pas eu l’occasion d’apprendre auparavant. Avant d’investir des jets d’expérience, ils doivent trouver une source de connaissance : par exemple un formateur professionnel tels ceux que fournissent les ordres ou les guildes, ou bien une source plus exotique comme un parchemin ancien qui s’effrite.
 
-The player rolls 1d100 and compares it to the skill being increased. The character's INT is added to the roll.
+Une fois la source trouvée, le personnage doit consacrer un mois entier à l’étude et à l’entrainement afin d’obtenir les bases de la compétence (la compétence est alors égale à son niveau de base). Cela implique la dépense de 3 jets d’expérience et le paiement des frais : rétribution du professeur s’il a suivi des cours, achat ou location de l’équipement et des outils nécessaires, etc.
 
-- If the number rolled is equal to or greater than the skill being improved, it increases by 1d4+1%.
-- If the number rolled is less than the skill selected, the skill still increases, but only by 1%.
-- If a character Fumbled any skill during the preceding session(s) – i.e., between the last set of Experience Rolls and the present one – the Fumbled skill gains a free increase of 1%. We learn more from our mistakes than our successes and this represents the reflection a character undergoes following a disastrous failure. Multiple Fumbles of the same skill do not stack. In a case where the Fumbled skill is also being raised with an Experience Roll, the 1% from the Fumble is applied before the roll is made to improve it.
+## Asphyxie
 
-The same skill may not benefit from more than one Experience Roll per session.
+Un personnage peut retenir sa respiration pendant un nombre de secondes égal à sa compétence Endurance. Cependant, il doit s’y être préparé en prenant une profonde inspiration. Dans le cas contraire, la durée d’apnée d’un personnage est réduite de moitié s’il était inactif et à un cinquième s’il accomplissait une action fatigante.
 
-#### Increasing Passions
+Une fois cette période d’apnée terminée, le personnage doit effectuer un jet d’Endurance :
 
-As described under Passions in the [Passions](0002_Characters.md?id=step-8-passions) section, the value of a Passion may be increased with Experience Rolls in the same way as a skill. If supported by play, the Games Master might even allow a Passion to be reduced using an Experience Roll.
+-   Si le jet est une réussite critique, aucune détérioration supplémentaire ne survient ;
+-   Si le jet est une réussite normale, le personnage reçoit un niveau supplémentaire de fatigue ;
+-   Si le jet échoue, le personnage reçoit 1d2 niveaux supplémentaires de fatigue pour ce round ;
+-   Si le jet est une maladresse, le personnage reçoit 1d3 niveaux de fatigue supplémentaires pour ce round.
 
-_For example, constant spurning from an unrequited love might eventually wear down the Passion of even the most ardent lover, especially one who wishes to pursue a relationship without the ghosts of the past haunting them._
+Sans aide, la mort par asphyxie est généralement rapide. Si le personnage est encore vivant à la fin de l’asphyxie, il récupère chaque minute un niveau de fatigue dû à l’asphyxie.
 
-#### Learning New Skills
+Selon la méthode d’asphyxie, le maitre de jeu peut décider d’empêcher la récupération totale du personnage. De plus, il peut imposer un niveau de fatigue persistant au personnage, afin de représenter les dégâts que l’inhalation d’eau ou de fumée cause aux poumons.
 
-Some characters may wish to study new Professional Skills which they never had the chance to learn from their culture. Before they can start investing Experience Rolls, they must first find a source of knowledge from which to learn. This could be as prosaic as a professional tutor such as those provided by orders or guilds. Alternately it might be a more exotic source of education such as an ancient and crumbling training scroll.
+## Chute
 
-Once a source of education is found, the character must spend an entire month of study and practice to garner a basic grounding in that skill (learn at Base Level). This costs 3 Experience Rolls plus whatever in-game costs are required to pay the teacher (if one exists) and purchase (or rent) whatever equipment and tools may be needed.
+La quantité de dégâts due à une chute dépend de la hauteur de celle-ci. Les points d’armure ne réduisent pas les dégâts de la chute, mais le modificateur de dégâts du personnage ou de la créature qui chute s’applique.
 
----
-## Disease and Poison
+**Hauteurs de chute**
 
-Some of the most feared things which can affect characters are the myriad diseases and poisons which infest the dark and grim places of the world. There's nothing quite more unsettling than a plague which strikes the character's home city, especially when they are still within its gates. Likewise finding a venomous serpent in the bed or being attacked by giant scorpions can be moments of high drama.
+| Hauteur de chute | Dégâts subis                                  |
+|------------------|-----------------------------------------------|
+| 1 m ou moins     | Pas de dégâts.                                |
+| 2 m à 5 m        | 1d6 points à une localisation aléatoire.      |
+| 6 m à 10 m       | 2d6 points à deux localisations aléatoires.   |
+| 11 m à 15 m      | 3d6 points à trois localisations aléatoires.  |
+| 16 m à 20 m      | 4d6 points à quatre localisations aléatoires. |
+| Tous les + 5 m   | + 1d6 points.                                 |
 
-Diseases and poisons are near infinite in their varieties but, for game purposes, are handled in the same way.
+### Chute d’objets
 
-#### Disease and Poison Traits
+Une chute d’objet cause des dégâts qui dépendent de sa TAI et de la hauteur de la chute. Un objet inflige 1d6 points de dégâts par seuil de 6 points de TAI ; les dégâts d’un seuil s’appliquant dès que la taille dépasse ce seuil. Ainsi un objet de TAI 7 inflige au moins 2d6 points de dégâts.
 
-All diseases and poisons manifest a number of traits important to their effects.
+Les dégâts de la colonne Dégâts subis du tableau des Hauteurs de chute sont ajoutés aux dégâts dus à la TAI. Toutefois, ces dégâts supplémentaires seront réduits pour les objets de petite taille.
 
-**Application:**  The method of how the disease or poison is introduced into the victim.
+## Localisations
 
-- **Ingestion:**  Effects take place through either eating or drinking.
-- **Inhaled:**  Effects take place through breathing or snorting.
-- **Contact:**  Effects take place through absorption through the skin.
-- **Injected:**  Effects take place when the substance is injected into the body through piercing.
+La plupart des attaques réussies atteignent une localisation spécifique. Celle-ci peut être déterminée de façon aléatoire ou, dans certains cas, être choisie avec un effet spécial tel que Choisir la Localisation. Pour déterminer aléatoirement la zone touchée, lancez 1d20 et recherchez le résultat dans le tableau de localisations des humanoïdes ou de la créature adéquate.
 
-**Potency:** The virulence of the disease or poison. This value is set against an appropriate resisting skill (usually Endurance or Willpower) in an Opposed Roll. If the character wins the roll, they shrug off its effects. If they lose the roll, then they suffer all of the disease or poison Conditions, each at the appropriate time.
+En général, les animaux et les monstres ont des tableaux de localisations légèrement différents des humanoïdes afin de refléter leur morphologie particulière. Ces tableaux se trouvent dans la description de la créature et ne sont utilisés que par le maitre de jeu. Le tableau de Localisations des humanoïdes est repris ici par commodité.
 
-**Resistance:** How the disease or poison is resisted – usually either Endurance or Willpower, but may have more exotic resistance requirements. Resistance can be rolled at the time of exposure or deferred until the Onset Time to conceal the fact the character might have been infected or poisoned.
+**Localisations des humanoïdes**
 
-**Onset Time:** Many diseases and poisons do not take immediate effect. The delay is called the Onset Time, and this can be a matter of seconds, minutes, hours, or even longer. Poisons or diseases possessing multiple effects may have different onset times for each one as described under Conditions.
+| 1d20  | Localisation |
+|-------|--------------|
+| 1-3   | Jambe droite |
+| 4-6   | Jambe gauche |
+| 7-9   | Abdomen      |
+| 10-12 | Poitrine     |
+| 13-15 | Bras droit   |
+| 16-18 | Bras gauche  |
+| 19-20 | Tête         |
 
-**Duration:** How long a disease or poison's Conditions last.
+Notez que certaines attaques, en particulier celles qui sont magiques ou produites par certains monstres (comme le souffle enflammé d’un dragon), peuvent atteindre simultanément plusieurs localisations. Les localisations individuelles peuvent être protégées par la dureté naturelle de la surface extérieure de la créature, ou par une protection portée par dessus. C’est un point important pour gérer les dégâts et les niveaux de blessure.
 
-**Conditions:** Every toxin has one or more Conditions. These have specific effects as described in the Conditions table, below, and if a victim fails to resist, he suffers all the Conditions described.
+### Dégâts et niveaux de blessure
 
-**Antidote/Cure:** If the toxin can be treated it will be noted here. Successful treatment prevents any further conditions from occurring, yet in some circumstances may leave the victim suffering enduring effects that have already been inflicted.
+Si une attaque atteint sa cible, les dégâts qu’elle inflige dépendent de l’arme utilisée. Une épée courte, par exemple, inflige 1d6 points de dégâts.
 
-##### Conditions Table
+Certains facteurs peuvent modifier les dégâts de l’arme ou de l’attaque, dans l’ordre suivant :
 
-| Condition | Effects |
-| :-- | :-- |
-| Agony | The victim is hindered by intense pain. Whether in a location or the entire body, any skill roll involving use of the affected area must also be less or equal to the character's Willpower, otherwise the attempt fails, and they moan or scream in pain. |
-| Asphyxiation | The victim  suffers asphyxiation – he collapses incapacitated, unable to breathe. The rules from the  [Asphyxiation](0004_Game_System.md?id=asphyxiation) section are used. Asphyxiation may be asthmatic in nature meaning the victim only suffers shortness of breath, or complete respiratory failure resulting in death. In the latter case a victim can be kept alive by winning an opposed test of the First Aid skill against the Potency of the disease or poison. |
-| Bleeding | The victim suffers from either internal bleeding or surface hemorrhaging which leads to the Fatigue and recovery times described under the [Fatigue](0004_Game_System.md?id=fatigue) and [Blood Loss](0004_Game_System.md?id=blood-loss) sections below. |
-| Contagious | The victim can transfer the poison or disease by touch. |
-| Death | The victim collapses incapacitated and dies after a number of rounds equal to their CON characteristic. |
-| Fever | The victim's body temperature fluctuates wildly – from hot to cold – and muscles ache. All skills suffer a difficulty grade of Hard. |
-| Mania | The victim is driven to follow some compulsion, such as avoiding water, paranoia, self-mutilation, and so forth. The mania induced by the disease or poison will be noted in its description. |
-| Nausea | The victim cannot eat, and must roll against his Endurance every time he performs a stressful physical action to avoid being physically sick. Vomiting lasts for 1d3 rounds during which he cannot act. Long durations of Nausea may cause starvation. |
-| Paralysis | The victim is physically unable to move. The affected area, if a location, cannot be used for the duration. If it affects the whole body, the character cannot move at all. |
+1\. Ajoutez le modificateur de dégâts du personnage attaquant ;
 
-#### Sample Disease: Red Pox
+2\. Modifiez les dégâts en conséquence si une magie quelconque les augmente ou les réduit ;
 
-Red pox is a nasty disease spread by skin contact with a person already infected, or with something they have touched. The chance of catching the disease from an object remains for 1d3 days after contact, making it quite difficult to contain the disease once an outbreak occurs.
+3\. Si l’attaque est parée, réduisez les dégâts en fonction des tailles relatives des armes utilisées ;
 
-Victims initially suffer a minor rash, but within a day come down with a serious fever which usually renders them bedridden for the entire duration. During this time, the rash evolves into gruesomely itchy pustules which burst open at the slightest movement, weeping small trickles of blood – especially from the armpits and groin. This stage can last up to a week or more, potentially proving fatal.
+4\. Si la zone touchée est protégée, réduisez les dégâts par la valeur en points d’armure.
 
-- **Application:** Contact
-- **Potency:** 50
-- **Resistance:** Endurance
-- **Onset time:** 1d6+6 hours
-- **Duration:** 1d6+3 days
-- **Conditions:** Once the disease manifests the victim becomes Contagious. 1 day later they begin to suffer Fever and Bleeding. Each day the pustules weep blood the victim loses one level of Fatigue, which does not recover until the duration of the disease has completed.
-- **Antidote/Cure:** Can be cured by the Healing skill.
+Si les dégâts infligés au final sont supérieurs à zéro, ils sont alors immédiatement retranchés des points de vie de la localisation touchée. Notez le nombre de points de vie restants et le niveau de blessure qui en résulte.
 
+-   **Blessure Légère :** Le nombre de points de vie de la localisation est toujours positif.
+-   **Blessure Sérieuse :** La localisation est réduite à zéro point de vie ou moins.
+-   **Blessure Grave :** La localisation est réduite à un score négatif égal ou supérieur aux points de vie de départ.
 
----
-## Falling
+Seules les Blessures Sérieuses ou Graves affectent le personnage, comme expliqué ci-après. Notez qu’un jet d’Endurance dû à une blessure est opposé à la valeur du jet d’attaque originel. Cela reflète la capacité d’un guerrier expérimenté à provoquer des coups plus dangereux. Les jets d’Endurance ne sont pas répétés, à moins que la localisation ne soit à nouveau blessée.
 
-The amount of damage suffered in a fall depends on the distance of the drop. Armor Points do not reduce falling damage, but the Damage Modifier of the falling character or creature applies to the damage suffered from the fall.
+### Blessure Légère
 
-##### Falling Distance Table
+Les Blessures Légères sont de simples bleus, coupures et égratignures. Elles font mal, elles saignent, mais elles ne sont pas assez graves pour ralentir ou gêner la victime.
 
-| Distance Fallen | Damage Taken |
-| :-- | :-- |
-| 1 metre or less | No damage. |
-| 2-5 metres | 1d6 points of damage to one random location. |
-| 6-10 metres | 2d6 points of damage to two random locations. |
-| 11-15 metres | 3d6 points of damage to three random locations. |
-| 16-20 metres | 4d6 points of damage to four random locations. |
-| Each +5 metres | +1d6 damage. |
+### Blessure Sérieuse
 
-#### Falling Objects
+Si une localisation est réduite à zéro point de vie ou moins, la victime reçoit une Blessure Sérieuse. La zone est marquée de façon permanente et la victime ne peut attaquer ou lancer des sorts (mais peut encore parer ou esquiver) pour les 1d3 prochains tours, à cause de la douleur et du choc.
 
-A falling object imparts an amount of damage based on its SIZ and the distance of the fall. An object imparts 1d6 damage for every 6 points of SIZ (or fraction thereof), plus an amount of damage equal to the Damage Taken column of the Falling Distance Table – including any reductions for objects of smaller size.
+Un personnage souffrant d’une Blessure Sérieuse à un membre doit immédiatement faire un jet d’opposition d’Endurance contre le jet d’attaque réussi de son adversaire. En cas d’échec, le membre devient inutilisable jusqu’à ce que les points de vie de la localisation redeviennent positifs. Si c’est une jambe qui est touchée, le personnage tombe à terre. Si c’est un bras, il lâche ce qu’il tient à moins que l’objet ne soit attaché (utilisez votre bon sens).
 
----
+Un personnage souffrant d’une Blessure Sérieuse à l’abdomen, à la poitrine ou à la tête doit aussi faire un jet d’opposition d’Endurance contre le jet d’attaque adverse. En cas d’échec, il perd conscience pour un nombre de minutes égal à la quantité de dégâts subie lors de cette attaque. Les compétences Guérison ou Premiers Soins peuvent être utilisées pour panser la Blessure Sérieuse de la victime inconsciente.
+
+Au choix du maitre de jeu, toutes les tâches qui utilisent cette partie du corps subissent une pénalité d’un niveau de difficulté tant que la blessure n’est pas réduite à une Blessure Légère, et ce même si le personnage est encore opérationnel.
+
+### Blessure Grave
+
+Si une localisation est réduite à un score négatif égal ou supérieur à ses points de vie de départ, le personnage reçoit une Blessure Grave. Le personnage est alors mis hors de combat et tombe à terre. Le membre blessé est arraché, broyé, sectionné ou transpercé. Un jet d’opposition d’Endurance doit immédiatement être effectué contre le jet d’attaque adverse. En cas d’échec, le personnage perd conscience et agonise. Si la localisation affectée n’est pas soignée dans un nombre de minutes égal à cinq fois sa vitesse de guérison, il meurt à cause du choc et de la perte de sang.
+
+Le personnage victime d’une Blessure Grave à l’abdomen, à la poitrine ou à la tête s’évanouit ; un jet d’opposition d’Endurance doit immédiatement être effectué contre le jet d’attaque adverse. En cas d’échec, sa mort est instantanée et spectaculaire : il est décapité, déchiqueté, tranché en deux, a le cœur transpercé, etc. Si le personnage réussit, mais que la localisation n’est pas soignée dans un nombre de rounds égal à deux fois sa vitesse de guérison, il meurt de l’hémorragie et du choc.
+
+Comme la plupart des Blessures Graves nécessitent une forme de chirurgie ou de magie puissante pour guérir, le malade ne pourra probablement pas récupérer à temps pour rejoindre le combat. En fonction des traitements disponibles, la localisation blessée peut devenir mutilée (voir Guérison des blessures ci-dessous).
+
+### Hémorragie
+
+L’hémorragie due aux blessures externes et internes, le plus souvent subies en combat, peut très rapidement terrasser un personnage. Comme dans le cas de l’asphyxie, ses effets se mesurent par l’accumulation de niveaux de fatigue.
+
+Une hémorragie entraine la mort en l’absence de soins médicaux. Au contraire de l’asphyxie, les effets d’une hémorragie sérieuse sur la fatigue sont persistants. Un personnage récupère de la fatigue due à l’hémorragie au rythme d’un niveau par jour, à partir du jour suivant l’arrêt des saignements.
+
+### Dernière action héroïque
+
+Dans les cas particuliers où des personnages clés reçoivent une Blessure Grave, le maitre de jeu peut autoriser une dernière action héroïque : lancer un dernier sort enfin de terrasser le meurtrier, ramper à l’abri, essayer de placer un garrot sur sa propre blessure… Les membres utilisés pour l’action doivent être fonctionnels et le joueur doit dépenser un point de chance. Il obtient alors une seule occasion de tenter son action, puis il s’évanouit immédiatement et agonise.
+
+## Guérison des blessures
+
+La guérison naturelle des blessures est basée sur la vitesse de guérison du personnage. La vitesse de guérison dicte combien de points de vie sont récupérés dans une localisation selon la nature de la blessure :
+
+-   **Blessures Légères :** Jours ;
+-   **Blessures Sérieuses :** Semaines ;
+-   **Blessures Graves :** Mois.
+
+Ainsi, si un personnage possède une vitesse de guérison de 3, une Blessure Sérieuse guérirait naturellement au rythme de 3 points de vie par semaine jusqu’à devenir une Blessure Légère, puis au rythme de 3 points de vie par jour jusqu’à guérison complète. Les éléments suivants restreignent la guérison naturelle :
+
+-   Si le blessé se livre à des activités éprouvantes, la vitesse de guérison est réduite de 1d3. De ce fait, même un personnage avec une Blessure Légère peut voir sa récupération compromise s’il se livre à des activités physiques pouvant réveiller ses blessures.
+-   Pour qu’une Blessure Grave puisse guérir naturellement, la victime doit auparavant être soignée grâce à un jet de Guérison réussi (page 35) ou une magie curative. Les Blessures Graves sans démembrement qui ne sont pas soignées dans un nombre de jours égal au vingtième de la compétence Guérison deviennent des blessures permanentes et réduisent définitivement les points de vie de la localisation.
+
 ## Fatigue
 
-Fatigue measures tiredness and its incremental effects. It is used to track many different things, from strenuous activity to the debilitating effects of disease.
+La fatigue mesure l’épuisement et ses effets cumulatifs. Elle influence toutes les activités potentiellement éprouvantes, comme le combat ou la résistance aux maladies.
 
-The primary way of accruing Fatigue is by engaging in some form of physical activity. The more arduous the exercise or work, the more quickly it tires the character. At the Games Master's discretion, characters must make an appropriate skill roll – either Athletics, Brawn, or Endurance – to resist gaining a level of Fatigue.
+La fatigue s’accumule principalement en se livrant à des activités physiques. Plus l’activité est intense, plus elle fatiguera rapidement le personnage. Quand le maitre de jeu le juge nécessaire, le personnage doit effectuer un jet de compétence — Athlétisme, Endurance ou Force Brute — pour éviter d’obtenir un niveau de fatigue. Chaque jet raté augmente la fatigue d’un niveau.
 
-Every Failed roll accrues a level of Fatigue. Each level of Fatigue carries penalties for skill use, movement, Initiative, and Action Points. Asphyxiation, Blood Loss, and other setting dependent effects also contribute to Fatigue accrual.
+Chaque niveau de fatigue implique des pénalités aux compétences, au mouvement, au bonus d’initiative et aux points d’action. L’asphyxie et l’hémorragie peuvent aussi accroitre la fatigue.
 
-For most characters, activities of any kind become near impossible when the level of Incapacitated is reached. At this stage, the character is still conscious but incapable of anything but the most desperate of activities.
+Un personnage ayant atteint le niveau Incapacité est toujours conscient, mais ne peut agir qu’en dernier recours.
 
-Beyond Incapacitated, characters cannot act at all. The Fatigue levels – Semi-Conscious, Comatose, and Dead – are generally reserved for measuring the most extreme effects of suffocation, disease, blood loss, starvation, exposure, and so forth.
+Au-delà, le personnage ne peut plus agir du tout. Les niveaux de fatigue Semi -conscient, Comateux et Mort sont généralement réservés aux cas extrêmes de suffocation, de maladie, d’hémorragie, de faim, d’exposition et ainsi de suite.
 
-#### Recovering from Fatigue
+### Récupérer
 
-Characters recover from Fatigue depending on their Healing Rate. The amount of complete rest needed to recover from each level of accrued Fatigue is equal to the Recovery Period divided by the character's Healing Rate.
+Le temps de récupération dépend de la vitesse de guérison. La durée de repos complet nécessaire pour ôter un niveau de fatigue est égale au Temps de récupération (dernière colonne du tableau des Niveaux de fatigue) divisé par la vitesse de guérison du personnage.
 
-Note that the table below represents Fatigue recovery for physical exertion. Fatigue recovery can be much faster when recovering from Asphyxiation or slower if recuperating from Blood Loss.
+Notez que la colonne des Temps de récupération ne s’applique qu’à la fatigue due aux efforts physiques. La récupération peut être beaucoup plus rapide si la fatigue est due à une asphyxie et plus lente si elle est due à une hémorragie.
 
-##### Fatigue Levels
+**Niveaux de fatigue**
 
-| Fatigue Level | Skill Grade | Movement | Initiative | Action Points | Recovery Period |
-| :-- | :-: | :-: | :-: | :-: | :-: |
-| Fresh | – | – | No Penalties | – | – |
-| Winded | Hard | No Penalties | No Penalties | No Penalties | 15 minutes |
-| Tired | Hard | -1 metre | No Penalties | No Penalties | 3 hours |
-| Wearied | Formidable | -2 metres | -2 | No Penalties | 6 hours |
-| Exhausted | Formidable | Halved | -4 | -1 | 12 hours |
-| Debilitated | Herculean | Halved | -6 | -2 | 18 hours |
-| Incapacitated | Herculean | Immobile | -8 | -3 | 24 hours |
-| Semi-Conscious | Hopeless | No Activities Possible | No Activities Possible | No Activities Possible | 36 hours |
-| Comatose | No Activities Possible | No Activities Possible | No Activities Possible | No Activities Possible | 48 hours |
-| Dead | Dead | – | – | – | Never |
+|                | Niveau de difficulté    | Mouvement               | Initiative              | Points d’action         | Temps de récupération |
+|----------------|-------------------------|-------------------------|-------------------------|-------------------------|-----------------------|
+| Frais          | –                       | –                       | Pas de pénalité         | –                       | –                     |
+| Essoufflé      | Difficile               | Pas de pénalité         | Pas de pénalité         | Pas de pénalité         | 15 minutes            |
+| Fatigué        | Difficile               | − 1 mètre               | Pas de pénalité         | Pas de pénalité         | 3 heures              |
+| Exténué        | Redoutable              | − 2 mètres              | − 2                     | Pas de pénalité         | 6 heures              |
+| Épuisé         | Redoutable              | Réduit de moitié        | − 4                     | − 1                     | 12 heures             |
+| Affaibli       | Herculéen               | Réduit de moitié        | − 6                     | − 2                     | 18 heures             |
+| Incapacité     | Herculéen               | Immobile                | − 8                     | − 3                     | 24 heures             |
+| Semi-conscient | Sans Espoir             | Pas d’activité possible | Pas d’activité possible | Pas d’activité possible | 36 heures             |
+| Comateux       | Pas d’activité possible | Pas d’activité possible | Pas d’activité possible | Pas d’activité possible | 48 heures             |
+| Mort           | Mort                    | –                       | –                       | –                       | Jamais                |
 
----
-## Fires
+## Feux
 
-Fires are always a source of danger when used as a weapon or raging out of control. The Fire Intensity table below gives five different intensities for heat damage, with some examples. The damage inflicted per Round is given in the Damage column. Being relatively small, Intensity 1 and 2 sources apply their damage to a single Hit Location, usually that touching the source. Intensity 3 and 4 sources are larger, applying damage to the nearest 1d4+1 Hit Locations, indicating the degree of radiant heat. Intensity 5 sources affect all Hit Locations simultaneously.
+Un feu est toujours une source de danger lorsqu’il sert d’arme ou qu’il devient incontrôlable. Le tableau d’Intensité de feu donne cinq catégories d’intensité pour les dégâts de chaleur, avec quelques exemples. Les dégâts infligés à chaque round sont indiqués dans la colonne Dégâts. Étant relativement restreints, les feux d’intensité 1 ou 2 n’infligent leurs dégâts qu’à une seule localisation, généralement celle qui touche le feu. Les feux d’intensité 3 et 4 sont plus importants et infligent donc des dégâts aux 1d4 + 1 localisations les plus proches. Les feux d’intensité 5 affectent toutes les localisations simultanément.
 
-Fire can ignite flammable materials. If not extinguished immediately such materials combust within a number of Rounds as indicated by the fire's Intensity. Once ignited, flammable materials burn until physically extinguished. Damage is applied directly to the Hit Points of the material, ignoring Armor Points, and to any flesh beneath. If left. uncontrolled it spreads to a number of Hit Locations, per Round, equal to its Intensity.
+Bien sûr, le feu affecte aussi les matériaux inflammables. Ces matériaux prennent feu en un nombre de rounds dépendant de l’intensité du feu. Une fois enflammés, ils brulent jusqu’à extinction ou incinération complète. Les dégâts sont appliqués directement aux points de vie du matériau, en ignorant les points d’armure, et à toute chair se trouvant en dessous. S’il n’est pas contrôlé, le feu se propage à chaque round vers un nombre de localisations égal à son intensité.
 
-##### Fire Intensity Table
+**Intensité de feu**
 
-| Intensity | Examples | Time to Ignite | Damage |
-| :-: | :-- | :-: | :-: |
-| 1 | Candle | 1d4 | 1d2 |
-| 2 | Torch | 1d3 | 1d4 |
-| 3 | Campfire | 1d2 | 1d6 |
-| 4 | Room-filling conflagration | 1d2 | 2d6 |
-| 5 | Volcanic lava | Instant | 3d6 |
+| **Intensité** | **Exemples**    | **Temps pour prendre feu** | **Dégâts** |
+|---------------|-----------------|----------------------------|------------|
+| 1             | Bougie          | 1d4                        | 1d2        |
+| 2             | Torche          | 1d3                        | 1d4        |
+| 3             | Feu de camp     | 1d2                        | 1d6        |
+| 4             | Incendie        | 1d2                        | 2d6        |
+| 5             | Lave volcanique | Instantané                 | 3d6        |
 
-Fire-based attacks typically have a percentage chance of igniting flammable materials as they are generally over in a single Round. Unless otherwise noted, this chance is damage rolled x5% for fire-based attacks, and damage rolled x1% for electrical. Once ignited, flammable materials burn for 1d3-1 damage every Round until physically extinguished. Apply this damage directly to the Hit Points of the material, ignoring Armor Points, and to any flesh beneath. A creature's natural Armor offers its normal protection, however. The victim may attempt to smother the flames by dropping prone and making a successful Athletics roll, which requires an Action Point and may be attempted each Turn. If others assist in smothering the flames in some way, the roll is one Difficulty Grade easier. If the damage roll results in zero damage, the fire has gone out on its own in that one location. For each location that had gone out on its own, the roll to smother the flames is also one Difficulty Grade easier.
+Même si elles durent généralement moins d’un round, les attaques basées sur le feu peuvent enflammer les matériaux inflammables. Sauf mention contraire, le pourcentage de chances est égal aux dégâts infligés × 5 % pour les attaques basées sur le feu, et aux dégâts infligés × 1 % pour les attaques électriques. Lorsqu’un matériau prend feu, il subit 1d3 – 1 points de dégâts à chaque round, jusqu’à ce qu’il s’éteigne. Les dégâts s’appliquent directement aux points de vie du matériau, sans tenir compte des points d’armure, et à la chair située en dessous. Toutefois, l’armure naturelle d’une créature protège normalement. La victime peut tenter d’étouffer les flammes en se couchant sur le sol et en effectuant un jet d’Athlétisme. Chaque tentative nécessite un point d’action et peut être renouvelée à chaque tour. Si la victime bénéficie de l’aide d’autrui, la difficulté du jet est réduite d’un niveau. Si le résultat du jet de dégâts est nul, le feu s’est éteint de lui-même dans cette localisation. Pour chaque localisation qui s’est éteinte d’elle-même, la difficulté du jet est également réduite d’un niveau.
 
----
-## Game Time
+## Maladies et poisons
 
-In _Mythras Imperative_, time is an important factor, mostly to determine what happens in what order, so that game mechanics are applied when they should be. Remember that in-game time is usually not equivalent to time spent playing. Sometimes, the Games Master may need to summarize the events of many days in a single sentence, such as 'It takes you a week to reach Castle Anthrax,' while at other times, particularly during combat, the actions of only a few seconds of time can take several minutes or longer to resolve.
+Épidémie qui frappe la cité où résident les personnages, serpent venimeux qui se faufile dans un lit… Les poisons et les maladies figurent en bonne place parmi les dangers les plus redoutés.
 
-Following are the important distinctions of game time:
+Si la variété des poisons et des maladies est presque infinie, le jeu les gère de manière unifiée.
 
-#### Combat Rounds
+### Traits des maladies et des poisons
 
-A Combat Round represents five seconds of real time. They are used to measure short, frenetic bursts of activity that take moments to complete or measuring very detailed activities that require a blow-by-blow resolution. For example, a chase between hunter and prey where each Round determines the twists and turns of the pursuit.
+Sept traits importants définissent les maladies et les poisons.
 
-#### Skill Time
+**Application :** Comment le poison ou la maladie est introduit dans la victime.
 
-Skill Time represents a few minutes to a few hours and is used to measure activities that do not require the detailed attention of a Combat Round but require a specific deliberation of effort with a definite result. Picking a lock might take five minutes, whereas observing the patrols made by teams of guards around a castle's walls might require several hours and are both examples of Skill Time.
+-   Contact — les effets débutent après absorption par la peau.
+-   Ingestion — les effets débutent après avoir mangé ou bu.
+-   Inhalation — les effets débutent après reniflement ou respiration.
+-   Inoculation — les effets débutent après l’injection de la substance dans le corps.
 
-#### Narrative Time
+**Virulence :** La puissance du poison ou de la maladie. Cette valeur est confrontée à une compétence de résistance appropriée (habituellement Endurance ou Volonté) lors d’un jet d’opposition.
 
-This is the amount of time taken when the Games Master is narrating to the players, or when the players are discussing. Unless there is a specific reason for it, most actual roleplaying takes place in narrative time. When roleplaying, narrative time resembles real time, where a conversation takes as long to have as it takes to play. If a game session includes lengthy travel, or periods of activity where exact time is not of the essence, then time is compressed greatly to a few moments of game time.
+Si le personnage remporte le test, les effets sont annulés. S’il le perd, il subira toutes les affections du poison ou de la maladie lorsque celles-ci se déclencheront.
 
+**Résistance :** La manière de repousser l’affection. Généralement, l’Endurance ou la Volonté sont utilisées, mais des compétences plus exotiques peuvent être employées. La résistance peut être testée au moment de l’exposition, ou retardée jusqu’au déclenchement pour que le personnage ne sache pas immédiatement qu’il a été infecté.
 
----
-## Hit Locations
+**Incubation :** Bien des maladies ou des poisons n’agissent pas immédiatement. Ce délai est nommé incubation et peut se compter en secondes, en minutes, en heures, voire plus. Les poisons ou les maladies avec plusieurs affections ont des incubations différentes pour chacune d’entre elles.
 
-Most successful (weapon) attacks land on a specific Hit Location. This can be determined randomly or in some circumstances be selected by Special Effects such as Choose Location. To randomly calculate which location is been hit, roll 1d20 and compare the number rolled with the relevant humanoid or creature Hit Location table.
+**Durée :** La durée de la ou des affections.
 
-Animals and monsters usually have slightly different Hit Location tables than humanoids to reflect their own unique physiology. These are listed as part of each being's description and is typically only of use to the Games Master.
+**Affections :** Ce sont des effets spécifiques décrits dans le tableau des Affections ci-contre. Chaque poison ou maladie en possède au moins une. Une victime incapable de résister au poison ou à la maladie en subit toutes les affections.
 
-The humanoid Hit Location table is repeated here for ease of reference.
+**Antidote/guérison :** Indique si la toxine peut être soignée. Sinon, tous les poisons et maladies non magiques peuvent être soignés au moyen d’une magie curative appropriée, comme le sort Guérir les Maladies. Un traitement réussi empêche le retour des affections du poison ou de la maladie, même si la victime peut toujours subir les séquelles des affections ayant déjà été infligées.
 
-##### Humanoid Hit Locations
+Affections de maladies et de poisons
 
-| 1d20 | Hit Location |
-| :-: | :-- |
-| 1-3 | Right Leg |
-| 4-6 | Left Leg |
-| 7-9 | Abdomen |
-| 10-12 | Chest |
-| 13-15 | Right Arm |
-| 16-18 | Left Arm |
-| 19-20 | Head |
+| Affections | Effets                                                                                                                                                                                                                                                                              |
+|------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Asphyxie   | La victime souffre d’asphyxie : elle est incapable de respirer et s’écroule. Les règles d’asphyxie (page 42) s’appliquent.                                                                                                                                                          |
+| Contagieux | La victime peut transmettre le poison ou la maladie par simple contact.                                                                                                                                                                                                             |
+| Fièvre     | La température corporelle de la victime fluctue énormément et ses muscles lui font mal. La difficulté minimale d’un test de compétence passe à Difficile.                                                                                                                           |
+| Folie      | La victime suit une compulsion quelconque : aquaphobie, paranoïa, automutilation, etc. Le type de folie sera précisé dans la description de la maladie ou du poison.                                                                                                                |
+| Hémorragie | La victime souffre d’hémorragie externe ou interne. Les effets sont décrits dans la section Hémorragie à la page 46.                                                                                                                                                                |
+| Mort       | La victime s’écroule, incapable d’agir, et meurt au bout d’un nombre de rounds égal à sa CON.                                                                                                                                                                                       |
+| Nausée     | La victime ne peut pas manger, et doit tester son Endurance chaque fois qu’elle accomplit une action physique stressante afin d’éviter de se sentir malade. Les vomissements la rendent incapable d’agir durant 1d3 rounds. Une nausée qui se prolonge peut conduire à l’inanition. |
+| Paralysie  | La victime est physiquement incapable de bouger. Si la paralysie n’affecte qu’une partie du corps, celle-ci ne peut plus être utilisée. Si le corps entier est affecté, le personnage ne peut plus se mouvoir du tout.                                                              |
+| Souffrance | La victime ressent une douleur intense. Tout jet de compétence impliquant la zone affectée, que ce soit une localisation ou le corps entier, doit aussi obtenir un résultat inférieur ou égal à la Volonté, sinon le test échoue et le personnage gémit ou hurle de douleur.        |
 
-Note that some attacks, especially magical, technological or those produced by particular monsters (a dragon's fiery breath or an exploding grenade for example), may strike several Hit Locations simultaneously. Individual Hit Locations may be armored, either from worn protection or the natural toughness of the creature's outer surface. This is important when considering Damage and Wound Levels below.
+### Exemple de maladie : la Variole rouge
 
+Cette dangereuse maladie se contracte au contact d’une personne infectée ou d’un objet touché par celle-ci. Le risque d’attraper la maladie persiste 1d3 jours après avoir touché un objet ou une personne infectée, ce qui rend la maladie très contagieuse.
 
----
-## Damage and Wound Levels
+Les victimes souffrent initialement de rougeurs mineures, mais une fièvre sévère les gagne en une journée et les cloue au lit pour la durée de la maladie. Pendant ce temps, les rougeurs deviennent des pustules, qui provoquent d’horribles démangeaisons et éclatent au moindre mouvement (notamment ceux des aisselles et de l’aine), laissant alors échapper de petits filets de sang. Ce stade peut durer une semaine ou plus et s’avérer fatal.
 
-If an attack strikes successfully, it causes damage according to the damage rating for the weapon. A shortsword, for instance, inflicts 1d6 damage.
+-   Application : Contact.
+-   Virulence : 50.
+-   Résistance : Endurance.
+-   Incubation : 1d6 + 6 heures.
+-   Durée : 1d6 + 3 jours.
+-   Affections : Une fois la maladie déclarée, la victime devient Contagieuse. 1 jour plus tard, elle souffre de Fièvre et d’Hémorragie. Chaque jour où les pustules saignent, la fatigue de la victime augmente d’un niveau et ne revient à la normale qu’à la fin de la maladie.
+-   Antidote : La compétence Guérison peut soigner la maladie.
 
-The rolled damage for the weapon or attack is modified by the certain conditions in the specific following order:
+## Objets inanimés
 
-1. Apply the Damage Modifier for the character making the attack.
-2. Modify the damage from any weapon enhancing (or reducing) magic.
-3. If parried, reduce the damage appropriately as per the comparative weapon sizes.
-4. If the Hit Location is armored, reduce damage by the Armor Points value.
+Tous les objets inanimés possèdent des points d’armure et des
 
-If the damage inflicted by the attack is above zero, then the Hit Location sustains that amount of damage, with the damage total being immediately removed from the location's Hit Points. Note how many Hit Points the location has remaining, and the wound category that results.
+points de vie qui sont utilisés pour déterminer la résistance aux dégâts et à la destruction. Les points d’armure réduisent les dégâts avant que les points de vie ne soient affectés. Un objet dont les points de vie ont été réduits à zéro devient inutilisable.
 
-- **Minor Wound:** Hit Location still has positive Hit Points
-- **Serious Wound:** Hit Location is reduced to zero Hit Points or below.
-- **Major Wound:** Hit Location is reduced to a negative score equal or greater than its starting Hit Points
+Pour infliger des dégâts à un objet, un personnage doit réussir un jet de Bagarre, de Force Brute ou de style de combat.
 
-Use the following rules if a location receives a Serious or Major Wound. Note that wounds requiring Endurance checks test them in an Opposed Roll against the value of the original attack roll. This reflects the ability of highly skilled warriors to make more deadly strikes. Endurance rolls are not repeated unless the location is wounded again.
+### Utiliser des armes sur des objets inanimés
 
-### Minor Wound
+Si une arme est utilisée sur un objet inanimé dont les points d’armure sont supérieurs ou égaux aux siens, les dégâts sont infligés à la fois à l’objet et à l’arme. Ainsi, utiliser une hache sur une enclume peut endommager l’enclume, mais la hache sera détruite bien avant. Au maitre de jeu de juger si telle arme ou tel outil peut affecter tel objet. Par exemple, un burin est explicitement conçu pour graver la pierre ou le bois ; une épée, malgré son tranchant, ne l’est pas. De ce fait, graver un objet avec une épée endommagerait celle-ci, alors qu’un burin ne subirait aucun dégât.
 
-Minor wounds are cuts, scratches, bruises, and sprains. They hurt, may bleed, but are not significant enough to slow down or hamper the victim.
+Exemples d’objets inanimés
 
-### Serious Wound
+| Objet                                   | Points d’armure | Points de vie |
+|-----------------------------------------|-----------------|---------------|
+| Automobile                              | 6               | 30            |
+| Chaines/fers                            | 8               | 8             |
+| Chaise en bois                          | 2               | 6             |
+| Char de combat                          | 15              | 100           |
+| Corde                                   | 6               | 3             |
+| Fenêtre en verre                        | 1               | 4             |
+| Fenêtre en verre pare-balle             | 8               | 25            |
+| Lampadaire en fer                       | 8               | 15            |
+| Mur de château                          | 10              | 500           |
+| Mur de briques                          | 6               | 30            |
+| Mur de béton                            | 8               | 40            |
+| Porte en fer                            | 12              | 30            |
+| Portail de château                      | 8               | 150           |
+| Poutre en acier                         | 12              | 50            |
+| Camion/pelleteuse                       | 8               | 40            |
+| Tronc d’arbre                           | 6               | 50            |
+| Véhicule blindé de transport de troupes | 10              | 50            |
 
-If a location is reduced to zero Hit Points or below, the victim receives a Serious Wound. The location is permanently scarred, and the victim cannot attack or start to cast spells (but can still Parry or Evade) for the next 1d3 Turns due to being stunned or distracted by the pain of the wound.
+## Points de chance
 
-A character suffering a Serious Wound to a limb must immediately make an Opposed Roll of his Endurance versus the successful attack roll of his enemy. Failure results in the limb being rendered useless, until the location is restored to positive Hit Points. If a leg, the victim drops prone. If an arm, whatever is being held drops, unless the object is strapped on (use common sense here).
+Les points de chance aident à distinguer les héros du commun des mortels. Ils représentent la capacité du personnage à transformer l’échec en succès, voire à défier la mort.
 
-A character suffering a Serious Wound to the abdomen, chest, or head must immediately make an Opposed Roll of his Endurance versus the successful attack roll of his enemy. Failure results in unconsciousness for a number of minutes equal to the amount of damage sustained in the attack causing the Serious Wound. The First Aid or Healing skills can be used to help an unconscious victim back to consciousness.
+Les points de chance peuvent être utilisés en cours de jeu et reviennent à leur valeur initiale au début de la session suivante.
 
-At the Games Master's discretion, even if the character remains functional, all tasks requiring use of that Hit Location will suffer an ongoing penalty of one Difficulty Grade, until the injury is reduced to a Minor Wound.
+### Utiliser les points de chance
 
-### Major Wound
+Dépenser des points de chance permet d’obtenir un des trois effets décrits ci-dessous. Chaque effet coute un point de chance et le joueur ne peut dépenser qu’un seul point de chance lorsqu’il veut donner un coup de pouce à une action de son personnage. Les points de chance ne peuvent être dépensés sur des jets d’expérience.
 
-If a location is reduced to a negative score equal to or greater than its starting Hit Points, the character receives a Major Wound. The character is immediately Incapacitated, unable to continue fighting. A limb is severed, transfixed, shattered, or ripped off by a Major Wound. The character drops prone, physically Incapacitated, and must immediately make an Opposed Roll of Endurance versus the successful attack roll of his enemy. Failure results in unconsciousness from the agony. If a severed, punctured, or ripped off location is not treated within a number of minutes equal to five times his Healing Rate, the character dies from blood loss and shock.
+#### Atténuer les dégâts
 
-The victim of a Major Wound to the abdomen, chest, or head drops unconscious, totally Incapacitated, and must immediately make an Opposed Roll of Endurance versus the successful attack roll of his enemy. Failure results in an instant and gratuitous death (decapitated, chopped in half, impaled through the heart, torn apart, and so forth). If they survive, and the location is not treated within a number of Combat Rounds equal to twice the character's Healing Rate, they still die from blood loss and shock.
+Si son personnage souffre d’une Blessure Grave, le joueur peut dépenser un point de chance pour la transformer en Blessure Sérieuse. Cela réduit les dégâts subis à un point de vie de moins que le nombre nécessaire pour infliger une Blessure Grave.
 
-Since most Major Wounds require some form of surgery or significant magic to heal, the sufferer will be very unlikely to recover from a Major Wound in time to rejoin combat. Depending on the available treatment, the wounded location will be potentially maimed (see [Healing from Injury](0004_Game_System.md?id=healing-from-injury) below).
+#### Effort désespéré
 
-### Blood Loss
+Si un personnage n’a plus de points d’action alors qu’il a besoin d’un dernier sursaut d’énergie pour se tirer d’un mauvais pas, son joueur peut dépenser un point de chance pour lui donner un point d’action.
 
-Blood Loss due to external and internal wounds, usually sustained in combat, can wear a character down very quickly. Its effects are measured by the accumulation of Fatigue levels, much like Asphyxiation. Unrestrained Blood Loss typically results in death without some form of medical attention. Unlike Asphyxiation, the effects of serious Blood Loss on Fatigue are enduring. A character recovers Fatigue lost to bleeding at a rate of one level per day, starting the day after his exsanguinations cease.
+#### Tromper le sort
 
-### Heroic Last Actions
+Le joueur peut dépenser un point de chance pour relancer ou intervertir les deux chiffres (un 75 devient 57 par exemple) de tout jet de dés de son personnage. Cela peut être un jet de compétence, un jet de dégâts ou tout autre jet qui peut l’affecter. Le personnage peut même forcer un adversaire à relancer un jet d’attaque ou de dégâts dirigé contre lui.
 
-In special cases where key characters receive a Major Wound, the Games Master might allow a heroic last action – such as spitting out one last spell, attempting to cut down their slayer, crawling away to hide, or trying to tourniquet their own wound. They must have working limbs applicable to the Action and burn a Luck Point. They get a single opportunity to attempt their Action, and then immediately collapse into unconsciousness, and probable death.
+## Temps
 
----
-## Healing from Injury
+Dans MYTHRAS FONDAMENTAUX, le temps joue un rôle important pour déterminer l’ordre des actions et appliquer correctement les mécaniques du jeu. Gardez à l’esprit que le temps en jeu est souvent différent du temps réel. Le maitre de jeu a parfois besoin de résumer en une phrase des évènements qui se déroulent pendant plusieurs jours, par exemple : « Vous parvenez au château d’Anthrax après une semaine de voyage. » À d’autres moments, en particulier lors d’un combat, des actions de quelques secondes sont résolues en plusieurs minutes.
 
-Natural healing from wounds and injuries is based on the character's Healing Rate. The Healing Rate dictates how many Hit Points are recovered in a location depending on the injury's nature:
+Les trois principales divisions du temps de jeu sont détaillées ci-après :
 
-- **Minor Wounds:** Days
-- **Serious Wounds:** Weeks
-- **Major Wounds:** Months
+### Round de combat
 
-Thus, a character with a Healing Rate of 3 who suffers damage taking him to –3 in a Hit Location, a Serious Wound, will heal naturally at a rate of 3 Hit Points per week until his wound goes above zero, and then heal 3 Hit Points per day until fully recovered.
+Le round de combat représente cinq secondes de temps réel. Il sert à mesurer des activités courtes et frénétiques qui sont accomplies en quelques instants. Il sert aussi à mesurer des activités très détaillées qui nécessitent une résolution au coup par coup. Par exemple, une course-poursuite entre un chasseur et sa proie, où chaque round permet d’en simuler tous les rebondissements.
 
-There are certain restrictions on natural healing:
+### Temps d’utilisation de compétences
 
-- The healing character cannot engage in strenuous activity: otherwise, the Healing Rate is reduced by 1d3. Thus, a character recovering from even a Minor Wound could find his progress halted if they decide to engage in any physical tasks that might exacerbate the injuries.
-- Natural healing will not begin to heal a Major Wound until the victim has been treated with a successful Healing roll, or the casting of some form of healing magic. Non-dismembering Major Wounds which are not treated within a number of days equal to one twentieth of the Healing skill become maimed, permanently reducing the Hit Points of the location.
+L’utilisation de compétences nécessite quelques minutes à plusieurs heures. Ce temps est utilisé pour mesurer des activités qui ne nécessitent pas un suivi aussi détaillé que le round de combat. Crocheter une serrure peut prendre cinq minutes, mais surveiller les patrouilles des sentinelles sur le chemin de ronde d’un château peut nécessiter plusieurs heures.
 
----
-## Inanimate Objects
+### Temps de narration
 
-All inanimate objects possess Armor Points and Hit Points which are used to determine resistance to damage and destruction. Armor Points reduce damage before Hit Points are affected. Once an object's Hit Points have been reduced to zero, it is useless.
-
-Breakage attempts require a character to make a Brawn, Unarmed or Combat Style roll, as appropriate, to inflict damage. A success deals damage to the item.
-
-#### Weapons vs Inanimate Objects
-
-Using a weapon against an inanimate object with Armor Points equal to or greater than those of the weapon deals damage to both the object and the weapon. For instance, using an axe on an iron door may damage the door, but the axe itself will be destroyed long before the iron door is. The Games Master should exercise discretion on which weapons or tools can affect which objects. A chisel, for example, is explicitly designed to carve wood or stone whilst a sword, although sharp, is not. The chisel would therefore not take damage from something it is attempting to carve whereas a sword most likely would.
-
-##### Inanimate Objects Table
-
-| Object | Armor / Hit Points |
-| :-- | :-: |
-| Castle Gate | 8/150 |
-| Castle Wall | 10/500 |
-| Chain/Shackle | 8/8 |
-| Iron Post | 8/15 |
-| Glass Window | 1/4 |
-| Iron Door | 12/30 |
-| Rope | 6/3 |
-| Wooden Chair | 4/15 |
-| Brick Wall | 6/30 |
-| Concrete Wall | 8/40 |
-| Automobile | 6/30 |
-| Bulletproof Glass | 8/25 |
-| Steel Beam | 12/50 |
-| Armored Personnel Carrier | 10/50 |
-| Battle Tank | 15/100 |
-| Truck/Excavator | 8/40 |
-| Tree Trunk | 6/50 |
-
----
-## Luck Points
-
-Luck Points help differentiate heroes from the rank and file. They represent a character's ability to potentially turn failure into success and even cheat death.
-
-Luck Points can be used during play and, at the beginning of the next session, replenish to their usual value.
-
-#### Using Luck Points
-
-Luck points can be used in a variety of ways. Only one Luck Point can be used in support of a particular Action. Luck Points cannot be spent on Experience or Training rolls. Each of the following options costs a single Luck Point.
-
-#### Cheat Fate
-
-Characters can use a Luck Point to re-roll or swap (a 75 would become a 57 for example) any dice roll they make. This can be a skill roll, damage roll, or anything else that has some effect. Characters can even force an opponent to re-roll an attack or damage roll made against them.
-
-#### Desperate Effort
-
-If a character has exhausted their Action Points during a fight and needs to find that last burst of desperate energy to perhaps avoid a messy demise, they may spend a Luck Point to gain an additional Action Point.
-
-#### Mitigate Damage
-
-A character who suffers a Major Wound may spend a Luck Point to downgrade the injury to a Serious Wound. This reduces the damage taken to one Hit Point less than what would be required to inflict a Major Wound.
+Il s’agit du temps qui passe lorsque le maitre de jeu décrit une scène aux joueurs, ou lorsque ces derniers discutent entre eux. Sauf cas particulier, l’interprétation des personnages se déroule dans le temps de narration. Lorsqu’un joueur interprète son personnage, le temps de narration se calque sur le temps réel. Une conversation avec un PNJ dure aussi longtemps que la discussion autour de la table. Si la session de jeu inclut un long voyage ou des périodes d’activité où le temps passé n’est pas primordial, le temps est considérablement compressé et seuls quelques évènements sont joués.

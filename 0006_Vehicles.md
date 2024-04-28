@@ -1,690 +1,547 @@
-# Vehicles
+# Véhicules
 
-Vehicles in _Mythras Imperative_ are treated in a semi-abstract fashion. Essentially, they are background tools, used to get characters from A to B, with little need for detailed description or statistics. On occasion though, Games Masters will require details for vehicles when it is necessary to represent them in chases or combat situations.
+Dans MYTHRAS FONDAMENTAUX, les véhicules sont gérés de façon semi-abstraite. En général, ils n’ont pas besoin d’être décrits précisément : ils servent simplement à transporter les personnages d’un point A à un point B. Toutefois, le maitre de jeu désirera parfois les gérer de façon plus détaillée lors de combats ou de poursuites.
 
-The rules in this section allow for the representation of most kinds of vehicles but in an abstracted way that is intended to permit flexibility and enhance storytelling. Starships and space craft are a little different, although they are based on similar principles.
+Les règles de ce chapitre seront utiles dans ces situations, tout en restant suffisamment abstraites pour ne pas entraver la narration. Les règles diffèrent légèrement pour les vaisseaux spatiaux, bien que les principes soient similaires.
 
----
-## Statistics
+## Statistiques
 
-All vehicles are described in terms of their Structure, Hull, Speed, Systems, Traits, and Shields (if present in the setting).
+Les caractéristiques suivantes concernent tous les véhicules : taille, structure, coque, vitesse, systèmes, traits et boucliers (s’ils existent dans le cadre de jeu).
 
-- **[Size](0006_Vehicles.md?id=vehicle-size-table):** All vehicles have one of six Size ratings which determines the value or range of the rest of the characteristics. Due to their larger intrinsic size and the hostile environments of space, starships have their own range of values.
-- **[Hull](0006_Vehicles.md?id=terrestrial-hulls):**  Represents Armor Points
-- **[Structure](0006_Vehicles.md?id=terrestrial-hulls):**  Represents a vehicle's Hit Points
-- **[Shields](0006_Vehicles.md?id=shields):**  In settings with advanced energy manipulation technology, shields may be present that protect the vehicle, but which may ablate under sustained fire.
-- **[Systems](0006_Vehicles.md?id=systems):**  Representing vital components of the vehicle, including the power plant, crew section, and so on.
-- **[Speed](0006_Vehicles.md?id=speed):**  Every vehicle has a basic Speed rating
-- **[Traits](0006_Vehicles.md?id=traits):**  A vehicle may also have one or more Traits. Traits, like the Abilities assigned to Creatures in the _Mythras Imperative_ rules, or Combat Style Traits, offer an additional game description and advantage, reflecting the vehicle's nature.
-- **[Weapons](0006_Vehicles.md?id=weapons):** Much like Traits, a vehicle may be equipped with weapons as the setting allows. Some suggested examples and values are detailed below.
+**Taille :** Tout véhicule possède une taille qui influe sur les autres caractéristiques. Les vaisseaux spatiaux possèdent leur propre échelle de valeurs, du fait de leur plus grande taille et de la dangerosité de l’espace.
 
+| Taille      | Dégâts du système |
+|-------------|-------------------|
+| Petite      | 1                 |
+| Moyenne     | 2                 |
+| Grande      | 3                 |
+| Très Grande | 4                 |
+| Énorme      | 5                 |
+| Colossale   | 6                 |
 
----
-### Hull Size, Type and Structure
+Coque : Les points de coque sont l’équivalent des points d’armure pour les véhicules.
 
-The size and purpose of a vehicle affects the thickness of its hull and resilience of its internal structure. A motorcycle, for example, has a minimal hull, built as it is for speed and agility. A Land Ironclad (a massive, tracked or wheeled armored behemoth, powered by steam or diesel engines), being a much larger vehicle designed for the battlefield, has a much larger hull. The comparative sizes of hulls (and how many hits from weapons they can typically withstand), is summarized on the Vehicle Size and Hull tables below.
+Structure : Les points de structure sont l’équivalent des points de vie pour les véhicules.
 
-Whenever a vehicle suffers harm, the incoming damage is reduced by its Hull value. Any remaining damage is subtracted from the vehicle's Structure points and has a percentage chance, equal to the penetrating damage, of affecting a System. If the vehicle is ever reduced to zero Structure it is either utterly destroyed, or so badly wrecked it must be scrapped.
+Vitesse : L’équivalent de la valeur de mouvement pour les véhicules.
 
-##### Terrestrial Hulls 
+Systèmes : Les composants essentiels du véhicule, comme le moteur ou le générateur, l’équipage, etc.
 
-| Size | Structure | Civilian Hull Value | Military Hull Value | Example |
-| :-- | :-: | :-: | :-: | :-- |
-| Small | 1-20 | 1-3 | 4-6 | Motorcycle, motorcycle with sidecar, compact or subcompact car, canoe, kayak, rowboat |
-| Medium | 21-40 | 1-6 | 7-9 | Sedan, panel van, pickup, luxury car, luxury sports car, muscle car, limousine, lifeboat, speedboat, hang glider, autogyro |
-| Large | 41-60 | 4-9 | 10-12 | Lorry/truck, stretch limo, SUV, bus, people carrier, personal aircraft, glider, pleasure cruiser, tank, helicopter, submarine |
-| Huge | 61-80 | 7-12 | 13-15 | Semi, airliner, jet, coastguard vessel, yacht |
-| Enormous | 81-100 | 10-15 | 16-18 | Train, cruise liner, naval vessel |
+Traits : Un véhicule peut posséder un ou plusieurs traits. Les traits de véhicule, tout comme les capacités de créature ou les traits de styles de combat, correspondent à une particularité ou à un avantage du véhicule.
 
-##### Starship Hulls 
+Boucliers : Dans les cadres de jeu où existent des technologies avancées de manipulation d’énergie, des boucliers peuvent protéger le véhicule. Cependant, ils peuvent être détruits s’ils subissent un feu nourri.
 
-| Size | Structure | Civilian Hull Value | Military Hull Value | Example |
-| :-- | :-: | :-: | :-: | :-- |
-| Small | 10-50 | 4-9 | 10-12 | Single seat fighter |
-| Medium | 51-150 | 7-12 | 13-15 | Light Freighter, Shuttle craft |
-| Large | 151-450 | 10-15 | 16-18 | Heavy Freighter, Cruiser |
-| Huge | 451-1350 | 13-18 | 19-21 | Escort Frigate, Light Battle Cruiser |
-| Enormous | 1351-4050 | 16-21 | 21-24 | Generation Ship, Heavy Battle Cruiser |
-| Colossal | 4050-12110 | 19-24 | 24-30 | Orbital Habitat, Planet-Busting Battle Station |
+## Coque et structure
 
+L’épaisseur de la coque d’un véhicule et la résistance de sa structure interne dépendent de sa taille et de sa finalité. Ainsi une moto étant conçue pour être rapide et maniable, ses points de coque sont minimaux. En revanche, un char d’assaut, qui est un véhicule militaire beaucoup plus grand taillé pour les champs de bataille, a une valeur de coque beaucoup plus grande. Les points de dégâts reçus par un véhicule sont réduits par ses points de coque.
 
----
-### Shields
+Tous les points de dégâts restants sont ensuite soustraits des points de structure du véhicule. Les points de dégâts qui ont pénétré la coque représentent le pourcentage de chance qu’un système du véhicule soit touché. Si les points de structure sont réduits à zéro, le véhicule est entièrement détruit ou si gravement endommagé qu’il doit être mis au rebut.
 
-Deflector shields provide an additional layer of protection for those vehicles which can mount them. Shields work slightly differently than the Hull, due to their ablative nature. If incoming damage is equal to or less than the value of the shields, then it is all blocked. If damage exceeds the shield value, then any excess reduces the shield strength by that amount.
+Coques de véhicules terrestres
 
-_For example, a troop carrier has an energy shield strength of 12 points. If the carrier was hit by a laser for 11 damage, it simply does not penetrate and has no additional effect. On the other hand, if the carrier was hit by a blast inflicting 15 damage, the excess three points would drop the shield strength to 9._
+| Taille du véhicule | Points de structure | Coque de véhicule civil | Coque de véhicule militaire | Exemples                                                                                                                     |
+|--------------------|---------------------|-------------------------|-----------------------------|------------------------------------------------------------------------------------------------------------------------------|
+| Petite             | 1-20                | 1-3                     | 4-6                         | Automobile citadine ou compacte, canoé, canot à rames, kayak, moto, moto avec sidecar blindé                                 |
+| Moyenne            | 21-40               | 1-6                     | 7-9                         | Autogire, Berline, cabriolet, canot à moteur, deltaplane, fiacre, limousine, vedette de sauvetage, voiture de sport luxueuse |
+| Grande             | 41-60               | 4-9                     | 10-12                       | Camion/poids lourd, avion monoplace, bateau de plaisance, hélicoptère                                                        |
+| Très Grande        | 61-80               | 7-12                    | 13-15                       | Cuirassé terrestre, yacht, avion de ligne                                                                                    |
+| Énorme             | 81-100              | 10-15                   | 16-18                       | Léviathan terrestre, dirigeable, navire de croisière                                                                         |
 
-Once the strength of a deflector shield has dropped to zero, it collapses. Any remaining damage carries onto the hull.
+Coques de vaisseaux spatiaux
 
----
-### Systems
+| Taille du véhicule | Points de structure | Coque de véhicule civil | Coque de véhicule militaire | Exemples                                           |
+|--------------------|---------------------|-------------------------|-----------------------------|----------------------------------------------------|
+| Petit              | 10-50               | 4-9                     | 10-12                       | Chasseur monoplace                                 |
+| Moyen              | 51-150              | 7-12                    | 13-15                       | Cargo léger, navette spatiale                      |
+| Grand              | 151-450             | 10-15                   | 16-18                       | Cargo lourd, croiseur                              |
+| Très Grand         | 451-1 350           | 13-18                   | 19-21                       | Frégate d’escorte, croiseur de bataille léger      |
+| Énorme             | 1 351-4 050         | 16-21                   | 21-24                       | Vaisseau générationnel, croiseur de bataille lourd |
+| Colossal           | 4 050-12 110        | 19-24                   | 24-30                       | Habitat orbital, station de combat                 |
 
-Every time a vehicle suffers damage that penetrates its hull, there is a chance, equal to the penetrating damage, that a vital System has been affected. 
+## Vitesse
 
-_For example, 10 damage is applied to Speedboat - a vehicle with 3 Hull and 24 Structure. The Hull counts as armor reducing the damage to 7. This is removed from the 24 Structure points and there is a 7% chance to damage one of the vehicle's Systems._
+Comme les lois physiques gouvernant la vélocité, l’accélération, l’inertie, la résistance et la trainée sont complexes, nous avons opté pour une valeur de vitesse abstraite. La vitesse ne devrait servir qu’à estimer si un véhicule est capable de dépasser ou de rattraper un autre.
 
-The damage a System can sustain is based purely on the vehicle's size. This is modelled by the number of hits a System can take, rather than the actual amount of damage. A single System Hit on a Small vehicle will instantly destroy that System. It takes two hits to demolish a Medium sized vehicle's Systems, three for a Large vehicle, and so on. See the [System Damage Table](0006_Vehicles.md?id=system-damage-table) below. 
+La vitesse représente la rapidité du véhicule en temps normal. Si les circonstances l’exigent, elle peut être améliorée d’une catégorie, au risque d’user ou d’endommager le moteur. Bien que nous utilisions le même tableau pour tous les types de véhicules, nous recommandons au maitre de jeu de comparer seulement des véhicules du même type. Par exemple, un vaisseau spatial et une voiture de sport sont tous deux Rapides, mais il est évident que le premier est bien plus véloce !
 
-Systems that are damaged, but not yet destroyed, suffer a loss of function proportionate to the number of Hits taken - either a percentage reduction or a Grade penalty to System tasks. The specific effect is based on what the subsystem controls, as detailed in the [System Component Damage Table](0006_Vehicles.md?id=system-component-damage-table) below. Depending on which System is hit, the effects can be catastrophic.
+Il est possible d’augmenter la vitesse d’un véhicule au-delà de sa valeur standard en réussissant un jet de Conduite. En général, ce surcroit de vitesse n’est soutenable que pour une courte période : pas plus de 1d6 minutes. Passé ce délai, le véhicule doit revenir à sa vitesse standard pour ne pas endommager son moteur ou son générateur. Une réussite critique au jet de Conduite allonge la période à 1d12 minutes.
 
-_For example, a Land Ironclad - an Enormous vehicle with 5 System Hits - hit twice in the Drive would lose 40% of its power and would reduce its Slow Speed two Grades to Ponderous. Similarly, a Large freighter - with 3 System Hits - taking two hits on the Engine/Fuel System would have a two Grade penalty to Speed as well to Electronic systems use. A third hit would destroy the Engine/Fuel System and the ship with it._
+Un conducteur peut tenter d’augmenter la Vitesse d’un véhicule de deux catégories, mais cela nécessite un jet Herculéen de Conduite. De plus, le véhicule ne pourra soutenir cette allure que durant 1d3 minutes, même en cas de réussite critique.
 
+Vitesse
 
-<details>
+| Vitesse           | Notes                                           |
+|-------------------|-------------------------------------------------|
+| Extrêmement Lente | Vitesse maximale pour les véhicules Énormes     |
+| Très Lente        |                                                 |
+| Lente             | Vitesse maximale pour les véhicules Très Grands |
+| Médiocre          |                                                 |
+| Modérée           | Vitesse maximale pour les Grands véhicules      |
+| Moyenne           |                                                 |
+| Rapide            | Vitesse maximale pour les véhicules Moyens      |
+| Très rapide       |                                                 |
+| Véloce            | Vitesse maximale pour les Petits véhicules      |
 
-<summary>* Community Errata</summary>
+## Systèmes
 
----
+Chaque fois qu’un véhicule subit des dégâts qui pénètrent sa coque, un de ses systèmes risque d’être atteint. Selon le système touché, les effets peuvent être catastrophiques.
 
-#### Damage
+Les dommages que peut endurer un système sont basés uniquement sur la taille du véhicule. Les dommages sont déterminés par le nombre de fois qu’un système est touché, et non par la quantité de dégâts infligés. Un seul coup au but suffit à détruire le système d’un Petit véhicule. Il faut deux coups pour détruire celui d’un véhicule Moyen, trois pour celui d’un véhicule Grand, etc.
 
+Si un système est seulement endommagé, il continue à fonctionner, mais son efficacité diminue. Cela dépend du rapport entre le nombre de coups subis et le nombre maximal de coups qu’il peut subir. Par exemple, un véhicule Énorme dont le système de Conduite aurait été touché deux fois perd 40 % de sa puissance (2 coups sur un maximum de 5) et devra réduire en proportion sa vitesse. Ainsi, la vitesse d’un cuirassé terrestre passerait de Lente à Très Lente. L’effet dépend du système affecté. Pour plus d’information à ce sujet, consultez les tableaux à la fin de ce chapitre.
 
-_The original text here was originally further away. Placed directly after the Systems section it is unnecessarily repeating the preceding paragraph._
+## Traits
 
-- _"Damage that exceeds the Hull penetrates the vehicle, damaging the Structure and possibly impacting on one or more systems. Depending on the size of the vehicle, damage can be minor or catastrophic._
-- _For example, a Large vehicle may take up to two hits on a System such as its Drive. The third hit functionally destroys the Drive. Each time the system takes a hit, it either loses a percentage of its function as described in the Loss per Hit column of the System Damage Table below or a core function (such as Drive, Pilot, Comms, and so on) becomes one Difficulty Grade harder per hit sustained."_
+Le nombre de traits d’un véhicule dépend de son type et de la taille de sa coque.
 
-_The above paragraphs are removed and an abbreviated edit takes its place calling out another example System effect._
+Chaque véhicule possède au moins un trait correspondant à son mode de locomotion principal. Ainsi, un avion possède le trait Aéronef, un navire le trait Naval, etc. Ce trait inhérent ne compte pas dans la limite des traits disponibles. Cependant, si le concepteur d’un véhicule veut ajouter un autre mode de locomotion (en ajoutant par exemple le trait Aéronef pour créer un sous-marin volant), ce trait comptera dans la limite des traits disponibles.
 
----
+Le maitre de jeu doit faire appel à son bon sens pour déterminer les traits appropriés au niveau technologique de son cadre de jeu.
 
-</details>
+Nombre de traits
 
-##### System Damage Table 
+| Taille      | Nombre de traits |
+|-------------|------------------|
+| Petite      | 1                |
+| Moyenne     | 2                |
+| Grande      | 3                |
+| Très Grande | 4                |
+| Énorme      | 5                |
+| Colossale   | 6                |
 
-| Size | System Hits | Loss per Hit |
-| :-- | :-: | :-- |
-| Small | 1 | 100% - Destroyed |
-| Medium | 2 | 1 Grade or 50% |
-| Large | 3 | 1 Grade or 33% |
-| Huge | 4 | 1 Grade or 25% |
-| Enormous | 5 | 1 Grade or 20% |
-| Colossal | 6 | 1 Grade or 16% |
+#### ADAV
 
+Décollage et atterrissage vertical. Ce trait est inhérent aux hélicoptères et aux véhicules similaires qui utilisent une combinaison de rotors pour produire la portance. Si ce trait concerne un véhicule pourvu d’ailes fixes, cela signifie que l’appareil possède des propulseurs pour contrôler l’orientation, l’ascension et la descente.
 
-<details>
+#### Aéroglisseur
 
-<summary>* Community Errata</summary>
+Le véhicule glisse au-dessus du sol grâce à un coussin d’air ou à un inverseur de gravité.
 
----
+#### Aéronef
 
-##### System Damage Table (Original) 
+Ce véhicule peut voler dans l’atmosphère.
 
-| Size | System Hits | Loss per Hit |
-| :-- | :-: | :-- |
-| Small | 1 | 1 Grade or 50% |
-| Medium | 2 | 1 Grade or 33% |
-| Large | 3 | 1 Grade or 25% |
-| Huge | 4 | 1 Grade or 20% |
-| Enormous | 5 | 1 Grade or 16% |
-| Colossal | 6 | 1 Grade or 10% |
+#### Camouflage
 
-##### Vehicle Size Table (from [Hull Size, Type and Structure](0006_Vehicles.md?id=hull-size-type-and-structure))
-
-| Size | System Hits |
-| :-- | :-: |
-| Small | 1 |
-| Medium | 2 |
-| Large | 3 |
-| Huge | 4 |
-| Enormous | 5 |
-| Colossal | 6 |
-
-_The original rules and examples are inconsistent:_
-- _"Systems that are damaged, but not yet destroyed, suffer a loss in functionality. This is equal to the proportion of current hits to its total capability. Thus, an Enormous vehicle hit twice in the Drive would lose 40% of its power (2 hits out of a maximum of 5)"._ 
-   - _This suggests the Enormous vehicle shown with 5 System Hits should lose 20% with each hit - but the table says 16%._
-- _"For example, a Large vehicle may take up to three hits on a system such as its Drive. The fourth hit functionally destroys the Drive."_ 
-  - _"This suggests - as does the table - 25% damage per System Hit but the Large Vehicles can only take 3 System Hits according to the same table._
-- _While not inconsistent, the Vehicle Size Table was redundant; appearing again in fuller form (adding the Loss per Hit column) just a few lines later._
-
-_This makes it hard to have a consistent rule. To address these issues, the values and examples are changed to match and the Vehicle Size Table was removed._
-
----
-
-</details>
-
-
-##### System Component Damage Table 
-
-| 1d10 | System | Damaged Result | Destroyed Result |
-| :-: | :-- | :-- | :-- |
-| 1 | Cargo | An amount of possessions or equipment stored in the hold, proportional to the damage, are destroyed. | All cargo is destroyed. |
-| 2 | Comms | Comms rolls suffer one additional Difficulty Grade of difficulty each time they are damaged. | Vehicle can no longer communicate or spoof enemy sensors. |
-| 3 | Controls | Boating, Drive, or Pilot rolls suffer one additional Difficulty Grade each time they are damaged; immediate Control roll required. | Vehicle can no longer be steered or change course. |
-| 4 | Drive | Speed reduced by an amount proportional to damage. | Vehicle stops dead; aircraft crash. |
-| 5 | Crew | A number of passengers proportional to the damage are rendered casualties. Those affected suffer a Major Wound and must succeed in an Endurance roll or be killed instantly. | Vehicle occupants die. |
-| 6 | Engine / Fuel | Speed reduced by an amount proportional to damage. Electronic systems one Difficulty Grade more difficult to use. | Vehicle is destroyed in a disastrous explosion. |
-| 7 | Sensors | Sensor, Navigation and Weapon attack rolls suffer one additional Difficulty Grade each time they are damaged. | Vehicle is rendered blind. |
-| 8 | Weapons | A number of weapon systems proportional to the damage become inoperative. | Vehicle can no longer fire weapons. |
-| 9-0 | None | No systems struck; just Structure damage. | N/A |
-
-<details>
-
-<summary>* Community Errata</summary>
-
----
-
-##### System Component Damage Table (Engine/Fuel)
-
-_The original result was as follows: "Maximum Speed is halved..." This contradicts the general rule of damage penalties in proportion to System damage: 25% damage = 25% penalty. Moreover, the full rules in the Mythras Companion do not mention this halving of Speed._
-
-_As a result the text is replaced with the same entry from Drive Systems: "Speed reduced by an amount proportional to damage."_
-
----
-
-</details>
-
-
----
-### Speed
-
-Since the physics of velocity, acceleration, drag and inertia (to name but a few) are complex issues, some simplification is needed and so vehicles are given an abstract speed rating. The Speed characteristic should only be used to roughly judge if one vehicle can overtake or catch up with another.
-
-The speed rating represents a vehicle's nominal operational rate. In emergency situations this performance can be increased by one step, at risk of wear or damage to the engines. Although the same table is used for all vehicle types, common sense should be applied so that only vehicles of the same class are compared. For example, if a Starship and a sports car both have the same acceleration rate of Rapid, then it should be obvious the spaceship is comparatively faster.
-
-Increasing a vehicle's Speed beyond its standard value is possible on a successful Drive roll. Usually, this extra speed is only sustainable for a short period – no more than 1d6 minutes before the vehicle must drop to its standard speed or risk damage to its powerplant. A critical Drive roll allows the period of higher speed to be increased to 1d12 minutes.
-
-A driver can attempt to push a vehicle's speed by 2 steps, but this requires a Herculean Drive roll and the maximum the vehicle can sustain this speed is 1d3 minutes: a Critical Success will not extend the increased speed's duration.
-
-##### Speed Rating Table 
-
-| Speed Rating | Max Speed For |
-| :-- | :-: |
-| Ponderous | Enormous |
-| Sluggish | |
-| Slow | Huge |
-| Mediocre | |
-| Gentle | Large |
-| Moderate | |
-| Rapid | Medium |
-| Fast | |
-| Fleet | Small |
-
-
----
-### Traits
-
-The maximum number of traits a vehicle can have depends on hull size and type.
-
-Every vehicle has an inherent trait: the travel mode for which it was primarily designed. Therefore, aircraft inherently hold the Airborne trait, boats the Seaborne trait, and so on., This inherent trait does not count towards the available number of traits. However, if a vehicle should include a second travel mode — a flying submarine for instance, then the Airborne trait would need to be taken as one of its available traits.
-
-Some traits may not be available, depending on the technology level of the setting; Games Masters must make their own judgment calls as to what traits can be applied.
-
-##### Vehicle Trait Allocation Table 
-
-| Size | Max Traits |
-| :-- | :-: |
-| Small | 1 |
-| Medium | 2 |
-| Large | 3 |
-| Huge | 4 |
-| Enormous | 5 |
-| Colossal | 6 |
-
-#### Airborne
-
-The vehicle is capable of atmospheric flight.
-
-#### All Terrain
-
-This Trait must be used with Ground vehicles. The vehicle can traverse inhospitable, difficult, and steep terrain, using either tracks, advanced suspension and drive systems, or powerful drive differentials.
-
-#### Burrowing
-
-The vehicle is designed to burrow and tunnel through the ground. It can achieve a maximum depth equal to its Hull Rating x5 metres.
-
-#### Camouflaged
-
-The vehicle possesses either camouflage paint or mimetic sensors that allow it to blend in with its environment. Attempts to spot the vehicle visually are one grade more difficult.
-
-#### Cargo
-
-The vehicle is designed specifically to haul cargo rather than passengers. Passenger compartments are kept to a minimum with the rest of the vehicle's usable space being devoted to cargo containment with appropriate sections, tools, and even environmental conditioning (such as freezer sections for transporting perishables). When laden with cargo the vehicle's speed is two steps lower than its hull size would ordinarily allow.
-
-#### Carrier
-
-The vehicle is designed specifically to carry smaller, lightly crewed, or possibly remotely controlled vehicles of either a civilian or military nature. Any vehicle possessing this trait must be at least Enormous. The number of small craft carried may vary by mission type and purpose but can be as few as 10 to as many as the vehicle's Structure rating.
+Le véhicule utilise un camouflage ou des capteurs mimétiques lui permettant de se fondre dans son environnement. En général, la difficulté des tentatives de détection du véhicule augmente d’un niveau.
 
 #### Construction
 
-The vehicle is equipped for heavy construction work. All vehicles with this trait have the All Terrain trait too, but speed is two steps lower than their hull size would ordinarily allow. The vehicle is fitted with task-appropriate tools such as crane jibs, digger shovels, dump carts and so on.
+Le véhicule est destiné aux gros travaux de construction. Grâce à ce trait, il possède automatiquement le trait Tout-terrain, mais sa vitesse baisse de deux catégories par rapport à la normale. Il est équipé d’outils appropriés tels que des grues, des pelles, des bennes, etc.
 
-#### EMP Resistant
+#### Fret
 
-The vehicle is shielded against electromagnetic pulse attacks.
+Le véhicule est conçu pour transporter des cargaisons plutôt que des passagers. Les compartiments destinés aux passagers sont limités au minimum. Le reste de l’espace utilisable est réservé à la cargaison, avec des outils et un conditionnement adapté (des chambres froides pour transporter des denrées périssables, par exemple). Une fois chargé, le véhicule verra sa vitesse baisser de deux catégories par rapport à la normale.
 
-#### Enhanced Performance
+#### Furtif
 
-The vehicle's Speed rating is one step higher than the maximum for its size.
+Avion uniquement. Le véhicule est conçu pour échapper à la détection des radars et d’autres capteurs à longue portée. La difficulté de toute tentative pour repérer le véhicule à l’aide de capteurs électroniques augmente d’un niveau.
 
-#### Ejector Seat
+#### Luxueux
 
-In case of an emergency, an ejector seat propels occupants several hundred metres in the air, then deploys a parachute to allow a safe landing. Parachute is optional. Not recommended for helicopters (the Kamov Ka-52 Alligator being a notable exception).
+Le véhicule est conçu pour transporter des passagers dans des conditions plutôt luxueuses. L’espace excédentaire sert à améliorer le confort des passagers : cabines plus grandes, piscines, bains, équipage supplémentaire pour répondre aux moindres besoins des passagers, etc.
 
-#### FTL
+#### Maniabilité supérieure
 
-Spacecraft Only. The craft is fitted with a faster than light engine (be this a hyperdrive, warp drive, wormhole generator or similar). The FTL drive has a separate Speed rating which essentially measures the rate at which a starship can cross a single parsec (3.26 light-years, or 31 trillion kilometres or 19 trillion miles), as follows:
+La maniabilité du véhicule est Facile.
 
-##### FTL Speed Rating Table 
+#### Marcheur
 
-| Speed Rating | Factor to Traverse 1 Parsec |
-| :-- | :-: |
-| Ponderous | 10 |
-| Sluggish | 8 |
-| Slow | 7 |
-| Mediocre | 6 |
-| Gentle | 5 |
-| Moderate | 4 |
-| Rapid | 3 |
-| Fast | 2 |
-| Fleet | 1 |
+Le véhicule se propulse au moyen de jambes articulées. Sa vitesse est limitée à Modérée, quelle que soit sa taille. De plus, la hauteur du véhicule peut rendre inutilisable tout autre moyen de locomotion.
 
-The factor time is for the Games Master to decide, depending on how advanced the setting's FTL development is. For example, the base factor might be 1 Day, meaning that a ship with a Ponderous FTL drive takes 10 days to complete the journey, whereas a vessel with a Fleet FTL drive completes the trip in 1 day. Elsewhere, where FTL technology is significantly less efficient, then the factor time might be measured in months, rather than days.
+#### Naval
 
-It is assumed that the ship has fuel reserves to either make a return journey, or a means to refuel at the destination point.
+Le véhicule peut flotter sur l’eau.
 
-Assume that any size of starship can be fitted with an FTL drive, although, again, this depends on the setting.
+#### Performances améliorées
 
-FTL drives cannot be activated within 1.5 Astronomical Units of a star (around 225 million kilometres, or 270 million miles). This means ships must use a sublight drive to move to about the distance of Mars before activating the FTL system.
+La vitesse du véhicule augmente d’une catégorie par rapport à la vitesse maximale autorisée par sa taille.
 
-#### Ground Vehicle
+#### Rail
 
-The vehicle is capable of ground travel.
+Le véhicule se déplace sur rail. Tant qu’il reste sur le réseau ferroviaire, il peut atteindre une vitesse trois fois supérieure à la normale pour un véhicule de sa taille.
 
-#### Hover
+#### Rayon tracteur
 
-The vehicle hovers above the ground either using an air cushion or an anti-gravity repulsor.
+Vaisseau spatial uniquement. Le vaisseau est équipé d’un rayon tracteur qui peut attirer à lui des véhicules d’une taille inférieure de deux catégories à la sienne. Ainsi, un vaisseau Très Grand pourrait attirer un vaisseau de taille Moyenne.
 
-#### Luxurious
+#### Résistant
 
-The vehicle is designed specifically to carry passengers at a certain level of luxury. Excess cargo space is given over to luxurious passenger accommodations, swimming pools, hot tubs, extra crew to cater to the whims of the passengers, and so forth.
+Tous les systèmes du véhicule peuvent endurer un coup supplémentaire par rapport à la normale pour un véhicule de sa taille. Ce trait peut être cumulé : Résistant 2 indique ainsi que les systèmes peuvent endurer deux coups de plus que la normale, au prix de deux traits.
 
-#### Rails
+#### Résistant aux IEM
 
-The vehicle relies on a rail system. Vehicles with this trait can naturally achieve a Speed rating three steps higher than their hull size would ordinarily allow, but are obviously restricted to movement on the rail system only.
+Le véhicule est protégé contre les attaques basées sur l’impulsion électromagnétique.
 
-#### Resilient
+#### Robuste
 
-All systems can withstand one additional hit more than normally determined by Size. This Trait can be stacked — so Resilient 2 indicates that systems can withstand 2 hits more than usual at a cost of two Trait points.
+Un véhicule civil doté de ce trait utilise la valeur de coque de la colonne Militaire et possède automatiquement la valeur maximale de structure. Un véhicule militaire doté de ce trait utilise la coque et la structure de la ligne en dessous.
 
-#### Seaborne
+#### Siège éjectable
 
-The vehicle is buoyant on water.
+En cas d’urgence, un siège éjectable propulse les occupants à plusieurs centaines de mètres dans les airs, puis déploie un parachute pour permettre un atterrissage en toute sécurité. Le parachute est optionnel. Déconseillé pour les hélicoptères (à l’exception notable du Kamov Ka-52 Alligator).
 
-#### Spacecraft
+#### Suite de surveillance
 
-The vehicle is sealed against vacuum and shielded against cosmic radiation and may, depending on design, be capable of leaving and re-entering atmosphere, and sustaining flight within an atmosphere.
+Le véhicule possède un ordinateur de bord, une station de communication, un receveur pour écouter les signaux d’autres appareils, et l’équipement pour intercepter les signaux d’ordiphones à 100 m de distance.
 
-#### Stealth
+#### Spationef
 
-Aircraft Only. The vehicle is designed to avoid detection by radar and other long-range sensor systems. Attempts to spot the vehicle using electronic sensors are one grade more difficult.
+Le véhicule est capable de quitter l’atmosphère, d’y rentrer et de voler aussi bien dans l’atmosphère qu’en dehors. Il est isolé du vide de l’espace et protégé contre le rayonnement cosmique.
 
 #### Submersible
 
-The vehicle is capable of submersing beneath the surface of an ocean to an operating depth of its Hull Rating x10 metres. The collapse depth — the absolute maximum the submersible can reach without being crushed — is 1.5 times its operating depth.
+Le véhicule est capable de s’immerger jusqu’à une profondeur égale à sa valeur de coque x 10 m. Cette profondeur est dite opérationnelle. La profondeur maximale, qui correspond à la limite au-delà de laquelle le submersible risque d’être écrasé par la pression, est égale à 1,5 fois sa profondeur opérationnelle.
 
-#### Superior Handling
+#### Supraluminique
 
-The vehicle's handling is rated as Easy.
+Vaisseau spatial uniquement. Le vaisseau est équipé d’un moteur supraluminique : hyperpropulseur, moteur de distorsion, générateur de trous de ver, etc. Le moteur supraluminique possède une vitesse distincte, qui mesure le temps mis par le vaisseau pour traverser un parsec (3,26 années-lumière ou 31 billions de km). Il revient au maitre de jeu de décider du facteur temps, selon la sophistication des technologies supraluminiques de son cadre de jeu. Par exemple, le facteur de base pourrait être 1 jour : un vaisseau avec un moteur supraluminique Véloce traverserait un parsec en 1 jour, alors qu’un autre vaisseau avec un moteur supraluminique Extrêmement Lent aurait besoin de 10 jours. Avec une technologie supraluminique moins performante, le facteur temps peut être mesuré en mois plutôt qu’en jours. Nous présumons que le vaisseau possède suffisamment de carburant pour effectuer un voyage de retour, ou bien peut se réapprovisionner au lieu de destination.
 
-#### Surveillance Suite
+Par défaut, tout vaisseau, quelle que soit sa taille, peut être équipé d’un moteur supraluminique, mais cela dépend bien sûr du cadre de jeu. Un moteur supraluminique ne peut être activé dans un rayon de 1,5 unité astronomique (225 millions de kilomètres) autour d’une étoile. Cela signifie que les vaisseaux doivent s’éloigner d’une étoile en utilisant leur moteur subluminique avant de pouvoir recourir à leur moteur supraluminique.
 
-The vehicle has an onboard computer, comms base station, receiver for listening device signals, and apparatus to intercept nearby smartphone signals within 100 metres.
+Valeurs de vitesse supraluminique
 
-#### Tough
+| Valeur de vitesse | Multiplicateur pour traverser 1 parsec |
+|-------------------|----------------------------------------|
+| Extrêmement Lente | 10                                     |
+| Très Lente        | 8                                      |
+| Lente             | 7                                      |
+| Médiocre          | 6                                      |
+| Modérée           | 5                                      |
+| Moyenne           | 4                                      |
+| Rapide            | 3                                      |
+| Très Rapide       | 2                                      |
+| Véloce            | 1                                      |
 
-A civilian vehicle with this trait draws its Hull from the Military column and automatically has the maximum Structure. A Military vehicle with this Trait draws its Hull and Structure from the next row down.
+#### Terrestre
 
-#### Tractor Beam
+Le véhicule est capable de se déplacer au sol.
 
-Spacecraft Only. The ship is fitted with a tractor beam that can ensnare and draw to it vehicles with a hull-rating of up to two steps less than its own. Thus, a Huge starship could attract and hold a hull of up to Medium size.
+#### Tout-terrain
 
-#### VTOL
+Un véhicule doit posséder le trait Terrestre pour bénéficier de ce trait. Un véhicule Tout-terrain peut traverser des terrains difficiles, escarpés ou inhospitaliers, en utilisant des chenilles, des systèmes avancés de conduite ou de suspension ou des différentiels puissants.
 
-Vertical takeoff/landing. This trait is inherent for helicopters and similar vehicles that use a combination of rotors to produce lift. When applied to fixed-wing aircraft it indicates the use of fixed or align-able thrusters to control airborne attitude, ascent, and descent.
+#### Transport
 
-#### Waterborne
+Le véhicule est capable de transporter de plus petits véhicules civils ou militaires, qu’ils soient pilotés par un équipage réduit ou contrôlés à distance. Un véhicule doté de ce trait doit être au moins de taille Énorme. Le nombre de petits véhicules transportés peut aller de 10 jusqu’au nombre de points de structure du transport, selon sa fonction ou sa mission.
 
-The vehicle propels itself using articulated legs. Walker vehicles are capped at the Speed of Gentle, whatever their Size. However, Walkers can be built to heights that would simply be unstable for vehicles equipped with other means of locomotion.
+Le véhicule est capable de forer des tunnels dans le sol : la profondeur maximale du forage est égale à sa valeur de coque x 5 m.
 
-This vehicle is capable of subaqua movement.
+#### Tunnelier
 
-#### Weaponized
+Le véhicule est capable de forer des tunnels dans le sol : la profondeur maximale du forage est égale à sa valeur de coque x 5 m.
 
-The vehicle has been adapted to accommodate weaponry. Weapon systems are discussed below in the [Weapons](0006_Vehicles.md?id=weapons) section.
+## Conduites et manœuvres
 
+Un conducteur ou un pilote qui veut accomplir une manœuvre soudaine ou d’évitement doit réussir un jet de Conduite (ou de Pilotage) pour garder le contrôle de son véhiculeLa plupart des véhicules sont capables d’endurer des efforts occasionnels, mais le maitre de jeu peut décider qu’une manœuvre ambitieuse augmente le niveau de difficulté du jet. Un échec signifie que le pilote ou le conducteur perd le contrôle du véhicule ; s’ensuit un jet sur le tableau Perte de contrôle. Ce tableau ne concerne que les véhicules terrestres et devra être modifié pour que les effets soient adaptés à des véhicules aériens ou spatiaux Par exemple, un avion partira en vrille au lieu de déraper.
 
----
-## Weapons
+La maniabilité d’un véhicule peut affecter la difficulté du jet de Conduite. Le niveau de maniabilité peut être Facile, Standard, Difficile, Redoutable ou Herculéen ; cela conditionne le niveau de difficulté par défaut du jet de Conduite pour effectuer une manœuvre. Le niveau de difficulté de la manœuvre s’ajoute ensuite à la maniabilité pour déterminer la difficulté finale. Par exemple, une moto de compétition possède des gyrostabilisateurs qui rendent sa maniabilité Facile. Le pilote veut effectuer un dérapage à 180 degrés pour échapper à un poursuivant. Le maitre de jeu estime que la manœuvre ajoute un niveau de difficulté. Le pilote doit donc réussir un jet de Conduite Standard plutôt que Facile. S’il avait tenté la même manœuvre avec une moto sans gyrostabilisateur, le jet de Conduite aurait été Difficile.
 
-Usually, only military hulls are designed to accommodate weaponry (hard points, ammunition storage, control systems). The 'Weaponized' Trait can be taken for civilian vehicles that may have weapon requirements.
+Maniabilité Supérieure est un trait. Un véhicule dépourvu de ce trait possède une maniabilité Standard s’il est de taille Grande ou moindre. Par défaut, la maniabilité des véhicules Très Grands et Énormes est respectivement Redoutable et Herculéenne. Le maitre de jeu peut interdire certaines manœuvres à de tels véhicules en raison de leur taille.
 
-The maximum number of weapon systems a vehicle can support is equal to 1/10th of its Structure Points (so a vehicle with 40 Structure could support 4 weapon systems, if a military vehicle, or a Weaponized civilian vehicle).
+Perte de contrôle
 
-Weapon systems depend on the Size of the vehicle. The maximum type of weapon system for different Sizes are shown in the tables in the tables below.
+| 1d100 | Résultat                                                                                                                                                                                                                          |
+|-------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 01-25 | Embardée. La perte de contrôle est temporaire. Le véhicule perd une catégorie de vitesse durant 5 secondes.                                                                                                                       |
+| 26-40 | Dérapage. Le conducteur doit lutter pour garder le contrôle du véhicule. Le véhicule perd deux catégories de vitesse durant 10 secondes.                                                                                          |
+| 41-50 | Dérapage sévère. Durant 15 secondes, le véhicule se retrouve arrêté et dans la mauvaise direction.                                                                                                                                |
+| 51-60 | Tonneau. Le véhicule dérape et fait un tonneau, subissant 3d10 points de dégâts à sa structure. Chaque occupant du véhicule doit réussir un jet d’Endurance ou subir 1d10 points de dégâts à 1d3 localisations.                   |
+| 61-70 | Tonneau violent. Comme ci-dessus, mais le véhicule subit 3d10 + 10 points de dégâts et chaque occupant subit 1d10 points de dégâts, même en cas de réussite à son jet d’Endurance, et 2d10 en cas d’échec.                        |
+| 71-80 | Tonneau irrécupérable. Comme ci-dessus, mais le véhicule est réduit à 0 point de structure. Les occupants subissent les mêmes dégâts que pour un tonneau violent.                                                                 |
+| 81-90 | Explosion. Comme ci-dessus, mais le carburant s’enflamme et explose en 1d20 + 10 secondes. Les occupants qui ne parviennent pas à sortir du véhicule à temps subissent 1d6 dégâts supplémentaires de brulure à 1d6 localisations. |
+| 91-98 | Explosion immédiate. Comme ci-dessus, mais l’explosion est immédiate.                                                                                                                                                             |
+| 99-00 | Accident catastrophique. Chaque occupant doit réussir un jet d’Endurance ou mourir instantanément. En cas de réussite, il subit les mêmes dégâts que pour Tonneau irrécupérable.                                                  |
 
+## Boucliers
 
-##### Weapons by Size Table 
+Les boucliers déflecteurs fournissent une couche de protection supplémentaire aux véhicules. Leur fonctionnement diffère légèrement de celui de la coque. Les dégâts d’une attaque sont bloqués si leur valeur ne dépasse pas celle des boucliers. Si les dégâts excèdent la valeur des boucliers, alors les boucliers perdent un nombre de points égal aux dégâts excédentaires. Par exemple, un Freux Disrupteur, un transport de troupes, possède 12 points de boucliers. S’il subit 11 dégâts d’un laser, il en sortira indemne. Par contre, s’il subit 15 dégâts, les 3 points excédentaires réduiront les boucliers à 9. Les boucliers sont détruits une fois que leur valeur est réduite à 0. Les dégâts restants affectent la coque.
 
-| Size | Terrestrial | Spacecraft |
-| :-- | :-- | :-- |
-| Small | Light Weapon (e.g. Assault Rifle) | Medium Weapon (e.g. Machine Gun, Rocket Launcher) |
-| Medium | Medium Weapon (e.g. Machine Gun, Rocket Launcher) | Turreted/Heavy Weapon (e.g. Heavy Linked Machine Guns, Mini-Guns) |
-| Large | Turreted/Heavy Weapon (e.g. Heavy Linked Machine Guns, Mini-Guns) | Weapon Battery (e.g. Battlefield Artillery) |
-| Huge | Weapon Battery (e.g. Battlefield Artillery) | Advanced Weapons (e.g. Missile Systems) |
-| Enormous | Advanced Weapons (e.g. Missile Systems) | Spinal Mounted Weapons (one only) |
-| Colossal | NA | Spinal Mounted Weapons (up to 3) |
+## Armes
 
-##### Sample Weapon Statistics 
- 
-| Weapon | Damage | Range | Firing Rate | Ammo/Load |
-| :-- | :-: | :-: | :-: | :-: |
-| 50 inch Cannon | 3d6+3 | 1000/2000/6500 | 1/10/50 | 1/5 |
-| Mini-Gun/Gatling Gun | 3d6 | 300/1000/2000 | -/20/100 | 200/4 |
-| Rocket | 5d6 | 5000/20km/60km | 1 | 1/5 |
-| Medium Missile/Torpedo | 6d10 | Max range of 200km | 1 | 1/5 |
-| Large/Cruise Missile | 6d10+10 | Max range of 1000km | 1 | 1/10 |
-| Laser/Plasma Cannon | 4d6 | 300/1000/2000 | -/5/25 | 500/5 |
-| Heavy Laser/Plasma Cannon | 5d6 | 1000/3000/6000 | -/5/25 | 300/5 |
-| Artillery Battery | 5d6+6 | Max range of 50km | 1 | 1/5 |
-| Spinal Mount Battery | 10d6+6 | Max range of 20000km | 1 | 1/10 |
+Habituellement, seules les coques militaires sont conçues pour accueillir un système d’armes (points d’emport, stockage de munition, systèmes de contrôle). Toutefois, des véhicules civils peuvent disposer du trait Armé. Un véhicule est capable d’accueillir un nombre de systèmes d’armes égal au dixième de ses points de structure. Ainsi, un véhicule possédant 40 points de structure peut être équipé de quatre systèmes d’armement.
 
-_Ranges are given in metres and kilometres._
+Les systèmes d’armes disponibles dépendent de la taille du véhicule. Les tableaux de la page XX montrent les systèmes d’armes adaptés aux différentes tailles.
 
-_Firing rates are for single shot, semi-auto, and full auto._
+### 
 
-_Ammo is firing capability before needing to be reloaded. Load is the reload time in Combat Rounds, assuming a full crew is available._
+### Dégâts
 
----
-## Handling and Maneuvers
+Les dégâts excédant la valeur de la coque pénètrent le véhicule, endommagent sa structure et peut-être un ou plusieurs systèmes. Selon la taille du véhicule, les dégâts peuvent être mineurs ou catastrophiques.
 
-Evasive or sudden maneuvers require a successful Drive/Pilot roll to ensure that the driver or pilot retains control of the vehicle. Most vehicles are designed and built to withstand occasional stresses and strains, but the Games Master may rule that a particular maneuver requires a roll at a higher grade of difficulty, depending on how ambitious it is. Failure means that control over the vehicle is lost: roll on the Loss of Control table.
+Par exemple, un Grand véhicule peut endurer jusqu’à trois coups à un système, par exemple celui de Conduite. Le quatrième coup détruit le système. Chaque fois que le système encaisse un coup, soit il perd un pourcentage de sa fonctionnalité comme décrit dans la colonne Perte par coup dans le tableau Dégâts du système, soit le niveau de difficulté d’une fonctionnalité principale (Propulsion, Commandes, Communication, etc.) augmente d’un par coup encaissé.
 
-Note that the Loss of Control Table only applies to terrestrial vehicles. Similar effects can be applied to airborne and space vehicles, but Games Masters will need to adjust the reasoning for the specific effect. For example, an aircraft, rather than skidding, might go into a spin.
+Dégâts
 
-Also, a vehicle's inherent handling may have an additional impact on the Drive roll. Handling is either Easy, Standard, Hard, Formidable or Herculean and determines the starting point for the Drive roll when executing a maneuver. The difficulty grade for the maneuver is then applied to the handling to determine the final difficulty.
+| Taille      | Dégâts du système | Perte par coup                 |
+|-------------|-------------------|--------------------------------|
+| Petite      | 1                 | 1 niveau de difficulté ou 100% |
+| Moyenne     | 2                 | 1 niveau de difficulté ou 50 % |
+| Grande      | 3                 | 1 niveau de difficulté ou 33 % |
+| Très Grande | 4                 | 1 niveau de difficulté ou 25 % |
+| Énorme      | 5                 | 1 niveau de difficulté ou 20 % |
+| Colossale   | 6                 | 1 niveau de difficulté ou 10 % |
 
-For example, a high-performance motorcycle has in-built gyrostabilizers giving it a Handling of Easy. The driver wants to perform a 180 degree skid-turn to evade a pursuer, a maneuver the Games Master rates as being one additional grade of difficulty. The rider must therefore make his Drive roll at Standard rather than Easy. If he had been attempting the same maneuver on a non-stabilized motorcycle, the Drive roll would be at Hard.
+| 1d10 | Système            | Dégâts partiels                                                                                                                                                                     | Destruction ou défaillance complète                                    |
+|------|--------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| 1    | Soute              | Une partie de la cargaison est détruite, au prorata du nombre de coups subis.                                                                                                       | La cargaison entière est détruite.                                     |
+| 2    | Communication      | Les jets de Télécommunication subissent un niveau de difficulté additionnel pour chaque coup subi.                                                                                  | Le véhicule ne peut plus communiquer ni tromper les détecteurs ennemis |
+| 3    | Commandes          | Les jets de Canotage, Conduite ou Pilotage subissent un niveau de difficulté additionnel pour chaque coup subi                                                                      | Le véhicule ne peut plus virer ou changer sa trajectoire               |
+| 4    | Propulsion         | La vitesse est réduite au prorata du nombre de coups subis.                                                                                                                         | Le véhicule s’arrête et ne redémarrera pas ; l’avion s’écrase.         |
+| 5    | Équipage/Passagers | Un nombre de passagers proportionnel aux dégâts sont blessés. Ceux qui sont affectés subissent une Blessure Sérieuse et meurent instantanément s’ils échouent à un jet d’Endurance. | Tous les occupants du véhicule meurent.                                |
+| 6    | Moteur/Carburant   | La vitesse maximale est réduite de moitié ; les systèmes électroniques subissent un niveau de difficulté additionnel.                                                               | Le véhicule est détruit dans une explosion catastrophique.             |
+| 7    | Détecteurs         | Les jets de Détecteurs, d’Orientation et d’attaque subissent un niveau de difficulté additionnel à chaque fois que ce système est endommagé.                                        | Le véhicule est entièrement aveugle                                    |
+| 8    | Armes              | Un nombre de systèmes armes proportionnel au nombre de coups subis sont inopérants.                                                                                                 | Le véhicule ne peut plus utiliser ses armes.                           |
+| 9-0  | Aucun              | Aucun système n’est atteint ; seule la structure est endommagée.                                                                                                                    | N/A                                                                    |
 
-Superior Handling is a Trait. If a vehicle does not have the trait as part of its description, then the default is Standard handling for any vehicle of size Large and below. Huge and Enormous vehicles inherently have the Handling trait of Formidable and Herculean, respectively, and the Games Master is at liberty to rule that certain manoeuvres are simply impossible to achieve due to the vehicle's size.
+Systèmes d’armes selon la taille
 
-##### Loss of Control Table 
+| Taille      | Terrestre                                                   | Vaisseau spatial                                            |
+|-------------|-------------------------------------------------------------|-------------------------------------------------------------|
+| Petite      | Arme légère (fusil d’assaut)                                | Arme moyenne (lance-roquettes, mitrailleuse)                |
+| Moyenne     | Arme moyenne (mitrailleuse, lance-roquettes)                | Arme lourde/à tourelle (mitrailleuses lourdes, petit canon) |
+| Grande      | Arme lourde/à tourelle (mitrailleuses lourdes, petit canon) | Batterie d’armes (artillerie de campagne)                   |
+| Très Grande | Batterie d’armes (artillerie de campagne)                   | Armes avancées (système de missiles)                        |
+| Énorme      | Armes avancées (système de missiles)                        | Armes spinales (une seule)                                  |
+| Colossale   | Sans objet                                                  | Armes spinales (jusqu’à 3)                                  |
 
-| 1d100 | Result |
-| :-: | :-- |
-| 01-25 | Swerve. The loss of control is temporary. Vehicle drops its speed by 1 step for 5 seconds. |
-| 26-40 | Skid. Driver must fight to keep the vehicle under control. Vehicle drops its speed by 2 steps for 10 seconds. |
-| 41-50 | Severe Skid. Vehicle ends-up facing in the wrong direction and at a standstill for 15 seconds. |
-| 51-60 | Roll. Vehicle skids and rolls, sustaining 3d10 damage to its Structure. Occupants must make successful Endurance rolls or sustain 1d10 damage to 1d3 Hit Locations. |
-| 61-70 | Severe Roll. As above, but vehicle sustains 3d10+10 damage and Occupants receive 1d10 damage even if the Endurance roll succeeds, and 2d10 if it fails. |
-| 71-80 | Write-Off. As above but the vehicle is reduced to 0 Structure. Occupants sustain same damage as for Severe Roll. |
-| 81-90 | Explosion. As above but vehicle's fuel system ignites and explodes within 1d20+10 seconds. If unable to get clear, occupants suffer a further 1d6 burn damage to 1d6 locations |
-| 91-98 | Immediate Explosion. As above but the explosion is immediate. |
-| 99-00 | Catastrophic Crash. Occupants must successfully roll Endurance or be killed instantly. Damage as for Write-Off is sustained regardless. |
+Exemples de systèmes d’armes
 
+| Exemple de système d’armes         | Dégâts    | Portée                       | Cadence de tir | Munitions/Rechargement |
+|------------------------------------|-----------|------------------------------|----------------|------------------------|
+| Canon de calibre 127 mm            | 3d6 + 3   | 1 000/2 000/6 500            | 1/10/50        | 1/5                    |
+| Mini canon/mitrailleuse Gatling    | 3d6       | 300/1 000/2000               | ‒/20/100       | 200/4                  |
+| Roquette                           | 5d6       | 5 000/20 km/60 km            | 1              | 1/5                    |
+| Missile moyen/torpille             | 6d10      | Portée maximale de 200 km    | 1              | 1/5                    |
+| Grand missile/missile de croisière | 6d10 + 10 | Portée maximale de 1 000 km  | 1              | 1/10                   |
+| Canon laser/plasma                 | 4d6       | 300/1 000/2 000              | ‒/5/25         | 500/5                  |
+| Canon lourd laser/plasma           | 5d6       | 1 000/3 000/6 000            | ‒/5/25         | 300/5                  |
+| Batterie d’artillerie              | 5d6 + 6   | Portée maximale de 50 km     | 1              | 1/5                    |
+| Batterie spinale                   | 10d6 + 6  | Portée maximale de 20 000 km | 1              | 1/10                   |
 
----
-## Sample Vehicles
+**Explication des rubriques du tableau**
 
----
+-   *Les portées sont indiquées en m et en km.*
+-   *Les cadences de tir sont pour les modes tir unique, semi-automatique et automatique.*
+-   *Les munitions correspondent à la capacité de feu du système avant de nécessiter un rechargement. Le rechargement correspond au temps de rechargement en rounds de combat, sous réserve que l’équipage soit au complet.*
 
-### Ground Vehicles
+## Exemples de véhicules
 
-#### Interceptor
+### Véhicules terrestres
 
-A souped-up luxury car, sports car or similar, this car is built to go fast and give as good as it takes in a battle. This is the sort of vehicle people think of when someone says, "spy car."
+#### Berline
 
-| Interceptor | |
-| :- | :- |
-| **Size / Type** | Medium Military |
-| **Hull** | 6 |
-| **Structure** | 40 |
-| **Systems** | 2 |
-| **Speed** | Fast |
-| **Handling** | Easy |
-| **Traits** | [Ejector Seat](0006_Vehicles.md?id=ejector-seat), [Enhanced Performance](0006_Vehicles.md?id=enhanced-performance), [Superior Handling](0006_Vehicles.md?id=superior-handling), [Surveillance Suite](0006_Vehicles.md?id=surveillance-suite), [Weaponized](0006_Vehicles.md?id=weaponized) |
-| **Weapons** | Oil Slick Dispenser, Smoke Dispenser, Twin-Linked Medium Machine Guns (2d6+3) |
+**Coque :** 4 (civil Moyen),
 
-<br>
+**Structure :** 25
 
----
+**Vitesse :** Rapide
 
-#### Pursuit Motorcycle
+**Systèmes :** 3
 
-A lightweight, fast motorcycle for fast pursuits, the Pursuit Motorcycle carries a surprise – either a pair of linked machine guns or two rockets.
+**Traits :** Suite de surveillance
 
-| Pursuit Motorcycle | |
-| :- | :- |
-| **Size / Type** | Small Civilian |
-| **Hull** | 2 |
-| **Structure** | 12 |
-| **Systems** | 1 |
-| **Speed** | Fast |
-| **Handling** | Easy |
-| **Traits** | [Superior Handling](0006_Vehicles.md?id=superior-handling), [Weaponized](0006_Vehicles.md?id=weaponized) |
-| **Weapons** | Two Rockets (4d6) or Twin-linked Light Machine Guns (2d6) |
+**Armes :** Aucune
 
-<br>
+**Description :** Cette berline standard à quatre portes est suffisamment spacieuse pour accueillir confortablement un conducteur et trois passagers. Sacrifie de l’espace de stockage pour accueillir une suite de surveillance.
 
----
+#### Camionnette de surveillance
 
-#### Sedan Car
+**Coque :** 9 (civil Grand)
 
-A standard 4-door sedan featuring enough space to comfortably seat a driver and three passengers. Sacrifices cargo space to incorporate a surveillance suite.
+**Structure :** 60
 
-| Sedan Car | |
-| :- | :- |
-| **Size / Type** | Medium Civilian |
-| **Hull** | 4 |
-| **Structure** | 25 |
-| **Systems** | 2 |
-| **Speed** | Rapid |
-| **Handling** | Standard |
-| **Traits** | [Unobtrusive](0006_Vehicles.md?id=unobtrusive), [Surveillance Suite](0006_Vehicles.md?id=surveillance-suite) |
-| **Weapons** | None |
+**Vitesse :** Modérée
 
-<br>
+**Systèmes :** 4
 
----
+**Traits :** Robuste, Suite de surveillance
 
-#### Submersible Car
+**Armes :** Aucune
 
-A two-person car that can switch to waterborne or submersible mode to travel on or underwater. Comes with a front-mounted torpedo and top-mounted surface-to-air missile.
+**Description :** Une camionnette banale et dépourvue de marques distinctives qui abrite une équipe d’agents et de l’équipement d’enregistrement audiovisuel.
 
-| Submersible Car | |
-| :- | :- |
-| **Size / Type** | Medium Civilian |
-| **Hull** | 6 |
-| **Structure** | 25 |
-| **Systems** | 2 |
-| **Speed** | Fast |
-| **Handling** | Standard |
-| **Traits** | [Enhanced Performance](0006_Vehicles.md?id=enhanced-performance), [Submersible](0006_Vehicles.md?id=submersible), [Waterborne](0006_Vehicles.md?id=waterborne), [Weaponized](0006_Vehicles.md?id=weaponized) |
-| **Weapons** | Rocket (5d6), Torpedo (4d10) |
+#### Intercepteur
 
-<br>
+**Coque :** 6 (militaire Moyen)
 
----
+**Structure :** 40
 
-#### Surveillance Van
+**Vitesse :** Rapide
 
-A plain, unmarked van housing a team of agents and a suite of audio-visual recording equipment.
+**Systèmes :** 3
 
-| Surveillance Van | |
-| :- | :- |
-| **Size / Type** | Large Civilian |
-| **Hull** | 9 |
-| **Structure** | 60 |
-| **Systems** | 3 |
-| **Speed** | Gentle |
-| **Handling** | Standard |
-| **Traits** | [Surveillance Suite](0006_Vehicles.md?id=surveillance-suite), [Tough](0006_Vehicles.md?id=tough) |
-| **Weapons** | None |
+**Traits :** Armé, Maniabilité supérieure, Performances améliorées, Robuste, Siège éjectable, Suite de Surveillance  
+**Armes :** Lanceur de fumée, lanceur d’huile, deux mitrailleuses moyennes synchronisées
 
-<br>
+**Description :** Une berline ou une voiture de sport améliorée, à la fois rapide et bien armée. C’est la « voiture d’espion » typique des films d’action à grand spectacle.
 
----
+#### Moto de poursuite
 
-#### Tactical Support Vehicle
+**Coque :** 2 (civil Petit)
 
-A pickup or jeep with room for a two-person crew in the cabin and a gunner standing in the flatbed section operating a swivel-mounted Medium Machine Gun.
+**Structure :** 12
 
-| Tactical Support Vehicle | |
-| :- | :- |
-| **Size / Type** | Medium Civilian |
-| **Hull** | 6 |
-| **Structure** | 30 |
-| **Systems** | 2 |
-| **Speed** | Rapid |
-| **Handling** | Standard |
-| **Traits** | [All Terrain](0006_Vehicles.md?id=all-terrain), [Weaponized](0006_Vehicles.md?id=weaponized) |
-| **Weapons** | Mounted Medium Machine Gun (2d6) |
+**Vitesse :** Rapide
 
+**Systèmes :** 3
 
-<br>
+**Traits :** Armé, Maniabilité supérieure
 
----
+**Armes :** Deux roquettes ou deux mitrailleuses synchronisées
 
-### Watercraft
+**Description :** Cette moto légère et rapide conçue pour les poursuites réserve des surprises : deux roquettes ou deux mitrailleuses.
 
-#### Speedboat
+#### Véhicule de support tactique
 
-A typical speedboat, armed with a rear-mounted mine dispenser.
+**Coque :** 6 (civil Moyen)
 
-| Speedboat | |
-| :- | :- |
-| **Size / Type** | Medium Civilian |
-| **Hull** | 3 |
-| **Structure** | 24 |
-| **Systems** | 2 |
-| **Speed** | Fast |
-| **Handling** | Standard |
-| **Traits** | [Enhanced Performance](0006_Vehicles.md?id=enhanced-performance), [Waterborne](0006_Vehicles.md?id=waterborne), [Weaponized](0006_Vehicles.md?id=weaponized) |
-| **Weapons** | Mine Dispenser (5d6) |
+**Structure :** 30
 
-<br>
+**Vitesse :** Rapide
 
----
+**Systèmes :** 3
+
+**Traits :** Armé, Tout-terrain
+
+**Armes :** Mitrailleuse moyenne montée
+
+**Description :** Une camionnette ou une jeep pouvant accueillir deux personnes dans la cabine et un tireur qui se tient debout sur la plateforme pour manier une mitrailleuse à pivot.
+
+#### Voiture submersible
+
+**Coque :** 6 (civil Moyen)
+
+**Structure :** 25
+
+**Vitesse :** Rapide
+
+**Systèmes :** 3
+
+**Traits :** Armé, Naval, Performances améliorées, Submersible
+
+**Armes :** Roquette, torpille
+
+Description : Une voiture à deux places qui peut basculer en mode maritime ou submersible pour se déplacer sur ou sous l’eau. Elle possède une torpille montée à l’avant et un missile sol-air monté sur le capot.
+
+### Navires
+
+#### Hors-bord
+
+**Coque :** 3 (civil Moyen)
+
+**Structure :** 24
+
+**Vitesse :** Rapide
+
+**Systèmes :** 3
+
+**Traits :** Armé, Naval, Performances améliorées
+
+**Armes :** Lanceur de mines
+
+**Description :** Ce hors-bord typique est armé d’une lanceur de mines monté à la poupe.
 
 #### Yacht
 
-The kind of luxury yacht an oligarch might own. Likely kitted out with a surveillance suite to protect against enemies attempting to get up to no good.
+**Coque : 10 (civil Très Grand)**
 
-| Yacht | |
-| :- | :- |
-| **Size / Type** | Huge Civilian |
-| **Hull** | 10 |
-| **Structure** | 75 |
-| **Systems** | 4 |
-| **Speed** | Slow |
-| **Handling** | Formidable |
-| **Traits** | [Luxurious](0006_Vehicles.md?id=luxurious), [Surveillance Suite](0006_Vehicles.md?id=surveillance-suite), [Waterborne](0006_Vehicles.md?id=waterborne) |
-| **Weapons** | None |
+**Structure :** 75
 
+**Vitesse : Lent**
 
-<br>
+**Systèmes : 4**
 
----
+**Traits :** Luxueux, Naval, Suite de surveillance (parfois)
 
-### Aircraft/Spacecraft
+**Armes :** Aucune
 
-#### Dirigible (Civilian Airship Liner)
+**Description :** Un oligarque pourrait posséder ce genre de yacht luxueux et l’équiper d’une suite de surveillance s’il veut se prémunir contre ses ennemis.
 
-Similar to the Hindenburg, this class of transcontinental dirigible (and others of its class) is 245 meters in length and requires a crew of 40 to 61. It can typically carry a complement of 50 to 72 passengers in luxury accommodations.
+### Avions et vaisseaux spatiaux
 
-| Dirigible | |
-| :- | :- |
-| **Size / Type** | Enormous Civilian |
-| **Hull** | 10 |
-| **Structure** | 85 |
-| **Systems** | 5 |
-| **Speed** | Ponderous |
-| **Handling** | Herculean |
-| **Traits** | [Airborne](0006_Vehicles.md?id=airborne), [Luxurious](0006_Vehicles.md?id=luxurious), [VTOL](0006_Vehicles.md?id=vtol) |
-| **Shields** | None |
-| **Weapons** | None |
+#### Cargo interstellaire (Transport
 
-<br>
+**léger de haute technologie)**
 
----
+**Coque :** 10 (vaisseau spatial civil Moyen)
 
-#### Assault Helicopter
+**Structure :** 80
 
-The traditional Assault Helicopter uses their advanced surveillance technology to intercept phone and wireless internet signals, and track individuals and vehicles even in the dark, through FLIR. Attempts to evade the tracker through Stealth are Formidable.
+**Vitesse :** Rapide (facteur parsec de 3)
 
-| Assault Helicopter | |
-| :- | :- |
-| **Size / Type** | Large Military |
-| **Hull** | 11 |
-| **Structure** | 50 |
-| **Systems** | 3 |
-| **Speed** | Moderate |
-| **Handling** | Easy |
-| **Traits** | [Airborne](0006_Vehicles.md?id=airborne), [Enhanced Performance](0006_Vehicles.md?id=enhanced-performance), [Stealth](0006_Vehicles.md?id=stealth), [Superior Handling](0006_Vehicles.md?id=superior-handling), [Surveillance Suite](0006_Vehicles.md?id=surveillance-suite), [VTOL](0006_Vehicles.md?id=vtol) |
-| **Shields** | None |
-| **Weapons** | 1 Gatling Gun (3d6), 4 Rockets (5d6) |
+**Systèmes :** 2
 
-<br>
+**Traits :** ADAV, Aéronef, Fret, Spationef, Supraluminique
 
----
+**Boucliers :** 8
 
-#### Multi-Role Fighter
+**Armes :** x2 tourelles de canons laser
 
-This twin-seat land-based fighter (similar in type to the De Havilland Mosquito) is well known for its performance and versatility. Its bomb bay is able to carry either two 250 lb. bombs (treat as medium missiles with range 0) or a single torpedo.
+**Description :** Ce transport léger requiert deux membres d’équipage et peut accueillir jusqu’à quatre passagers supplémentaires. Nous décrivons ici la version standard, mais nombre de propriétaires adaptent leur vaisseau à leurs besoins plus ou moins légaux. Exemples de modifications : Espace de cargaison caché, Furtif, Performances améliorées, Maniabilité supérieure, Résistant aux IEM, etc.
 
-| Multi-Role Fighter | |
-| :- | :- |
-| **Size / Type** | Large Military |
-| **Hull** | 10 |
-| **Structure** | 45 |
-| **Systems** | 3 |
-| **Speed** | Moderate |
-| **Handling** | Standard |
-| **Traits** | [Airborne](0006_Vehicles.md?id=airborne), [Enhanced Performance](0006_Vehicles.md?id=enhanced-performance) |
-| **Shields** | None |
-| **Weapons** | 4 Nose-mounted Gatling Guns (4d6+3), 1 bomb bay (6d10 - see description) |
+#### Chasseur multirôle
 
-<br>
+**Coque :** 10 (militaire Grand)
 
----
+**Structure :** 45
 
-#### Interstellar Freighter (Light High-Tech Transport)
+**Vitesse :** Médiocre
 
-This light transport requires a minimum crew of only two, with room for up to four additional passengers. The standard stock version is noted here, however many owners will apply their own "special modifications" such as concealed cargo space, Enhanced Performance, Superior Handling, EMP Resistance, Stealth, and so on.
+**Systèmes :** 3
 
-| Interstellar Freighter | |
-| :- | :- |
-| **Size / Type** | Medium Civilian Spaceship |
-| **Hull** | 10 |
-| **Structure** | 80 |
-| **Systems** | 2 |
-| **Speed** | Rapid (Parsec Factor of 3) |
-| **Handling** | Standard |
-| **Traits** | [Airborne](0006_Vehicles.md?id=airborne), [Cargo](0006_Vehicles.md?id=cargo), [FTL](0006_Vehicles.md?id=ftl), [Space Craft](0006_Vehicles.md?id=space-craft), [VTOL](0006_Vehicles.md?id=vtol) |
-| **Shields** | 8 |
-| **Weapons** | 2x Quad-mounted Laser Cannon Turrets (5d6) |
+**Traits :** Aéronef, Performances améliorées
 
+**Armes :** 4 mitrailleuses à l’avant, 1 soute à bombes
 
-<br>
+**Description :** Ce chasseur biplace opérant depuis une base terrestre est inspiré du De Havilland Mosquito, appareil réputé pour ses performances et sa polyvalence pendant la Seconde Guerre Mondiale. Sa soute à bombes peut contenir deux bombes de 115 kg (considérez-les comme des missiles moyens de portée 0) ou une seule torpille.
 
----
+#### Dirigeable
 
-#### General Contact Unit (Ultra High-Tech Spacecraft)
+**Coque :** 10 (civil Énorme)
 
-This extremely high-tech starship is the physical representation of a highly advanced artificial Mind, that takes the form of a two-kilometre-long series of field-connected modules. The modules are individually purposed and include habitats, construction facilities, cargo areas, food processing, leisure complexes, hangar bays, and even some secretive units the ship's intelligence rarely, if ever, discusses. It needs no human crew, but can support a passenger population of up to 100,000 with ease. Many passengers are born and die aboard the Contact Unit: many are transitory, coming and going as they wish.
+**Structure :** 85
 
-| General Contact Unit | |
-| :- | :- |
-| **Size / Type** | Colossal Civilian Spaceship |
-| **Hull** | 20 |
-| **Structure** | 10,000 |
-| **Systems** | 6 |
-| **Speed** | Moderate (Parsec Factor of 4. At this tech level, a Factor equals 1 hour) |
-| **Handling** | Formidable |
-| **Traits** | [Airborne](0006_Vehicles.md?id=airborne), [Cargo](0006_Vehicles.md?id=cargo), [Carrier](0006_Vehicles.md?id=carrier), [Construction](0006_Vehicles.md?id=construction), [FTL](0006_Vehicles.md?id=ftl), [Luxurious](0006_Vehicles.md?id=luxurious), [Space Craft](0006_Vehicles.md?id=space-craft),[Superior Handling](0006_Vehicles.md?id=superior-handling), [Tractor Beam](0006_Vehicles.md?id=tractor-beam) |
-| **Shields** | 30 |
-| **Weapons** | None that it cares to discuss |
+**Vitesse :** Extrêmement Lent
 
-<br>
+**Systèmes : 5**
 
+**Traits :** ADAV, Aéronef, Luxueux
+
+**Armes :** Aucune
+
+**Description :** Dans la lignée du fameux Hindenburg, cette classe de dirigeables transcontinentaux fait 245 m de long et comprend 40 à 61 membres d’équipage. Un tel dirigeable peut transporter 50 à 72 passagers dans des conditions luxueuses.
+
+#### Hélicoptère d’assaut
+
+**Coque :** 11 (militaire Grand)
+
+**Structure** : 50
+
+**Vitesse :** Médiocre
+
+**Systèmes :** 3
+
+**Traits :** ADAV, Aéronef, Furtif, Maniabilité supérieure, Performances améliorées, Suite de surveillance
+
+**Armes :** 1 mitrailleuse gatling, 4 roquettes
+
+**Description :** Cet hélicoptère d’assaut embarque des appareils de surveillance sophistiqués pour intercepter les signaux téléphoniques et wifi. Grâce à l’imagerie infrarouge frontale, il peut aussi repérer des individus et des véhicules dans l’obscurité. Tout jet de Discrétion pour échapper à ce repérage est de niveau Redoutable.
+
+#### Unité de contact polyvalente (vaisseau spatial de très haute technologie)
+
+**Coque :** 20 (vaisseau spatial civil Colossal)
+
+**Structure :** 10 000
+
+**Vitesse :** Modérée (facteur parsec de 4. À ce niveau technologique, un facteur équivaut à 1 heure)
+
+**Systèmes :** 30
+
+**Traits :** Aéronef, Fret, Spationef, Luxueux, Maniabilité supérieure, Rayon tracteur, Supraluminique, Transport
+
+**Boucliers :** 30
+
+**Armes :** L’intelligence artificielle du vaisseau refuse de le dire
+
+**Description :** Ce vaisseau spatial extrêmement sophistiqué de 2 km de long est la représentation physique d’une intelligence artificielle très avancée. Il est constitué d’une série de modules spécialisés : habitat, dispositifs de construction, espace de stockage, transformation des aliments, zones de loisirs, hangars, etc. Il existe même des modules que l’intelligence artificielle du vaisseau garde secrets. Le vaisseau est autonome, mais il peut facilement accueillir jusqu’à 100 000 passagers. De nombreux passagers vivent et meurent dans le vaisseau, mais d’autres vont et viennent à leur gré.
